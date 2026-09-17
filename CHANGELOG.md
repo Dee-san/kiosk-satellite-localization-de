@@ -4,6 +4,8 @@ All notable changes to Kiosk Satellite Localization are documented here. Full re
 
 ## Unreleased
 
+- Add 114 author-approved Spanish messages for the remaining ESPHome settings, Bluetooth devices, Notifications, Announcements, GPS Sensor and permissions. All 2619 catalog messages have approved Spanish translations.
+
 - Add 50 author-approved Spanish messages for ESPHome setup, excluded entities and Advanced settings. All 2505 catalog messages have approved Spanish translations.
 
 - Add 17 author-approved Spanish messages for Lockdown settings, permissions and both device shields. All 2455 catalog messages have approved Spanish translations.
