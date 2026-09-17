@@ -4,6 +4,7 @@ All notable changes to Kiosk Satellite Localization are documented here. Full re
 
 ## Unreleased
 
+- Add sectioned Device settings templates and 309 author-approved Spanish messages, covering both interfaces. Expand the common actions file and document each new section in the translator guide.
 - Add Settings menu and search templates plus device drawer actions and update dialogs, with author-approved Spanish translations using "protector de pantalla" for screensaver. Preserve plugin-supplied names and provide a local preview command that does not mark translations as approved.
 - Add the Device > User Interface language selector messages with author-approved Spanish wording.
 - Add author-approved Spanish translations for all 69 messages and record their review for a future app import.
