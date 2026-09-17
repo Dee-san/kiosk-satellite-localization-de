@@ -38,6 +38,8 @@ Push requested changes to the same PR. New changes require renewed review and ag
 
 Use one actual author per PR for the simple checkbox process. If another person writes replacement text, identify that contribution so the maintainer can obtain their separate recorded acceptance too. Do not accept for someone else's work without authority.
 
+See the [PR acceptance guide](PR-ACCEPTANCE.md) for the checkbox steps and help with a waiting check.
+
 A merged PR is not an immediate app update. Translations ship when Kiosk Satellite's author includes a reviewed snapshot in an app release. The author may edit, replace or remove accepted text under the contributor agreement. Historical credit remains unless you ask to remove your public attribution.
 
 ## Keeping translations current

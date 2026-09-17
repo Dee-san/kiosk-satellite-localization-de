@@ -22,6 +22,8 @@ English and Spanish are maintained by Kiosk Satellite's author. If you spot a pr
 
 If you are new to GitHub or unsure where to begin, start with an issue telling us which language you would like to help with.
 
+The [PR acceptance guide](docs/PR-ACCEPTANCE.md) explains the checkbox and what to do after updating your translation.
+
 ## Your contribution
 
 Accepted translations are included in future Kiosk Satellite releases. You will receive credit under your chosen name or pseudonym in this repository and in the app when your translation ships. There is no ongoing maintenance commitment.

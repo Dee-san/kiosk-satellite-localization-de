@@ -1,0 +1,50 @@
+name: Contributor acceptance
+
+on:
+  pull_request_target:
+    types: [opened, edited, reopened, synchronize, ready_for_review, closed]
+  push:
+    branches: [main]
+    paths:
+      - docs/CONTRIBUTOR-AGREEMENT.md
+      - tools/contributor_acceptance.py
+      - .github/workflows/contributor-acceptance.yml
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: PR number to recheck. Leave blank to recheck all open PRs.
+        required: false
+        type: string
+
+permissions: {}
+
+# Keep acceptance events queued instead of canceling them during later edits.
+concurrency:
+  group: contributor-acceptance
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  acceptance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      pull-requests: write
+      checks: write
+    steps:
+      # This is the trusted default-branch revision for pull_request_target.
+      # Never check out a PR head or execute files fetched from a contributor.
+      - name: Check out trusted workflow code
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - name: Record and verify contributor acceptance
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          ACCEPTANCE_RECORDS_REPOSITORY: ${{ vars.ACCEPTANCE_RECORDS_REPOSITORY }}
+          ACCEPTANCE_RECORDS_TOKEN: ${{ secrets.ACCEPTANCE_RECORDS_TOKEN }}
+        run: python3 tools/contributor_acceptance.py
