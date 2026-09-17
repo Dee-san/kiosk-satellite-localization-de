@@ -4,6 +4,8 @@ All notable changes to Kiosk Satellite Localization are documented here. Full re
 
 ## Unreleased
 
+- Add 75 author-approved Spanish messages for Motion, Face, Proximity and Person Detection, camera previews and person sensor permissions. All 1270 catalog messages have approved Spanish translations. Keep sensor names and ADB commands unchanged and distinguish occupancy status from the Clear action.
+
 - Add 106 author-approved Spanish messages for Screensaver Widgets and At a Glance, split into six templates for global settings, widget editing, weather, entity selection and row appearance. All 1195 catalog messages have approved Spanish translations.
 
 - Add 205 author-approved Spanish messages for Screensaver media settings, including Home Assistant Media, Local Media, Photo Gallery, Immich and Camera Streams. Split Immich templates by visible settings groups and use "Immich" for its mode label and page name. All 1089 catalog messages have approved Spanish translations.
