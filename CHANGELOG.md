@@ -4,6 +4,8 @@ All notable changes to Kiosk Satellite Localization are documented here. Full re
 
 ## Unreleased
 
+- Add 24 author-approved Spanish messages for Sonos playback options and speaker management. All 1651 catalog messages have approved Spanish translations.
+
 - Add 76 author-approved Spanish messages for Media Player setup and two remote browser permission notices. Use "Reproduciendo Ahora" consistently across the catalog. All 1627 catalog messages have approved Spanish translations.
 
 - Add 25 author-approved Spanish messages for Web Browsing, split into navigation, cache and security and JavaScript editors. All 1549 catalog messages have approved Spanish translations.
