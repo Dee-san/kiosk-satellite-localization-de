@@ -4,7 +4,7 @@ All notable changes to Kiosk Satellite Localization are documented here. Full re
 
 ## Unreleased
 
-- Allow larger aggregate Spanish review records while preserving the existing individual catalog file limit.
+- Apply the same larger aggregate Spanish review limit to snapshots and local records while preserving the existing individual catalog file limit.
 
 - Add 184 author-approved Spanish messages for App Launcher settings, app selection, Gestures, action editors and the hand tester. All 2173 catalog messages have approved Spanish translations.
 

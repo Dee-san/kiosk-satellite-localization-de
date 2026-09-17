@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "repository": "https://github.com/jxlarrea/kiosk-satellite",
-  "revision": "74f01751d27a88d75b3299689021295a3e2f0ad7",
+  "revision": "2f3c64910b5bc863c07130d1597db75e6c01faa6",
   "workingTree": false,
   "files": {
     "app_launcher_overlay_en.arb": "9598d5f3383b23bed8c34a54795da71f211533160a84417010def4dd54f9a173",
