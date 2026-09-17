@@ -4,6 +4,12 @@ All notable changes to Kiosk Satellite Localization are documented here. Full re
 
 ## Unreleased
 
+- Add author-approved Spanish translations for all 69 messages and record their review for a future app import.
+- Name translation sections after visible UI pages and document exact device and remote administration paths. Remove the hidden Start URL setting from the catalog.
+- Split the first English catalog into common actions, setup pages and settings sections with matching Spanish translation files.
+- Separate screen context, short descriptions and translator notes. Keep application setting mappings outside the ARB files.
+- Add catalog validation, source digests and owner review tooling for pinned Spanish imports into Kiosk Satellite.
+- Document the initial translation scope and add a catalog validation check for PRs.
 - Add README banners for light and dark themes.
 - Store acceptance records on the localization repository's contributor-records branch using the built-in workflow token.
 - Add the PR template and contributor acceptance workflow with retained evidence and renewed acceptance after changes.
