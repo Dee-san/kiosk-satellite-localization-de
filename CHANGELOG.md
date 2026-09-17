@@ -4,6 +4,8 @@ All notable changes to Kiosk Satellite Localization are documented here. Full re
 
 ## Unreleased
 
+- Add 17 author-approved Spanish messages for setup dashboard selection and Voice Satellite recommendations. All 2854 catalog messages have approved Spanish translations.
+
 - Add 105 author-approved Spanish messages for remote Overview status, attention notices, screenshots, quick controls and dashboard selection. All 2837 catalog messages have approved Spanish translations.
 
 - Add 64 author-approved Spanish messages for the rest of Voice Satellite, including Wake Word tuning, cached models, the tester, Appearance and search. All 2732 catalog messages have approved Spanish translations.
