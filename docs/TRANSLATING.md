@@ -50,7 +50,7 @@ That translates two buttons. You do not need to finish the whole file or the who
 
 Notice what changed: `Back` became `Zurück` and `Next` became `Weiter`. The message names stayed the same. The `@commonBack` and `@commonNext` blocks were left out because they are instructions for you, not text shown in the app. `@@locale` identifies the language.
 
-English and Spanish are maintained by Kiosk Satellite's author. **For Spanish, the corresponding file is [translations/es/common_es.arb](../translations/es/common_es.arb) and its language marker is `es`.** It contains translations reviewed by the author. The five English texts in that file are **Import**, **Back**, **Next**, **Finish** and **Working…**.
+English and Spanish are maintained by Kiosk Satellite's author. **For Spanish, the corresponding file is [translations/es/common_es.arb](../translations/es/common_es.arb) and its language marker is `es`.** Existing translations include wording reviewed by the author. New wording may be awaiting review. The common file includes **Import**, **Back**, **Next**, **Finish**, **Working…**, **Settings**, **Cancel** and **OK**.
 
 ## What to translate and what to leave alone
 
@@ -79,17 +79,24 @@ Use this table to choose what to work on. The paths use the English labels visib
 
 | English reference | Text to translate | Where you see it |
 | --- | --- | --- |
-| [common_en.arb](../source/common_en.arb) | Import, Back, Next, Finish and Working… | First-time setup buttons. Import is under Welcome > Restore backup. |
+| [common_en.arb](../source/common_en.arb) | Import, Back, Next, Finish, Working…, Settings, Cancel and OK | Shared buttons and headings in setup, Settings and the drawer. Import is under Welcome > Restore backup. |
+| [settings_menu_en.arb](../source/settings_menu_en.arb) | Settings menu page names, summaries and group headings | Settings > menu on the device and the remote administration sidebar. Includes remote-only entries such as Overview and File Manager. |
+| [settings_search_en.arb](../source/settings_search_en.arb) | Search box hint, clear button, result heading and no-match message | Settings > search box on the device and the remote administration sidebar |
+| [drawer_menu_en.arb](../source/drawer_menu_en.arb) | Drawer actions, conditional player and hold labels, confirmations and theme tooltips | Swipe from the left edge of the device screen to open the drawer. Some entries appear only when their feature is configured. Each message explains its condition. |
+| [drawer_updates_en.arb](../source/drawer_updates_en.arb) | Version notice, update checks, installation prompts and download progress | Device drawer > version or update notice below the actions |
 | [setup_navigation_en.arb](../source/setup_navigation_en.arb) | Step names such as Welcome and Connect, plus their summaries | The list of steps during first-time setup |
 | [setup_welcome_en.arb](../source/setup_welcome_en.arb) | Welcome heading, introduction, device name help, remote password instructions and restore instructions | First-time setup > Welcome |
 | [setup_connect_en.arb](../source/setup_connect_en.arb) | Connection instructions, credential labels, QR scanning text and error messages | First-time setup > Connect. QR scanning is on the device. |
 | [settings_home_assistant_setup_en.arb](../source/settings_home_assistant_setup_en.arb) | Home Assistant address and access token labels and help | Settings > Home Assistant Setup, above Validate connection. In remote administration, open Home Assistant Setup. |
 | [settings_device_en.arb](../source/settings_device_en.arb) | Device name label and help | Settings > Device > Device name. In remote administration, open Device. The label also appears during remote setup. |
+| [settings_device_user_interface_en.arb](../source/settings_device_user_interface_en.arb) | Language selector label and help | Settings > Device > User Interface, first row. In remote administration, open Device > User Interface. |
 | [settings_device_remote_administration_en.arb](../source/settings_device_remote_administration_en.arb) | Remote management switch, Server port and Admin password labels and help | Settings > Device > Remote Administration. In remote administration, open Device > Remote Administration. |
 
 First-time setup is the wizard shown before a kiosk is configured. Its **Connect** step is separate from the **Home Assistant Setup** settings page. The reference files also contain short explanations and, for shared settings, exact device and remote administration paths in `x-locations`.
 
-These files cover the first translation scope. Other screens still use English and will get their own translation files later.
+These files cover setup, selected shared settings, the Settings menu and search controls and the device drawer. Detailed settings pages and other screens still use English where they have not been cataloged.
+
+Names supplied by users or plugins are not translation entries. The drawer formats plugin actions with `{pluginName}` and `{actionTitle}`. Preserve both variables. Plugin-provided wording, technical error details and published release notes remain as supplied.
 
 ## Keep variables and formatting intact
 
@@ -113,7 +120,7 @@ If you have Python 3 installed, run this from the repository's top-level folder:
 python3 tools/catalog.py validate
 ```
 
-For the German example above, the result includes `de/common_de.arb: 2/5 translated`. That means two of the five messages have translations. It is fine to submit that partial file.
+For the German example above, the result includes `de/common_de.arb: 2/8 translated`. That means two of the eight messages have translations. It is fine to submit that partial file.
 
 Commit your translation files to your fork and open a PR against this repository. Fill in the PR template with your language, what you translated and your preferred public credit. Copy the `revision` value from [source/manifest.json](../source/manifest.json) into **English source revision**. Include the validation result if you ran it and say whether you checked the text in the app.
 
