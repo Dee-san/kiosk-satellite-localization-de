@@ -127,6 +127,12 @@ Use this table to choose what to work on. The paths use the English labels visib
 | [settings_screensaver_immich_slideshow_en.arb](../source/settings_screensaver_immich_slideshow_en.arb) | Timing, transitions and portrait pairing | Settings > Screensaver > Immich Media screensaver > Slideshow. Also Screensaver > Immich Media screensaver > Slideshow in remote administration. |
 | [settings_screensaver_immich_metadata_en.arb](../source/settings_screensaver_immich_metadata_en.arb) | Photo details, placement, text styling and shading | Settings > Screensaver > Immich Media screensaver > Metadata. Also Screensaver > Immich Media screensaver > Metadata in remote administration. |
 | [settings_screensaver_immich_filters_en.arb](../source/settings_screensaver_immich_filters_en.arb) | People, tags, favorites and date filters | Settings > Screensaver > Immich Media screensaver > Filters. Also Screensaver > Immich Media screensaver > Filters in remote administration. |
+| [settings_screensaver_widgets_en.arb](../source/settings_screensaver_widgets_en.arb) | Widget list and global size, font, shadow and shading | Settings > Screensaver > Widgets. Also Screensaver > Widgets in remote administration. |
+| [settings_screensaver_widget_editor_en.arb](../source/settings_screensaver_widget_editor_en.arb) | Corner, widget type and shared appearance controls | Settings > Screensaver > Widgets > Add widget or select a widget. Also Screensaver > Widgets > Add widget or select a widget in remote administration. |
+| [settings_screensaver_widget_weather_en.arb](../source/settings_screensaver_widget_weather_en.arb) | Weather entity, location and weather lines | Settings > Screensaver > Widgets > Weather widget. Also Screensaver > Widgets > Weather widget in remote administration. |
+| [settings_screensaver_glance_en.arb](../source/settings_screensaver_glance_en.arb) | At a Glance enable switch, entities and Now Playing | Settings > Screensaver > At a Glance. Also Screensaver > At a Glance in remote administration. |
+| [settings_screensaver_glance_appearance_en.arb](../source/settings_screensaver_glance_appearance_en.arb) | Row size, font, icons and text style | Settings > Screensaver > At a Glance > Appearance. Also Screensaver > At a Glance > Appearance in remote administration. |
+| [settings_screensaver_entity_picker_en.arb](../source/settings_screensaver_entity_picker_en.arb) | Shared entity search, custom names and displayed attributes | Settings > Screensaver > Widgets > Entity widget and At a Glance > Entities. Also Screensaver > Widgets > Entity widget and At a Glance > Entities in remote administration. |
 
 First-time setup is the wizard shown before a kiosk is configured. Its **Connect** step is separate from the **Home Assistant Setup** settings page. The reference files also contain short explanations and, for shared settings, exact device and remote administration paths in `x-locations`.
 
@@ -156,7 +162,7 @@ If you have Python 3 installed, run this from the repository's top-level folder:
 python3 tools/catalog.py validate
 ```
 
-For the German example above, the result includes `de/common_de.arb: 2/42 translated`. That means two of the forty-two messages have translations. It is fine to submit that partial file.
+For the German example above, the result includes `de/common_de.arb: 2/43 translated`. That means two of the forty-two messages have translations. It is fine to submit that partial file.
 
 Commit your translation files to your fork and open a PR against this repository. Fill in the PR template with your language, what you translated and your preferred public credit. Copy the `revision` value from [source/manifest.json](../source/manifest.json) into **English source revision**. Include the validation result if you ran it and say whether you checked the text in the app.
 
