@@ -4,6 +4,8 @@ All notable changes to Kiosk Satellite Localization are documented here. Full re
 
 ## Unreleased
 
+- Add 43 author-approved Spanish messages for Logs, the web console, About and update controls. All 2438 catalog messages have approved Spanish translations.
+
 - Add 222 author-approved Spanish messages for Fleet Management and Plugin Manager, including profiles, invitations, plugin installation, actions and outputs. All 2395 catalog messages have approved Spanish translations.
 
 - Apply the same larger aggregate Spanish review limit to snapshots and local records while preserving the existing individual catalog file limit.
