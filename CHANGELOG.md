@@ -4,6 +4,8 @@ All notable changes to Kiosk Satellite Localization are documented here. Full re
 
 ## Unreleased
 
+- Allow larger aggregate Spanish review records while preserving the existing individual catalog file limit.
+
 - Add 184 author-approved Spanish messages for App Launcher settings, app selection, Gestures, action editors and the hand tester. All 2173 catalog messages have approved Spanish translations.
 
 - Add 83 author-approved Spanish messages for Kiosk Mode, permissions, PIN prompts and Home Launcher status. Use "Lanzador de Inicio" for Home Launcher. All 1989 catalog messages have approved Spanish translations.
