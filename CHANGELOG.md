@@ -4,6 +4,8 @@ All notable changes to Kiosk Satellite Localization are documented here. Full re
 
 ## Unreleased
 
+- Add 112 author-approved Spanish messages for Camera Streams, split into imports, servers, camera editors, views, playback and errors. All 1509 catalog messages have approved Spanish translations.
+
 - Add 127 author-approved Spanish messages for Camera settings, split into general controls, motion sensing, streaming controls, status, permissions and remote snapshots. All 1397 catalog messages have approved Spanish translations.
 
 - Add 75 author-approved Spanish messages for Motion, Face, Proximity and Person Detection, camera previews and person sensor permissions. All 1270 catalog messages have approved Spanish translations. Keep sensor names and ADB commands unchanged and distinguish occupancy status from the Clear action.
