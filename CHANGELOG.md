@@ -4,6 +4,8 @@ All notable changes to Kiosk Satellite Localization are documented here. Full re
 
 ## Unreleased
 
+- Add 141 author-approved Spanish messages for Intercom settings, call controls, announcements and shared sound pickers. All 1906 catalog messages have approved Spanish translations.
+
 - Add 15 author-approved Spanish messages for DLNA settings, playback notices and shared port validation. All 1765 catalog messages have approved Spanish translations.
 
 - Add 99 author-approved Spanish messages for remaining Media Player settings, playback controls, queues, chapters and speaker grouping. All 1750 catalog messages have approved Spanish translations.
