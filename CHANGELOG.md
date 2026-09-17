@@ -4,6 +4,8 @@ All notable changes to Kiosk Satellite Localization are documented here. Full re
 
 ## Unreleased
 
+- Add 15 author-approved Spanish messages for DLNA settings, playback notices and shared port validation. All 1765 catalog messages have approved Spanish translations.
+
 - Add 99 author-approved Spanish messages for remaining Media Player settings, playback controls, queues, chapters and speaker grouping. All 1750 catalog messages have approved Spanish translations.
 
 - Add 24 author-approved Spanish messages for Sonos playback options and speaker management. All 1651 catalog messages have approved Spanish translations.
