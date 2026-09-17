@@ -52,7 +52,7 @@ Notice what changed: `Back` became `Zurück` and `Next` became `Weiter`. The mes
 
 English and Spanish are maintained by Kiosk Satellite's author. **For Spanish, the corresponding file is [translations/es/common_es.arb](../translations/es/common_es.arb) and its language marker is `es`.** Existing translations include wording reviewed by the author. New wording may be awaiting review. The common file includes **Import**, **Back**, **Next**, **Finish**, **Working…**, **Settings**, **Cancel**, **OK**, **Grant**, **Enable**, **Refresh**, **Test**, **Install**, **Save**, **Retry**, **Copy**, **Add**, **Remove** and **Close**. It also includes time picker controls and color presets.
 
-For Spanish, use **panel de control** for dashboard (**paneles de control** in the plural), **kiosko** for kiosk, **protector de pantalla** for screensaver and **Reproduciendo Ahora** for Now Playing.
+For Spanish, use **panel de control** for dashboard (**paneles de control** in the plural), **kiosko** for kiosk, **protector de pantalla** for screensaver, **Reproduciendo Ahora** for Now Playing and **Lanzador de Inicio** for Home Launcher.
 
 ## What to translate and what to leave alone
 
@@ -134,6 +134,12 @@ Use this table to choose what to work on. The paths use the English labels visib
 | [settings_screensaver_proximity_detection_en.arb](../source/settings_screensaver_proximity_detection_en.arb) | Proximity wake controls and sensor availability | Settings > Screensaver > Proximity Detection. Also Screensaver > Proximity Detection in remote administration. |
 | [settings_screensaver_person_detection_en.arb](../source/settings_screensaver_person_detection_en.arb) | Person wake controls and live occupancy status | Settings > Screensaver > Person Detection. Also Screensaver > Person Detection in remote administration. |
 | [settings_screensaver_person_permissions_en.arb](../source/settings_screensaver_person_permissions_en.arb) | Log access status, ADB guidance and restart actions | Settings > Screensaver > Person Detection > Required system permissions. Also Screensaver > Person Detection > Required system permissions in remote administration. |
+| [settings_kiosk_general_en.arb](../source/settings_kiosk_general_en.arb) | Kiosk protection, exit gestures, PIN setup and hardware buttons | Settings > Kiosk Mode. Also Kiosk Mode in remote administration. Tap counts and stored gesture values stay unchanged. |
+| [settings_kiosk_allowed_actions_en.arb](../source/settings_kiosk_allowed_actions_en.arb) | Actions available from the restricted menu | Settings > Kiosk Mode > Allowed Actions. Also Kiosk Mode > Allowed Actions in remote administration. |
+| [settings_kiosk_permissions_en.arb](../source/settings_kiosk_permissions_en.arb) | Overlay and system UI guard permissions | Settings > Kiosk Mode > Required system permissions. Remote Kiosk Mode and the shared permission rows on Lockdown Mode also use these labels. |
+| [kiosk_pin_en.arb](../source/kiosk_pin_en.arb) | PIN prompt, wrong PIN and unlock action | On the device after the configured kiosk exit gesture, including when leaving Lockdown Mode. Never translate or change the PIN entered by the user. |
+| [settings_home_launcher_en.arb](../source/settings_home_launcher_en.arb) | Default home screen and screen pinning options | Settings > Home Launcher. Also Home Launcher in remote administration. |
+| [settings_home_launcher_status_en.arb](../source/settings_home_launcher_status_en.arb) | Default-home status, system confirmation, unsupported devices and recovery | Settings > Home Launcher > Status. Also Home Launcher > Status in remote administration. Android's own confirmation dialogs are translated by Android. |
 | [settings_intercom_general_en.arb](../source/settings_intercom_general_en.arb) | Enable Intercom, menu shortcut, key creation and key changes | Settings > Intercom. Also Intercom in remote administration. Never translate the key itself. |
 | [settings_intercom_answer_en.arb](../source/settings_intercom_answer_en.arb) | Answer mode, ring duration, ring sound and incoming announcements | Settings > Intercom > Answer. Also Intercom > Answer in remote administration. |
 | [settings_intercom_talk_en.arb](../source/settings_intercom_talk_en.arb) | Push to talk and hands free | Settings > Intercom > Talk. Also Intercom > Talk in remote administration. |

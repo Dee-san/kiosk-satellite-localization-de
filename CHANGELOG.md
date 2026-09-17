@@ -4,6 +4,8 @@ All notable changes to Kiosk Satellite Localization are documented here. Full re
 
 ## Unreleased
 
+- Add 83 author-approved Spanish messages for Kiosk Mode, permissions, PIN prompts and Home Launcher status. Use "Lanzador de Inicio" for Home Launcher. All 1989 catalog messages have approved Spanish translations.
+
 - Add 141 author-approved Spanish messages for Intercom settings, call controls, announcements and shared sound pickers. All 1906 catalog messages have approved Spanish translations.
 
 - Add 15 author-approved Spanish messages for DLNA settings, playback notices and shared port validation. All 1765 catalog messages have approved Spanish translations.
