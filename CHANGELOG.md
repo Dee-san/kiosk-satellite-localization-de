@@ -4,6 +4,8 @@ All notable changes to Kiosk Satellite Localization are documented here. Full re
 
 ## Unreleased
 
+- Add 64 author-approved Spanish messages for the rest of Voice Satellite, including Wake Word tuning, cached models, the tester, Appearance and search. All 2732 catalog messages have approved Spanish translations.
+
 - Add 49 author-approved Spanish messages for Voice Satellite setup, main controls, background listening and permissions. All 2668 catalog messages have approved Spanish translations.
 
 - Add 114 author-approved Spanish messages for the remaining ESPHome settings, Bluetooth devices, Notifications, Announcements, GPS Sensor and permissions. All 2619 catalog messages have approved Spanish translations.
