@@ -4,6 +4,8 @@ All notable changes to Kiosk Satellite Localization are documented here. Full re
 
 ## Unreleased
 
+- Add 174 author-approved Spanish messages for Screensaver controls, Clock settings, schedules and shared time and color pickers. Keep mode names and font weights distinct and document each template by its visible UI path.
+
 - Add 93 author-approved Spanish translations for Screen & Audio across five sections. Include hardware-dependent notices, microphone channels and disconnected audio devices.
 
 - Add 128 messages with author-approved Spanish translations for Home Assistant Setup, split by its visible subpages. Include connection results, dashboard selection, rotation, theme choices and update-filter status. Keep shared actions in the common file. Use "panel de control" consistently for dashboard across Spanish translations.

@@ -50,7 +50,7 @@ That translates two buttons. You do not need to finish the whole file or the who
 
 Notice what changed: `Back` became `Zurück` and `Next` became `Weiter`. The message names stayed the same. The `@commonBack` and `@commonNext` blocks were left out because they are instructions for you, not text shown in the app. `@@locale` identifies the language.
 
-English and Spanish are maintained by Kiosk Satellite's author. **For Spanish, the corresponding file is [translations/es/common_es.arb](../translations/es/common_es.arb) and its language marker is `es`.** Existing translations include wording reviewed by the author. New wording may be awaiting review. The common file includes **Import**, **Back**, **Next**, **Finish**, **Working…**, **Settings**, **Cancel**, **OK**, **Grant**, **Enable**, **Refresh**, **Test**, **Install**, **Save**, **Retry**, **Copy**, **Add**, **Remove** and **Close**.
+English and Spanish are maintained by Kiosk Satellite's author. **For Spanish, the corresponding file is [translations/es/common_es.arb](../translations/es/common_es.arb) and its language marker is `es`.** Existing translations include wording reviewed by the author. New wording may be awaiting review. The common file includes **Import**, **Back**, **Next**, **Finish**, **Working…**, **Settings**, **Cancel**, **OK**, **Grant**, **Enable**, **Refresh**, **Test**, **Install**, **Save**, **Retry**, **Copy**, **Add**, **Remove** and **Close**. It also includes time picker controls and color presets.
 
 For Spanish, use **panel de control** for dashboard (**paneles de control** in the plural), **kiosko** for kiosk and **protector de pantalla** for screensaver.
 
@@ -81,7 +81,7 @@ Use this table to choose what to work on. The paths use the English labels visib
 
 | English reference | Text to translate | Where you see it |
 | --- | --- | --- |
-| [common_en.arb](../source/common_en.arb) | Shared action labels, including Import, Back, Next, Cancel, Save and Retry | Shared buttons and headings in setup, Settings and the drawer. Import is under Welcome > Restore backup. |
+| [common_en.arb](../source/common_en.arb) | Shared actions, time picker labels and color presets | Shared buttons and dialogs in setup, Settings and the drawer. Import is under Welcome > Restore backup. |
 | [settings_menu_en.arb](../source/settings_menu_en.arb) | Settings menu page names, summaries and group headings | Settings > menu on the device and the remote administration sidebar. Includes remote-only entries such as Overview and File Manager. |
 | [settings_search_en.arb](../source/settings_search_en.arb) | Search box hint, clear button, result heading and no-match message | Settings > search box on the device and the remote administration sidebar |
 | [drawer_menu_en.arb](../source/drawer_menu_en.arb) | Drawer actions, conditional player and hold labels, confirmations and theme tooltips | Swipe from the left edge of the device screen to open the drawer. Some entries appear only when their feature is configured. Each message explains its condition. |
@@ -112,10 +112,15 @@ Use this table to choose what to work on. The paths use the English labels visib
 | [settings_screen_audio_volume_en.arb](../source/settings_screen_audio_volume_en.arb) | Master, media, intercom and assistant volume | Settings > Screen & Audio > Audio Volume. Also Screen & Audio > Audio Volume in remote administration. |
 | [settings_screen_audio_devices_en.arb](../source/settings_screen_audio_devices_en.arb) | Microphone and speaker choices, including disconnected devices | Settings > Screen & Audio > Audio Devices. Also Screen & Audio > Audio Devices in remote administration. |
 | [settings_screen_audio_microphone_en.arb](../source/settings_screen_audio_microphone_en.arb) | Capture mode, channel, processing, gain and the live level meter | Settings > Screen & Audio > Microphone settings. Also Screen & Audio > Microphone settings in remote administration. |
+| [settings_screensaver_general_en.arb](../source/settings_screensaver_general_en.arb) | Main controls, mode choices, brightness and screen-off warnings | Settings > Screensaver. Also Screensaver in remote administration. |
+| [settings_screensaver_black_en.arb](../source/settings_screensaver_black_en.arb) | Fully black display and extra overlays | Settings > Screensaver > Black screensaver. Also Screensaver > Black screensaver in remote administration. |
+| [settings_screensaver_website_en.arb](../source/settings_screensaver_website_en.arb) | Website URL, zoom and touch behavior | Settings > Screensaver > Website screensaver. Also Screensaver > Website screensaver in remote administration. |
+| [settings_screensaver_clock_en.arb](../source/settings_screensaver_clock_en.arb) | Clock style, font, colors, night mode and background photo | Settings > Screensaver > Clock screensaver. Also Screensaver > Clock screensaver in remote administration. |
+| [settings_screensaver_schedule_en.arb](../source/settings_screensaver_schedule_en.arb) | Scheduled times, mode changes, overrides and summaries | Settings > Screensaver > Scheduled Screensavers. Also Screensaver > Scheduled Screensavers in remote administration. |
 
 First-time setup is the wizard shown before a kiosk is configured. Its **Connect** step is separate from the **Home Assistant Setup** settings page. The reference files also contain short explanations and, for shared settings, exact device and remote administration paths in `x-locations`.
 
-These files cover setup, the Device and Home Assistant Setup settings pages, the Settings menu and search controls and the device drawer. Other detailed settings pages and screens still use English where they have not been cataloged.
+These files cover setup, Device, Home Assistant Setup, Screen & Audio, the main Screensaver controls, Clock settings and scheduled screensavers, plus Settings navigation, search and the device drawer. Screensaver media sources, widgets and detection pages will be added in later batches. Other detailed settings pages and screens still use English where they have not been cataloged.
 
 Dashboard names, view names, entity names and saved paths supplied by Home Assistant stay as supplied. Technical scan output also stays as supplied. Names supplied by users or plugins are not translation entries. The drawer formats plugin actions with `{pluginName}` and `{actionTitle}`. Preserve both variables. Plugin-provided wording, technical error details and published release notes remain as supplied.
 
@@ -141,7 +146,7 @@ If you have Python 3 installed, run this from the repository's top-level folder:
 python3 tools/catalog.py validate
 ```
 
-For the German example above, the result includes `de/common_de.arb: 2/19 translated`. That means two of the nineteen messages have translations. It is fine to submit that partial file.
+For the German example above, the result includes `de/common_de.arb: 2/36 translated`. That means two of the thirty-six messages have translations. It is fine to submit that partial file.
 
 Commit your translation files to your fork and open a PR against this repository. Fill in the PR template with your language, what you translated and your preferred public credit. Copy the `revision` value from [source/manifest.json](../source/manifest.json) into **English source revision**. Include the validation result if you ran it and say whether you checked the text in the app.
 
