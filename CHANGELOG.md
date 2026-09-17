@@ -4,6 +4,8 @@ All notable changes to Kiosk Satellite Localization are documented here. Full re
 
 ## Unreleased
 
+- Add 205 author-approved Spanish messages for Screensaver media settings, including Home Assistant Media, Local Media, Photo Gallery, Immich and Camera Streams. Split Immich templates by visible settings groups and use "Immich" for its mode label and page name. All 1089 catalog messages have approved Spanish translations.
+
 - Add 174 author-approved Spanish messages for Screensaver controls, Clock settings, schedules and shared time and color pickers. Keep mode names and font weights distinct and document each template by its visible UI path.
 
 - Add 93 author-approved Spanish translations for Screen & Audio across five sections. Include hardware-dependent notices, microphone channels and disconnected audio devices.
