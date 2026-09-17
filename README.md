@@ -1,4 +1,4 @@
-<h1 align="left">
+<h1 align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/ks_banner_dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="assets/ks_banner_light.svg" />
