@@ -4,6 +4,8 @@ All notable changes to Kiosk Satellite Localization are documented here. Full re
 
 ## Unreleased
 
+- Add 25 author-approved Spanish messages for Web Browsing, split into navigation, cache and security and JavaScript editors. All 1549 catalog messages have approved Spanish translations.
+
 - Add 15 author-approved Spanish messages for live camera views, including connection status, playback failures and retry notices. All 1524 catalog messages have approved Spanish translations.
 
 - Add 112 author-approved Spanish messages for Camera Streams, split into imports, servers, camera editors, views, playback and errors. All 1509 catalog messages have approved Spanish translations.
