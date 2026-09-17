@@ -1,0 +1,30 @@
+# Flutter/Dart
+app/.dart_tool/
+app/.flutter-plugins*
+app/.packages
+app/build/
+app/.idea/
+app/android/.gradle/
+app/android/local.properties
+app/ios/Pods/
+app/ios/.symlinks/
+app/*.iml
+
+# Misc
+.DS_Store
+
+# Release signing identity: never committed. Local builds read
+# android/key.properties; CI gets the same values from secrets.
+app/android/key.properties
+app/android/app/upload-keystore.jks
+*.jks
+
+.claude/
+.vscode/
+.codex/
+.remember/
+.playwright-mcp/
+.internal/
+benchmarks/
+
+AGENTS.md
