@@ -31,7 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
-      contents: read
+      contents: write
       pull-requests: write
       checks: write
     steps:
@@ -45,6 +45,4 @@ jobs:
       - name: Record and verify contributor acceptance
         env:
           GITHUB_TOKEN: ${{ github.token }}
-          ACCEPTANCE_RECORDS_REPOSITORY: ${{ vars.ACCEPTANCE_RECORDS_REPOSITORY }}
-          ACCEPTANCE_RECORDS_TOKEN: ${{ secrets.ACCEPTANCE_RECORDS_TOKEN }}
         run: python3 tools/contributor_acceptance.py

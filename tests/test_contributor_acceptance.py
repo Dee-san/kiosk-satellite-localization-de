@@ -3,7 +3,7 @@ import copy
 import unittest
 
 from tools.contributor_acceptance import (
-    AGREEMENT, END, START, Acceptance, ApiError, Blocked, Ledger,
+    AGREEMENT, END, START, RECORDS_BRANCH, Acceptance, ApiError, Blocked, Ledger,
     accepted_event, agreement_from, block, canonical, digest,
     extract_block, make_context, replace_block, sole_author,
 )
@@ -368,26 +368,9 @@ class FormatTests(unittest.TestCase):
         with self.assertRaises(Blocked):
             agreement_from(TEXT + "Version 2.0\n", "a" * 40, REPO["full_name"])
 
-    def test_ledger_rejects_public_storage(self):
-        class PublicAPI:
-            def get(self, path):
-                return {"id": 20, "private": False, "owner": {"id": 1}}
+    def test_ledger_rejects_default_records_branch(self):
         with self.assertRaises(Blocked):
-            Ledger(PublicAPI(), "owner/records", REPO)
-
-    def test_ledger_rejects_same_repository(self):
-        class SameAPI:
-            def get(self, path):
-                return {"id": 10, "private": True, "owner": {"id": 1}}
-        with self.assertRaises(Blocked):
-            Ledger(SameAPI(), "owner/localization", REPO)
-
-    def test_ledger_rejects_other_owner(self):
-        class OtherAPI:
-            def get(self, path):
-                return {"id": 20, "private": True, "owner": {"id": 999}}
-        with self.assertRaises(Blocked):
-            Ledger(OtherAPI(), "other/records", REPO)
+            Ledger(None, {**REPO, "default_branch": RECORDS_BRANCH})
 
 
 class GitStorageAPI:
@@ -398,36 +381,53 @@ class GitStorageAPI:
         self.commits = {}
         self.conflict_once = False
         self.ref_writes = 0
+        self.calls = []
+        self.create_conflict = False
+        self.create_error = None
 
     def get(self, path):
-        if path == "/repos/owner/records":
-            return {"id": 20, "private": True, "owner": {"id": 1}, "default_branch": "main"}
+        self.calls.append(("GET", path, None))
+        assert path.startswith("/repos/owner/localization/")
         if "/contents/" in path:
             filename = path.split("/contents/")[1].split("?")[0]
+            assert path.endswith("?ref=" + RECORDS_BRANCH)
             value = self.trees[self.head].get(filename)
             if value is None:
                 raise ApiError(404, path)
             return {"encoding": "base64", "type": "file",
                     "content": base64.b64encode(value.encode()).decode()}
-        if path.endswith("/git/ref/heads/main"):
+        if path.endswith("/git/ref/heads/" + RECORDS_BRANCH):
+            if self.head is None:
+                raise ApiError(404, path)
             return {"object": {"sha": self.head}}
         if "/git/commits/" in path:
             return {"tree": {"sha": path.rsplit("/", 1)[1]}}
         raise AssertionError(path)
 
     def request(self, method, path, data):
+        self.calls.append((method, path, copy.deepcopy(data)))
+        assert path.startswith("/repos/owner/localization/")
+        if path.endswith("/git/refs"):
+            assert data["ref"] == "refs/heads/" + RECORDS_BRANCH
+            if self.create_error:
+                raise ApiError(self.create_error, path)
+            if self.create_conflict:
+                self.head = "initial"
+                raise ApiError(422, path)
+            self.head = data["sha"]
+            return {}
         if path.endswith("/git/trees"):
             self.next_tree += 1
             key = "tree" + str(self.next_tree)
-            self.trees[key] = {**self.trees[data["base_tree"]],
+            self.trees[key] = {**self.trees.get(data.get("base_tree"), {}),
                                **{item["path"]: item["content"] for item in data["tree"]}}
             return {"sha": key}
         if path.endswith("/git/commits"):
             key = "commit" + str(self.next_tree)
             self.trees[key] = copy.deepcopy(self.trees[data["tree"]])
-            self.commits[key] = data["parents"][0]
+            self.commits[key] = data["parents"][0] if data["parents"] else None
             return {"sha": key}
-        if path.endswith("/git/refs/heads/main"):
+        if path.endswith("/git/refs/heads/" + RECORDS_BRANCH):
             self.ref_writes += 1
             self.assert_no_force(data)
             if self.conflict_once:
@@ -450,7 +450,46 @@ class GitStorageAPI:
 class LedgerTests(unittest.TestCase):
     def setUp(self):
         self.api = GitStorageAPI()
-        self.ledger = Ledger(self.api, "owner/records", REPO)
+        self.ledger = Ledger(self.api, REPO)
+
+    def test_records_use_source_repository_for_either_visibility(self):
+        for private in (True, False):
+            with self.subTest(private=private):
+                ledger = Ledger(self.api, {**REPO, "private": private})
+                self.assertEqual(ledger.prefix, "/repos/owner/localization")
+                self.assertEqual(ledger.branch, RECORDS_BRANCH)
+        self.assertTrue(all(method == "GET" for method, _, _ in self.api.calls))
+
+    def test_missing_records_branch_is_initialized_without_source_history(self):
+        self.api.head = None
+        ledger = Ledger(self.api, REPO)
+        head = self.api.head
+        self.assertIsNone(self.api.commits[head])
+        self.assertEqual(set(self.api.trees[head]), {"README.md"})
+        self.assertIn("same visibility", self.api.trees[head]["README.md"])
+        ledger.save(7, {"accepted": False})
+        self.assertEqual(ledger.state(7), {"accepted": False})
+
+    def test_concurrent_branch_creation_preserves_existing_branch(self):
+        self.api.head = None
+        self.api.create_conflict = True
+        Ledger(self.api, REPO)
+        self.assertEqual(self.api.head, "initial")
+        self.assertEqual(self.api.ref_writes, 0)
+
+    def test_branch_creation_permission_failure_is_not_ignored(self):
+        self.api.head = None
+        self.api.create_error = 403
+        with self.assertRaises(ApiError):
+            Ledger(self.api, REPO)
+        self.assertIsNone(self.api.head)
+
+    def test_branch_creation_validation_failure_needs_existing_branch(self):
+        self.api.head = None
+        self.api.create_error = 422
+        with self.assertRaises(ApiError):
+            Ledger(self.api, REPO)
+        self.assertIsNone(self.api.head)
 
     def test_state_and_evidence_are_published_in_one_commit(self):
         self.ledger.save(7, {"accepted": True}, ("records/test.json", {"declaration": "accepted"}))

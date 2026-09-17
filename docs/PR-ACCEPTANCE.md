@@ -25,6 +25,6 @@ Your commit author email must be associated with your GitHub account so GitHub c
 
 ## Records and review
 
-The workflow retains the accepted agreement, declaration, account information and contribution snapshot in a separate private GitHub repository controlled by Xavier Larrea. Public checks show acceptance status and the covered revision. See the [privacy notice](CONTRIBUTOR-PRIVACY.md) for details.
+The workflow retains the accepted agreement, declaration, GitHub account ID and username, acceptance timestamp and contribution snapshot on this repository's `contributor-records` branch. These records are public when the repository is public. Checks show acceptance status and the covered revision. Do not include private information in a translation or acceptance declaration. See the [privacy notice](CONTRIBUTOR-PRIVACY.md) for details.
 
 A passing check confirms recorded acceptance. It does not replace language review or guarantee that a translation will ship in the next release. The maintainer still reviews the PR before merging it.

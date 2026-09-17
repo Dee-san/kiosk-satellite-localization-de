@@ -1,4 +1,10 @@
-# Kiosk Satellite Localization
+<h1 align="left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ks_banner_dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/ks_banner_light.svg" />
+    <img alt="Kiosk Satellite for Home Assistant" src="assets/ks_banner_default.svg" width="650" />
+  </picture>
+</h1>
 
 Help translate [Kiosk Satellite](https://github.com/jxlarrea/kiosk-satellite) into your language. Clear settings, helpful messages and familiar wording make the app easier for everyone to use.
 

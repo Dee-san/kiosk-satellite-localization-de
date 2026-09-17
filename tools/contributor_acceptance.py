@@ -19,6 +19,7 @@ CHECK = "contributor-acceptance"
 START = "<!-- ks-contributor-acceptance:start -->"
 END = "<!-- ks-contributor-acceptance:end -->"
 AGREEMENT = "docs/CONTRIBUTOR-AGREEMENT.md"
+RECORDS_BRANCH = "contributor-records"
 MAX_FILES = 100
 MAX_COMMITS = 100
 MAX_SNAPSHOT_BYTES = 3_000_000
@@ -71,7 +72,7 @@ class GitHub:
                 body = response.read()
                 return json.loads(body) if body else None
         except HTTPError as error:
-            # Do not print response bodies, credentials or private evidence.
+            # Do not print response bodies or credentials.
             raise ApiError(error.code, path) from None
 
     def get(self, path):
@@ -91,20 +92,45 @@ class GitHub:
 
 
 class Ledger:
-    """Store append-only evidence and a current state in a private Git repo."""
+    """Store evidence on a dedicated branch of the localization repository."""
 
-    def __init__(self, api, repository, source):
-        if not re.fullmatch(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+", repository or ""):
-            raise Blocked("Set ACCEPTANCE_RECORDS_REPOSITORY to a private owner/repository.")
+    def __init__(self, api, source):
         self.api = api
-        self.prefix = "/repos/" + repository
-        metadata = api.get(self.prefix)
-        if not metadata.get("private") or metadata["id"] == source["id"]:
-            raise Blocked("Acceptance records require a separate private repository.")
-        if metadata["owner"]["id"] != source["owner"]["id"]:
-            raise Blocked("The records repository must have the same owner as the localization repository.")
-        self.branch = metadata["default_branch"]
+        self.prefix = "/repos/" + source["full_name"]
+        self.branch = RECORDS_BRANCH
+        if source["default_branch"] == self.branch:
+            raise Blocked("The records branch must not be the default branch.")
         self.source_id = source["id"]
+        self.ensure_branch()
+
+    def ensure_branch(self):
+        ref_path = self.prefix + "/git/ref/heads/" + self.branch
+        try:
+            self.api.get(ref_path)
+            return
+        except ApiError as error:
+            if error.status != 404:
+                raise
+        # An independent root keeps records out of translation and workflow history.
+        tree = self.api.request("POST", self.prefix + "/git/trees", {
+            "tree": [{"path": "README.md", "mode": "100644", "type": "blob",
+                      "content": "# Contributor acceptance records\n\n"
+                      "This branch contains automated acceptance records for localization PRs.\n"
+                      "It has the same visibility as this repository. Do not add private information.\n"
+                      "Do not merge this branch into the default branch or edit records manually.\n"}],
+        })
+        commit = self.api.request("POST", self.prefix + "/git/commits", {
+            "message": "Initialize contributor acceptance records", "tree": tree["sha"], "parents": [],
+        })
+        try:
+            self.api.request("POST", self.prefix + "/git/refs", {
+                "ref": "refs/heads/" + self.branch, "sha": commit["sha"],
+            })
+        except ApiError as error:
+            if error.status not in (409, 422):
+                raise
+            # A concurrent initializer may have created the branch. Never replace it.
+            self.api.get(ref_path)
 
     def read(self, path):
         try:
@@ -405,7 +431,7 @@ class Acceptance:
         self.ledger.save(pr["number"], state, (path, record))
         if pr.get("merged") and (not covered or not matches_merge
                                  or record["merged_by"] != self.repository["owner"]["id"]):
-            raise Blocked("A PR was merged without recorded contributor and owner acceptance. Review the private outcome record.")
+            raise Blocked("A PR was merged without recorded contributor and owner acceptance. Review the outcome record on contributor-records.")
 
     def process(self, number):
         pr = self.api.get(self.prefix + f"/pulls/{number}")
@@ -445,7 +471,7 @@ class Acceptance:
                 self.update_body(pr, replace_block(pr.get("body"), block(context)))
             if self.verified_record(state) and normalized_block(pr.get("body")) == block(context, True):
                 self.current(pr)
-                self.check(pr, "success", f"The PR author accepted agreement {agreement['version']} for commit `{context['head']}`. Evidence is retained privately. Linguistic and rights review remain the maintainer's responsibility.")
+                self.check(pr, "success", f"The PR author accepted agreement {agreement['version']} for commit `{context['head']}`. Evidence is retained on the contributor-records branch. Linguistic and rights review remain the maintainer's responsibility.")
             else:
                 self.update_body(pr, replace_block(pr.get("body"), block(context)))
                 self.check(pr, "failure", "Read the pinned agreement and check the acceptance box in the PR description using your own account. This check supports one author per PR.")
@@ -471,14 +497,13 @@ def main():
         numbers = [int(event["inputs"]["pr_number"])]
     else:
         numbers = [pr["number"] for pr in api.pages(service.prefix + "/pulls?state=open")]
-    # Invalidate cached successes before checking the private storage connection.
+    # Invalidate cached successes before checking the records branch.
     # A missing credential or unavailable ledger must not leave a green check.
     for number in numbers:
         pr = api.get(service.prefix + f"/pulls/{number}")
         if pr["state"] == "open":
-            service.check(pr, "failure", "Acceptance verification is in progress. Private evidence storage must be available.")
-    service.ledger = Ledger(GitHub(os.environ.get("ACCEPTANCE_RECORDS_TOKEN")),
-                            os.environ.get("ACCEPTANCE_RECORDS_REPOSITORY"), repository)
+            service.check(pr, "failure", "Acceptance verification is in progress. Evidence storage must be available.")
+    service.ledger = Ledger(api, repository)
     failures = []
     for number in numbers:
         try:

@@ -4,7 +4,9 @@ All notable changes to Kiosk Satellite Localization are documented here. Full re
 
 ## Unreleased
 
-- Add the PR template and contributor acceptance workflow with private evidence records and renewed acceptance after changes.
+- Add README banners for light and dark themes.
+- Store acceptance records on the localization repository's contributor-records branch using the built-in workflow token.
+- Add the PR template and contributor acceptance workflow with retained evidence and renewed acceptance after changes.
 - Check contributor identity, agreement revisions and merged translation content before reporting acceptance.
 - Add acceptance workflow tests and a contributor guide.
 - Add a welcoming README with ways to help and contribution steps.
