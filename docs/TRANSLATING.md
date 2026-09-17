@@ -50,7 +50,9 @@ That translates two buttons. You do not need to finish the whole file or the who
 
 Notice what changed: `Back` became `Zurück` and `Next` became `Weiter`. The message names stayed the same. The `@commonBack` and `@commonNext` blocks were left out because they are instructions for you, not text shown in the app. `@@locale` identifies the language.
 
-English and Spanish are maintained by Kiosk Satellite's author. **For Spanish, the corresponding file is [translations/es/common_es.arb](../translations/es/common_es.arb) and its language marker is `es`.** Existing translations include wording reviewed by the author. New wording may be awaiting review. The common file includes **Import**, **Back**, **Next**, **Finish**, **Working…**, **Settings**, **Cancel**, **OK**, **Grant**, **Enable**, **Refresh**, **Test**, **Install**, **Save**, **Retry** and **Copy**.
+English and Spanish are maintained by Kiosk Satellite's author. **For Spanish, the corresponding file is [translations/es/common_es.arb](../translations/es/common_es.arb) and its language marker is `es`.** Existing translations include wording reviewed by the author. New wording may be awaiting review. The common file includes **Import**, **Back**, **Next**, **Finish**, **Working…**, **Settings**, **Cancel**, **OK**, **Grant**, **Enable**, **Refresh**, **Test**, **Install**, **Save**, **Retry**, **Copy**, **Add**, **Remove** and **Close**.
+
+For Spanish, use **panel de control** for dashboard (**paneles de control** in the plural), **kiosko** for kiosk and **protector de pantalla** for screensaver.
 
 ## What to translate and what to leave alone
 
@@ -87,7 +89,13 @@ Use this table to choose what to work on. The paths use the English labels visib
 | [setup_navigation_en.arb](../source/setup_navigation_en.arb) | Step names such as Welcome and Connect, plus their summaries | The list of steps during first-time setup |
 | [setup_welcome_en.arb](../source/setup_welcome_en.arb) | Welcome heading, introduction, device name help, remote password instructions and restore instructions | First-time setup > Welcome |
 | [setup_connect_en.arb](../source/setup_connect_en.arb) | Connection instructions, credential labels, QR scanning text and error messages | First-time setup > Connect. QR scanning is on the device. |
-| [settings_home_assistant_setup_en.arb](../source/settings_home_assistant_setup_en.arb) | Home Assistant address and access token labels and help | Settings > Home Assistant Setup, above Validate connection. In remote administration, open Home Assistant Setup. |
+| [settings_home_assistant_setup_en.arb](../source/settings_home_assistant_setup_en.arb) | Connection fields, automatic login, validation, secure proxy and dashboard selection | Settings > Home Assistant Setup. In remote administration, open Home Assistant Setup. |
+| [settings_home_assistant_user_interface_en.arb](../source/settings_home_assistant_user_interface_en.arb) | Kiosk mode, carousel gestures, vibration and tap sounds | Settings > Home Assistant Setup > User Interface. In remote administration, open Home Assistant Setup > User Interface. |
+| [settings_home_assistant_theme_en.arb](../source/settings_home_assistant_theme_en.arb) | Theme choices, synchronization and schedule | Settings > Home Assistant Setup > Theme. In remote administration, open Home Assistant Setup > Theme. |
+| [settings_home_assistant_rotation_en.arb](../source/settings_home_assistant_rotation_en.arb) | Rotation timing, view selection, external pages and fade transitions | Settings > Home Assistant Setup > Dashboard View Rotation. In remote administration, open Home Assistant Setup > Dashboard View Rotation. |
+| [settings_home_assistant_return_home_en.arb](../source/settings_home_assistant_return_home_en.arb) | Inactivity timeout, destination and disabled explanation | Settings > Home Assistant Setup > Return to home dashboard view. In remote administration, open Home Assistant Setup > Return to home dashboard view. |
+| [settings_home_assistant_hold_en.arb](../source/settings_home_assistant_hold_en.arb) | Hold mode, automatic release duration and menu entry | Settings > Home Assistant Setup > Hold mode. In remote administration, open Home Assistant Setup > Hold mode. |
+| [settings_home_assistant_optimizations_en.arb](../source/settings_home_assistant_optimizations_en.arb) | Background connection, pausing the dashboard and cameras, update filtering and diagnostic dialogs | Settings > Home Assistant Setup > Optimizations. In remote administration, open Home Assistant Setup > Optimizations. |
 | [settings_device_en.arb](../source/settings_device_en.arb) | Device name, mDNS name, renderer options and Device page links | Settings > Device > Device name. In remote administration, open Device. The label also appears during remote setup. |
 | [settings_device_user_interface_en.arb](../source/settings_device_user_interface_en.arb) | Language, theme and scale labels, help and theme choices | Settings > Device > User Interface. Language is the first row. In remote administration, open Device > User Interface. |
 | [settings_device_remote_administration_en.arb](../source/settings_device_remote_administration_en.arb) | Remote management, server port, password, fleet discovery and server status | Settings > Device > Remote Administration. In remote administration, open Device > Remote Administration. |
@@ -102,9 +110,9 @@ Use this table to choose what to work on. The paths use the English labels visib
 
 First-time setup is the wizard shown before a kiosk is configured. Its **Connect** step is separate from the **Home Assistant Setup** settings page. The reference files also contain short explanations and, for shared settings, exact device and remote administration paths in `x-locations`.
 
-These files cover setup, the Device settings pages, selected shared connection settings, the Settings menu and search controls and the device drawer. Other detailed settings pages and screens still use English where they have not been cataloged.
+These files cover setup, the Device and Home Assistant Setup settings pages, the Settings menu and search controls and the device drawer. Other detailed settings pages and screens still use English where they have not been cataloged.
 
-Names supplied by users or plugins are not translation entries. The drawer formats plugin actions with `{pluginName}` and `{actionTitle}`. Preserve both variables. Plugin-provided wording, technical error details and published release notes remain as supplied.
+Dashboard names, view names, entity names and saved paths supplied by Home Assistant stay as supplied. Technical scan output also stays as supplied. Names supplied by users or plugins are not translation entries. The drawer formats plugin actions with `{pluginName}` and `{actionTitle}`. Preserve both variables. Plugin-provided wording, technical error details and published release notes remain as supplied.
 
 ## Keep variables and formatting intact
 
@@ -128,7 +136,7 @@ If you have Python 3 installed, run this from the repository's top-level folder:
 python3 tools/catalog.py validate
 ```
 
-For the German example above, the result includes `de/common_de.arb: 2/16 translated`. That means two of the sixteen messages have translations. It is fine to submit that partial file.
+For the German example above, the result includes `de/common_de.arb: 2/19 translated`. That means two of the nineteen messages have translations. It is fine to submit that partial file.
 
 Commit your translation files to your fork and open a PR against this repository. Fill in the PR template with your language, what you translated and your preferred public credit. Copy the `revision` value from [source/manifest.json](../source/manifest.json) into **English source revision**. Include the validation result if you ran it and say whether you checked the text in the app.
 

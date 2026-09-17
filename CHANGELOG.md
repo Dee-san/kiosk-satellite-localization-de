@@ -4,6 +4,7 @@ All notable changes to Kiosk Satellite Localization are documented here. Full re
 
 ## Unreleased
 
+- Add 128 messages with author-approved Spanish translations for Home Assistant Setup, split by its visible subpages. Include connection results, dashboard selection, rotation, theme choices and update-filter status. Keep shared actions in the common file. Use "panel de control" consistently for dashboard across Spanish translations.
 - Add sectioned Device settings templates and 309 author-approved Spanish messages, covering both interfaces. Expand the common actions file and document each new section in the translator guide. Pin the English source manifest to the committed Device implementation.
 - Add Settings menu and search templates plus device drawer actions and update dialogs, with author-approved Spanish translations using "protector de pantalla" for screensaver. Preserve plugin-supplied names and provide a local preview command that does not mark translations as approved.
 - Add the Device > User Interface language selector messages with author-approved Spanish wording.
