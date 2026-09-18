@@ -43,6 +43,6 @@
   "commonNextMonth": "Nächster Monat",
   "commonLoading": "Laden…",
   "commonChoose": "Wähle",
-  "dlnaPortInvalid": "Wähle einen Port zwischen 1024 und 65535, oder lasse es frei",
+  "dlnaPortInvalid": "Wähle einen Port zwischen 1024 und 65535, oder lasse ihn frei",
   "commonSelectAll": "Wähle alles"
 }
