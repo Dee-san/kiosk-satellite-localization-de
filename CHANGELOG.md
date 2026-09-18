@@ -4,6 +4,8 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Add English and Spanish text for the Voice Satellite setting that returns to the previous app after a background voice interaction.
+
 - Approve 107 Spanish messages for app-list failures and plugin repository, validation, package and update errors. Approve remote Overview as another location for nine existing Camera and Camera Streams messages. All 3148 messages have reviewed Spanish translations.
 
 - Approve seven Spanish translations for screen-off and restart errors in remote Overview and the Settings location of three existing backup-validation messages. All 3041 messages now have reviewed Spanish translations.
