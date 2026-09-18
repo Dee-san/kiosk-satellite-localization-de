@@ -4,6 +4,8 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Approve 107 Spanish messages for app-list failures and plugin repository, validation, package and update errors. Approve remote Overview as another location for nine existing Camera and Camera Streams messages. All 3148 messages have reviewed Spanish translations.
+
 - Approve seven Spanish translations for screen-off and restart errors in remote Overview and the Settings location of three existing backup-validation messages. All 3041 messages now have reviewed Spanish translations.
 
 - Approve 37 Spanish messages for At a Glance states, APK update failures and Shizuku errors. Approve the shared battery-permission explanation in App Launcher. All 3034 messages have reviewed Spanish translations.
