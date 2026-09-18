@@ -4,6 +4,8 @@ All notable changes to Kiosk Satellite Localization are documented here. Full re
 
 ## Unreleased
 
+- Add 73 author-approved Spanish messages for File Manager, kiosk notices, screensaver playback errors, Settings search and remote warnings. All 2997 catalog messages have approved Spanish translations.
+
 - Add three author-approved Spanish messages for the Settings footer, coffee support link and plugin-window Close tooltip. All 2924 catalog messages have approved Spanish translations.
 
 - Add 16 author-approved Spanish messages for Android service notifications, the Accessibility description and QR scanning. Generate Android resources through the shared catalog pipeline. All 2921 catalog messages have approved Spanish translations.
