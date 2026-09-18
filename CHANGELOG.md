@@ -4,6 +4,8 @@ All notable changes to Kiosk Satellite Localization are documented here. Full re
 
 ## Unreleased
 
+- Add 16 author-approved Spanish messages for Android service notifications, the Accessibility description and QR scanning. Generate Android resources through the shared catalog pipeline. All 2921 catalog messages have approved Spanish translations.
+
 - Add 17 author-approved Spanish messages for remote login, connection recovery, update reload notices and native network errors. All 2905 catalog messages have approved Spanish translations.
 
 - Add 34 author-approved Spanish messages for setup permissions, backup restore and initial password errors. All 2888 catalog messages have approved Spanish translations.
