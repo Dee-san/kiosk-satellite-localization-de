@@ -1,13 +1,13 @@
 {
-  "@@locale": "es",
-  "settingEsphomeRealMacTitle": "Usar la dirección MAC real del Wi-Fi",
-  "settingEsphomeRealMacDescription": "Home Assistant vincula este kiosko con el mismo dispositivo que tus integraciones de red ya detectan. Si cambias esta opción, se crea un nuevo dispositivo ESPHome en Home Assistant.",
-  "settingEsphomeMacOverrideTitle": "Usar una dirección MAC de Wi-Fi personalizada",
-  "settingEsphomeMacOverrideDescription": "Como no se puede obtener la dirección MAC, puedes introducir una aquí. Si la cambias, se crea un nuevo dispositivo ESPHome en Home Assistant.",
-  "esphomeAdvanced": "Configuración avanzada",
-  "esphomeAdvancedHelp": "Dirección MAC de Wi-Fi real o personalizada",
-  "esphomeMacInvalid": "Introduce una dirección MAC válida.",
-  "esphomeMacHardware": "Se está usando {mac}.",
-  "esphomeMacManual": "Se está usando {mac}, introducida abajo.",
-  "esphomeMacUnavailable": "Android no permite obtener la dirección de hardware de este dispositivo."
+  "@@locale": "de",
+  "settingEsphomeRealMacTitle": "Reale WLAN-MAC-Adresse verwenden",
+  "settingEsphomeRealMacDescription": "Home Assistant verknüpft diesen Kiosk mit demselben Gerät, das bereits von deinen Netzwerkintegrationen erkannt wird. Wenn du diese Einstellung änderst, wird in Home Assistant ein neues ESPHome-Gerät erstellt.",
+  "settingEsphomeMacOverrideTitle": "Benutzerdefinierte WLAN-MAC-Adresse verwenden",
+  "settingEsphomeMacOverrideDescription": "Da die MAC-Adresse nicht ermittelt werden kann, kannst du hier eine manuell eingeben. Wenn du sie änderst, wird in Home Assistant ein neues ESPHome-Gerät erstellt.",
+  "esphomeAdvanced": "Erweiterte Einstellungen",
+  "esphomeAdvancedHelp": "Reale oder benutzerdefinierte WLAN-MAC-Adresse",
+  "esphomeMacInvalid": "Bitte eine gültige MAC-Adresse eingeben.",
+  "esphomeMacHardware": "{mac} wird verwendet.",
+  "esphomeMacManual": "{mac} wird verwendet und unten manuell eingetragen.",
+  "esphomeMacUnavailable": "Android erlaubt auf diesem Gerät keinen Zugriff auf die Hardware-MAC-Adresse."
 }
