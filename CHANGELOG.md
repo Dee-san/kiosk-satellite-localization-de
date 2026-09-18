@@ -4,6 +4,8 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Add English and Spanish text for floating Voice Satellite timers, pause and resume gestures, cancellation, saved positioning and local timer alerts (#612).
+
 - Add English and Spanish text for camera date and time overlays and their optional black background (#609).
 
 - Add English and Spanish text for inviting fleet members by IP address and remote admin port, including lookup validation and the invitation flow.

@@ -81,6 +81,7 @@ Use this table to choose what to work on. The paths use the English labels visib
 
 | English reference | Text to translate | Where you see it |
 | --- | --- | --- |
+| [voice_timers_en.arb](../source/voice_timers_en.arb) | Timer names, gesture hints, finished status and action errors | Floating timer pills above the dashboard, screensaver, Now Playing and camera views on the device. |
 | [common_en.arb](../source/common_en.arb) | Shared actions, time picker labels and color presets | Shared buttons and dialogs in setup, Settings and the drawer. Import is under Welcome > Restore backup. |
 | [settings_menu_en.arb](../source/settings_menu_en.arb) | Settings menu page names, summaries and group headings | Settings > menu on the device and the remote administration sidebar. Includes remote-only entries such as Overview and File Manager. |
 | [settings_search_en.arb](../source/settings_search_en.arb) | Search box hint, clear button, result heading and no-match message | Settings > search box on the device and the remote administration sidebar |
