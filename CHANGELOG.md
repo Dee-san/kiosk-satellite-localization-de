@@ -4,6 +4,8 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Approve 37 Spanish messages for At a Glance states, APK update failures and Shizuku errors. Approve the shared battery-permission explanation in App Launcher. All 3034 messages have reviewed Spanish translations.
+
 - Approve Welcome as another location for the existing Language title and description. Spanish wording is unchanged and all 2997 messages remain reviewed.
 
 - Add 73 author-approved Spanish messages for File Manager, kiosk notices, screensaver playback errors, Settings search and remote warnings. All 2997 catalog messages have approved Spanish translations.
