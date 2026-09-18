@@ -13,6 +13,20 @@
 - Screens checked in the app, if any:
 - Wording or layout that needs reviewer input:
 
+## Font compatibility
+
+See the [font review guide](https://github.com/jxlarrea/kiosk-satellite-localization/blob/main/docs/TRANSLATING.md#check-font-compatibility). Untested translations are welcome. New languages need a rendering review before shipping.
+
+- Device rendering: tested and satisfactory / problems found / not yet tested / unchanged from an earlier review:
+- Remote admin rendering: tested and satisfactory / problems found / not yet tested / unchanged from an earlier review:
+- KS version, device model and Android version, if tested:
+- Remote browser and operating system, if tested:
+- Affected text, screens and screenshots, if there is a problem:
+- Earlier rendering review or related issue, if applicable:
+- Suggested font, if needed: family, official source, license link, supported weights and approximate file size:
+
+Suggest fonts through links only. Do not add font binaries to the PR. Font selection and integration are handled by the maintainer under each font's own license. Remove private information from screenshots.
+
 ## Public credit
 
 - Preferred name or pseudonym:

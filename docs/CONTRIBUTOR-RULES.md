@@ -30,6 +30,18 @@ Include the language tag, source revision, changed areas, your fluency, validati
 
 Follow the validation instructions published with the translation files and resolve any failures reported by PR checks. Do not change workflow files to make your PR pass.
 
+## Font compatibility and readability
+
+Include a rendering status in your PR: tested and satisfactory, font problems found or not yet tested. Check the device interface and remote administration separately when you can. If you cannot test yet, you can still submit translations. A new language stays in draft until its rendering has been reviewed in both interfaces and any blocking font problems have been resolved. Small wording corrections can refer to an earlier rendering review unless they introduce new characters or reveal a problem.
+
+Look for missing characters, incorrect regional glyphs, broken character joining, clipped accents and weights that are difficult to read. Include the affected text and screens, KS version, device model, Android version and screenshots when available. For remote administration, include the browser and operating system. Remove private information from screenshots. See the [translation guide](TRANSLATING.md#check-font-compatibility) for what to check.
+
+If another font would help, suggest its family name, official source, license, supported weights and approximate file size in the PR description or a linked issue. Explain which problem it addresses. A font suggestion is optional and does not guarantee inclusion. Submit links rather than font binaries in translation PRs. Community PRs must still contain only translation files.
+
+Kiosk Satellite's author decides which fonts to include and handles integration in the application. The review covers language and regional coverage, readable weights, package size, offline availability and behavior in the device interface and remote administration. Fonts used by the Home Assistant dashboard are configured separately.
+
+Third-party fonts retain their own copyrights and licenses. Suggesting a font does not grant exclusive rights to it under the translation contributor agreement. The maintainer checks redistribution and embedding permissions and includes the required copyright notices and license text with any approved font. Font dependencies do not become subject to this repository's restricted license.
+
 ## Review and acceptance
 
 A fluent reviewer checks the translation. Kiosk Satellite's author makes the final acceptance decision. Be respectful when discussing wording and explain regional choices. Do not treat machine translation output as proof that another contributor is wrong.

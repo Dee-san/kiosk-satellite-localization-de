@@ -281,6 +281,32 @@ Preserve URLs and product names such as **Kiosk Satellite** and **Home Assistant
 
 Use plain text. HTML and plural or grammatical selection expressions are not supported yet. If a message needs a grammatical variant the file cannot express, ask in an issue before translating it.
 
+## Check font compatibility
+
+A translation should be readable as well as correct. When a build containing your language is available, check it on the kiosk and in remote administration. If you do not have a suitable build or device, mark the PR **not yet tested** and describe what you could not check. You can submit a partial translation before testing. The maintainer coordinates the rendering review before a new language ships.
+
+Use the actual translated screens and check:
+
+- Characters and accents appear correctly, with no empty boxes or missing marks.
+- Regional character shapes are appropriate for the language, especially Japanese, Chinese and Korean.
+- Characters join and text direction behaves correctly where the language requires it.
+- Body text, buttons and headings remain readable at their different weights. Check small labels and text viewed from a normal kiosk viewing distance.
+- Accents, marks and lines are not clipped. Mixed text such as a translated label beside an English product name remains readable.
+
+Check the device and remote interfaces separately because their available fonts can differ. For each problem, include the message or sample text, screen, KS version, device model and Android version. For remote administration, include the browser and operating system. Screenshots are helpful when available. Remove tokens, addresses and other private information before sharing them.
+
+If you know a font that would solve the problem, include:
+
+- Its family name and a link to the official project or download page.
+- Its license and a link to the license text.
+- The language or script it covers and the problem it addresses.
+- The available weights, or the weight range for a variable font.
+- The approximate size of the proposed font files, if known.
+
+Suggest the font in the PR description or a linked issue. Do not add font files to your translation commit. You do not need to find a replacement font to report a rendering problem. The maintainer chooses and integrates approved fonts, including their notices and licenses, after checking package size, offline use and both interfaces. Third-party fonts keep their own licenses and are outside the exclusive rights granted for your translations. Home Assistant dashboard fonts are managed separately.
+
+For a small wording correction, link to the earlier rendering review if font requirements are unchanged. Test again if the correction introduces new characters or exposes a rendering problem.
+
 ## Check and submit
 
 If you have Python 3 installed, run this from the repository's top-level folder:
@@ -291,7 +317,7 @@ python3 tools/catalog.py validate
 
 For the German example above, the result includes `de/common_de.arb: 2/43 translated`. That means two of the forty-two messages have translations. It is fine to submit that partial file.
 
-Commit your translation files to your fork and open a PR against this repository. Fill in the PR template with your language, what you translated and your preferred public credit. Copy the `revision` value from [source/manifest.json](../source/manifest.json) into **English source revision**. Include the validation result if you ran it and say whether you checked the text in the app.
+Commit your translation files to your fork and open a PR against this repository. Fill in the PR template with your language, what you translated and your preferred public credit. Copy the `revision` value from [source/manifest.json](../source/manifest.json) into **English source revision**. Include the validation result if you ran it and complete the font compatibility section, even if your status is not yet tested.
 
 After opening the PR, follow the [acceptance guide](PR-ACCEPTANCE.md) to check the agreement box added by the workflow. If you are unsure how to create a file or open a PR, [open an issue](https://github.com/jxlarrea/kiosk-satellite-localization/issues) with your language and the step where you got stuck.
 
