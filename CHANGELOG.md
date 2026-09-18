@@ -4,6 +4,8 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Approve Welcome as another location for the existing Language title and description. Spanish wording is unchanged and all 2997 messages remain reviewed.
+
 - Add 73 author-approved Spanish messages for File Manager, kiosk notices, screensaver playback errors, Settings search and remote warnings. All 2997 catalog messages have approved Spanish translations.
 
 - Add three author-approved Spanish messages for the Settings footer, coffee support link and plugin-window Close tooltip. All 2924 catalog messages have approved Spanish translations.
