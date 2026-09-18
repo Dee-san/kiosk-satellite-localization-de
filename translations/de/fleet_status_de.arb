@@ -56,5 +56,12 @@
   "fleetProfileNameExists": "Ein Profil mit dem Namen {name} existiert bereits",
   "fleetAlreadyOnVersion": "Verwendet bereits {version}",
   "fleetUnsupportedBuild": "Dieser Kiosk verwendet eine Version ohne Flottenverwaltung. Er kann nach einem Update beitreten.",
-  "fleetErrorAddressMismatch": "Die Adresse gehört zu einem anderen Kiosk oder einer anderen Flotte"
+  "fleetErrorAddressMismatch": "Die Adresse gehört zu einem anderen Kiosk oder einer anderen Flotte",
+  "fleetErrorInvalidIp": "Bitte eine gültige IP-Adresse eingeben.",
+  "fleetErrorInvalidPort": "Bitte einen Port zwischen 1 und 65535 eingeben.",
+  "fleetErrorIdentityNotReady": "Die Identität dieses Kiosks ist noch nicht bereit. Bitte versuche es erneut.",
+  "fleetErrorInvalidIdentity": "Unter dieser Adresse wurde keine gültige Kiosk-Identität gefunden.",
+  "fleetErrorAlreadyMember": "Dieser Kiosk gehört bereits zu dieser Flotte.",
+  "fleetErrorIsLeader": "Dieser Kiosk führt bereits eine Flotte an.",
+  "fleetErrorOtherLeader": "Dieser Kiosk folgt bereits einem anderen Leiter."
 }

@@ -18,7 +18,7 @@
   "fleetNoFleetManagement": "Keine Flottenverwaltung",
   "fleetKiosksOnThisNetworkThatDoNotFollowThis": "Kiosks in diesem Netzwerk, die diesem Kiosk nicht folgen. Wähle einen aus und lege fest, welche Daten er erhalten soll, um die Einladung zu senden. Falls seine Version die Flottenverwaltung noch nicht unterstützt, kann er nach einem Update beitreten.",
   "fleetJoinedTheFleet": "Du bist der Flotte beigetreten",
-  "fleetSettingsFromTheLeaderArriveShortly": "Die Einstellungen des Leiters werden in Kürze übernommen."
+  "fleetSettingsFromTheLeaderArriveShortly": "Die Einstellungen des Leiters werden in Kürze übernommen.",
   "fleetAddByIp": "Per IP hinzufügen",
   "fleetFindKiosk": "Kiosk suchen",
   "fleetFindingKiosk": "Kiosk wird gesucht…",
