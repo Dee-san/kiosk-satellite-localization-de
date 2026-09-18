@@ -4,6 +4,8 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Support complete-language PRs beyond 100 files in contributor acceptance. Read every page of the PR file list, verify that it is complete and retain the existing evidence size limits.
+
 - Add English and Spanish text for the screen-off timer option that shows a plain black screen at zero brightness (#614).
 
 - Add English and Spanish text for floating Voice Satellite timers, pause and resume gestures, cancellation, saved positioning and local timer alerts (#612).
