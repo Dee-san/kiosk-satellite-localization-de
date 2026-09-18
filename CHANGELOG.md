@@ -4,6 +4,8 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Add English and Spanish text for camera date and time overlays and their optional black background (#609).
+
 - Add English and Spanish text for inviting fleet members by IP address and remote admin port, including lookup validation and the invitation flow.
 
 - Add font compatibility guidance and PR rendering status fields. New languages need a rendering review before shipping. Contributors can suggest fonts for maintainer integration under their own licenses. Untested translations and small corrections remain welcome.
