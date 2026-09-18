@@ -1,10 +1,10 @@
 {
-  "@@locale": "es",
-  "settingScreensaverWebsiteUrlTitle": "URL del sitio web",
-  "settingScreensaverWebsiteUrlDescription": "Página que se muestra a pantalla completa. Debe permitir que se incruste.",
-  "settingScreensaverWebsiteZoomTitle": "Nivel de zoom",
-  "settingScreensaverWebsiteZoomDescription": "Cambia la escala de toda la vista web del protector de pantalla.",
-  "settingScreensaverWebsiteDoubleTapTitle": "Tocar dos veces para cerrar",
-  "settingScreensaverWebsiteDoubleTapDescription": "Un solo toque permite interactuar con el sitio web en lugar de cerrar el protector de pantalla.",
-  "screensaverWebsiteSection": "Protector de pantalla: Sitio web"
+  "@@locale": "de",
+  "settingScreensaverWebsiteUrlTitle": "Website-URL",
+  "settingScreensaverWebsiteUrlDescription": "Seite, die im Vollbildmodus angezeigt wird. Sie muss das Einbetten erlauben.",
+  "settingScreensaverWebsiteZoomTitle": "Zoomstufe",
+  "settingScreensaverWebsiteZoomDescription": "Ändert die Skalierung der gesamten Webansicht des Bildschirmschoners.",
+  "settingScreensaverWebsiteDoubleTapTitle": "Zum Schließen doppeltippen",
+  "settingScreensaverWebsiteDoubleTapDescription": "Ein einfacher Tipp ermöglicht die Interaktion mit der Website, anstatt den Bildschirmschoner zu schließen.",
+  "screensaverWebsiteSection": "Bildschirmschoner: Website"
 }

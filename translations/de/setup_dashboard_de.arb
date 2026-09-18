@@ -1,7 +1,7 @@
 {
-  "@@locale": "es",
-  "setupChooseDashboard": "Elige un panel de control",
-  "setupDashboardHelp": "Esto es lo que mostrará el kiosko al iniciar.",
-  "setupSelectDashboard": "Selecciona un panel de control",
-  "setupSelectDashboardHelp": "Elige el panel de control que mostrará el kiosko. Puedes cambiarlo después en Configuración."
+  "@@locale": "de",
+  "setupChooseDashboard": "Dashboard auswählen",
+  "setupDashboardHelp": "Dies ist das Dashboard, das der Kiosk beim Start anzeigt.",
+  "setupSelectDashboard": "Dashboard auswählen",
+  "setupSelectDashboardHelp": "Wähle das Dashboard aus, das der Kiosk anzeigen soll. Du kannst es später in den Einstellungen ändern."
 }

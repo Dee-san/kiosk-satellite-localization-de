@@ -1,9 +1,9 @@
 {
-  "@@locale": "es",
-  "mediaCacheTitle": "Caché de portadas",
-  "mediaCacheReadFailed": "No se pudo leer el tamaño de la caché.",
-  "mediaCacheClearFailed": "No se pudo borrar la caché.",
-  "mediaCacheChecking": "Comprobando el tamaño de la caché...",
-  "mediaCacheClearing": "Borrando...",
-  "mediaCacheUsage": "{used} usados de {limit}. Las miniaturas de la cola se guardan automáticamente en caché."
+  "@@locale": "de",
+  "mediaCacheTitle": "Cover-Cache",
+  "mediaCacheReadFailed": "Die Cache-Größe konnte nicht gelesen werden.",
+  "mediaCacheClearFailed": "Der Cache konnte nicht gelöscht werden.",
+  "mediaCacheChecking": "Cache-Größe wird überprüft...",
+  "mediaCacheClearing": "Wird gelöscht...",
+  "mediaCacheUsage": "{used} von {limit} verwendet. Warteschlangen-Miniaturansichten werden automatisch zwischengespeichert."
 }

@@ -1,8 +1,8 @@
 {
-  "@@locale": "es",
-  "setupPasswordFirst": "Primero establece la contraseña de administración",
-  "setupPasswordBeforeImport": "Escribe arriba una contraseña de administración de al menos 4 caracteres y después importa la copia de seguridad.",
-  "setupPasswordFailed": "No se pudo establecer la contraseña",
-  "setupPasswordExists": "Ya hay una contraseña establecida",
-  "setupPasswordExistsHelp": "Inicia sesión con la contraseña establecida en la tablet para continuar aquí. Recargando…"
+  "@@locale": "de",
+  "setupPasswordFirst": "Bitte zuerst ein Administrationspasswort festlegen",
+  "setupPasswordBeforeImport": "Gib oben ein Administrationspasswort mit mindestens 4 Zeichen ein und importiere anschließend die Sicherung.",
+  "setupPasswordFailed": "Das Passwort konnte nicht festgelegt werden",
+  "setupPasswordExists": "Es wurde bereits ein Passwort festgelegt",
+  "setupPasswordExistsHelp": "Melde dich mit dem auf dem Tablet festgelegten Passwort an, um hier fortzufahren. Die Seite wird neu geladen…"
 }

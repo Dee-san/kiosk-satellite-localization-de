@@ -1,6 +1,6 @@
 {
-  "@@locale": "es",
-  "lockdownOverlayHeld": "El bloqueo puede cubrir toda la pantalla.",
-  "lockdownOverlayMissing": "Sin este permiso, el bloqueo solo cubre la aplicación. La pantalla para concederlo aparece en la tablet.",
-  "lockdownPermissionsSearch": "Los permisos que necesitan las protecciones del modo de bloqueo."
+  "@@locale": "de",
+  "lockdownOverlayHeld": "Der Sperrmodus kann den gesamten Bildschirm überdecken.",
+  "lockdownOverlayMissing": "Ohne diese Berechtigung deckt der Sperrmodus nur die Anwendung ab. Die Seite zum Erteilen der Berechtigung wird auf dem Tablet angezeigt.",
+  "lockdownPermissionsSearch": "Die Berechtigungen, die für die Schutzfunktionen des Sperrmodus benötigt werden."
 }

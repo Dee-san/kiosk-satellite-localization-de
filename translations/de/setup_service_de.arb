@@ -1,6 +1,6 @@
 {
-  "@@locale": "es",
-  "setupServiceHelp": "Mantiene la aplicación activa cuando la pantalla está apagada o hay otra aplicación en primer plano. Así se mantienen la conexión con Home Assistant y funciones como la detección de movimiento y el proxy Bluetooth. Los permisos siguientes son opcionales pero recomendados: cada uno ayuda a mantener el servicio activo con la pantalla apagada.",
-  "setupBatteryMissing": "Android puede pausar la aplicación cuando la pantalla está apagada y cerrar la conexión con Home Assistant.",
-  "setupOverlayMissing": "Sin este permiso, el servicio no puede volver a abrir el kiosko después de un fallo."
+  "@@locale": "de",
+  "setupServiceHelp": "Hält die Anwendung aktiv, wenn der Bildschirm ausgeschaltet ist oder eine andere App im Vordergrund läuft. Dadurch bleiben die Verbindung zu Home Assistant sowie Funktionen wie Bewegungserkennung und Bluetooth-Proxy aktiv. Die folgenden Berechtigungen sind optional, werden jedoch empfohlen: Jede einzelne hilft dabei, den Dienst auch bei ausgeschaltetem Bildschirm aktiv zu halten.",
+  "setupBatteryMissing": "Android kann die Anwendung bei ausgeschaltetem Bildschirm pausieren und die Verbindung zu Home Assistant trennen.",
+  "setupOverlayMissing": "Ohne diese Berechtigung kann der Dienst den Kiosk nach einem Absturz nicht erneut öffnen."
 }

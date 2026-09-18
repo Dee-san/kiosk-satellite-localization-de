@@ -1,9 +1,9 @@
 {
-  "@@locale": "es",
-  "settingDisableCacheTitle": "Desactivar caché",
-  "settingDisableCacheDescription": "Siempre carga desde la red y descarta los datos de la página almacenados en caché al cargar, para mostrar la versión más reciente del panel de control. Es lento. Úsalo como ayuda durante el desarrollo.",
-  "settingAllowMixedContentTitle": "Permitir contenido mixto",
-  "settingAllowMixedContentDescription": "Permite que las páginas HTTPS carguen recursos HTTP no seguros. Útil cuando Home Assistant incluye contenido http:// en un panel de control que usa https:// para conectarse.",
-  "settingIgnoreSslErrorsTitle": "Ignorar errores SSL",
-  "settingIgnoreSslErrorsDescription": "Acepta certificados no confiables o autofirmados. Úsalo solo en tu propia red, ya que desactiva la verificación de certificados."
+  "@@locale": "de",
+  "settingDisableCacheTitle": "Cache deaktivieren",
+  "settingDisableCacheDescription": "Lädt Inhalte immer aus dem Netzwerk und verwirft beim Laden zwischengespeicherte Seitendaten, damit stets die aktuellste Version des Dashboards angezeigt wird. Dies verlangsamt den Seitenaufbau. Nützlich als Hilfe während der Entwicklung.",
+  "settingAllowMixedContentTitle": "Gemischte Inhalte zulassen",
+  "settingAllowMixedContentDescription": "Erlaubt HTTPS-Seiten das Laden unsicherer HTTP-Ressourcen. Nützlich, wenn Home Assistant Inhalte mit http:// in einem Dashboard einbindet, das über https:// aufgerufen wird.",
+  "settingIgnoreSslErrorsTitle": "SSL-Fehler ignorieren",
+  "settingIgnoreSslErrorsDescription": "Akzeptiert nicht vertrauenswürdige oder selbst signierte Zertifikate. Nur im eigenen Netzwerk verwenden, da dadurch die Zertifikatsprüfung deaktiviert wird."
 }

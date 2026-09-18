@@ -1,7 +1,7 @@
 {
-  "@@locale": "es",
-  "settingsSearchHint": "Buscar en la configuración",
-  "settingsSearchClear": "Borrar búsqueda",
-  "settingsSearchResults": "Resultados de búsqueda",
-  "settingsSearchEmpty": "No hay opciones que coincidan con \"{query}\"."
+  "@@locale": "de",
+  "settingsSearchHint": "Einstellungen durchsuchen",
+  "settingsSearchClear": "Suche löschen",
+  "settingsSearchResults": "Suchergebnisse",
+  "settingsSearchEmpty": "Keine Einstellungen entsprechen „{query}“."
 }

@@ -1,12 +1,12 @@
 {
-  "@@locale": "es",
-  "screensaverMediaTransitionNone": "Ninguna",
-  "screensaverMediaTransitionFade": "Fundido cruzado",
-  "screensaverMediaTransitionSlide": "Deslizamiento",
+  "@@locale": "de",
+  "screensaverMediaTransitionNone": "Keine",
+  "screensaverMediaTransitionFade": "Überblendung",
+  "screensaverMediaTransitionSlide": "Verschieben",
   "screensaverMediaTransitionZoom": "Zoom",
-  "screensaverMediaTransitionKenBurns": "Ken Burns",
-  "screensaverMediaTransitionRandom": "Aleatoria",
-  "screensaverMediaFillOff": "Desactivado",
-  "screensaverMediaFillSmart": "Inteligente",
-  "screensaverMediaFillAlways": "Siempre"
+  "screensaverMediaTransitionKenBurns": "Ken-Burns-Effekt",
+  "screensaverMediaTransitionRandom": "Zufällig",
+  "screensaverMediaFillOff": "Deaktiviert",
+  "screensaverMediaFillSmart": "Intelligent",
+  "screensaverMediaFillAlways": "Immer"
 }

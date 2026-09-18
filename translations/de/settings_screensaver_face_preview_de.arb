@@ -1,12 +1,12 @@
 {
-  "@@locale": "es",
-  "settingFacePreviewTitle": "Mostrar vista previa de la cámara",
-  "settingFacePreviewDescription": "Muestra una pequeña vista circular en vivo de la cámara en una esquina durante unos segundos cuando un rostro activa el kiosko.",
-  "settingFacePreviewSecondsTitle": "Duración de la vista previa",
-  "settingFacePreviewSecondsDescription": "Tiempo que la vista previa permanece en pantalla.",
-  "settingFacePreviewScaleTitle": "Escala de la vista previa",
-  "settingFacePreviewScaleDescription": "Ajusta el tamaño de la vista previa a la pantalla.",
-  "settingFacePreviewPositionTitle": "Posición de la vista previa",
-  "settingFacePreviewPositionDescription": "Esquina en la que se muestra la vista previa.",
-  "screensaverDetectionPreviewSection": "Vista previa de la cámara"
+  "@@locale": "de",
+  "settingFacePreviewTitle": "Kameravorschau anzeigen",
+  "settingFacePreviewDescription": "Zeigt für einige Sekunden eine kleine, runde Live-Vorschau der Kamera in einer Ecke an, wenn ein Gesicht den Kiosk aktiviert.",
+  "settingFacePreviewSecondsTitle": "Dauer der Vorschau",
+  "settingFacePreviewSecondsDescription": "Wie lange die Vorschau auf dem Bildschirm angezeigt wird.",
+  "settingFacePreviewScaleTitle": "Skalierung der Vorschau",
+  "settingFacePreviewScaleDescription": "Passt die Größe der Vorschau an den Bildschirm an.",
+  "settingFacePreviewPositionTitle": "Position der Vorschau",
+  "settingFacePreviewPositionDescription": "Die Ecke, in der die Vorschau angezeigt wird.",
+  "screensaverDetectionPreviewSection": "Kameravorschau"
 }
