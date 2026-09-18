@@ -151,6 +151,7 @@ class AcceptanceTests(unittest.TestCase):
         record = next(iter(self.ledger.records.values()))
         self.assertEqual(record["actor"]["id"], 2)
         self.assertEqual(record["agreement_text"], TEXT)
+        self.assertEqual(record["pr_description"], self.api.pr["body"])
         self.assertEqual(base64.b64decode(record["snapshot"][0]["after"]["base64"]), b'{"hello":"Hallo"}')
 
     def test_maintainer_cannot_accept_for_author(self):
@@ -158,6 +159,14 @@ class AcceptanceTests(unittest.TestCase):
         self.service(self.tick(actor=1)).process(7)
         self.assertFalse(self.ledger.records)
         self.assertEqual(extract_block(self.api.pr["body"]), block(context))
+
+    def test_changed_disclosure_requires_fresh_acceptance(self):
+        self.accept()
+        self.api.pr["body"] = "Updated AI rights disclosure\n" + self.api.pr["body"]
+        self.service({"action": "edited"}).process(7)
+        self.assertIsNone(self.ledger.state(7)["acceptance"])
+        self.assertEqual(self.api.checks[-1]["conclusion"], "failure")
+        self.assertIn("- [ ]", extract_block(self.api.pr["body"]))
 
     def test_bot_cannot_accept(self):
         self.prepare()

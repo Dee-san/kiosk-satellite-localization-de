@@ -8,7 +8,7 @@
 
 Help translate [Kiosk Satellite](https://github.com/jxlarrea/kiosk-satellite) into your language. Clear settings, helpful messages and familiar wording make the app easier for everyone to use.
 
-A few translated labels, a better explanation or a review of someone else's work can make a difference. Small contributions and partial translations are welcome.
+A few translated labels, a better explanation or a review of someone else's work can make a difference. Small corrections to existing languages are welcome. New languages need a complete translation before they can be accepted.
 
 ## Ways to help
 
@@ -23,7 +23,7 @@ English and Spanish are maintained by Kiosk Satellite's author. If you spot a pr
 
 1. Check the [issues](https://github.com/jxlarrea/kiosk-satellite-localization/issues) and [open pull requests](https://github.com/jxlarrea/kiosk-satellite-localization/pulls) for your language. For a new language, open an issue so we can coordinate the work.
 2. Read the [contributor rulebook](docs/CONTRIBUTOR-RULES.md) and [contributor agreement](docs/CONTRIBUTOR-AGREEMENT.md).
-3. Follow the [translation guide](docs/TRANSLATING.md), fork this repository and translate a few messages. Keep each PR focused on one language and preserve message IDs and placeholders.
+3. Follow the [translation guide](docs/TRANSLATING.md), fork this repository and translate the current catalog for a new language or make a focused correction to an existing one. Keep each PR focused on one language and preserve message IDs and placeholders.
 4. Open a PR here with your changes. Tell us what you translated, mention anything you are unsure about and accept the agreement using the PR checkbox.
 
 If you are new to GitHub or unsure where to begin, start with an issue telling us which language you would like to help with.

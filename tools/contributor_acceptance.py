@@ -278,6 +278,9 @@ def make_context(pr, agreement, comparison, files):
         "schema": 1, "number": pr["number"], "author_id": pr["user"]["id"],
         "head": pr["head"]["sha"], "merge_base": comparison["merge_base_commit"]["sha"],
         "files": manifest,
+        "disclosures_sha256": digest((pr.get("body") or "").replace(
+            extract_block(pr.get("body")) or "\0", ""
+        ).replace("\r\n", "\n").strip()),
         "agreement": {key: agreement[key] for key in ("version", "commit", "sha256", "url")},
     }
     context["id"] = digest(canonical(context))
@@ -376,6 +379,7 @@ class Acceptance:
             "schema": 1, "kind": "contributor_acceptance", "repository": self.repository["full_name"],
             "repository_id": self.repository["id"], "context": context,
             "agreement_text": agreement["text"], "declaration": extract_block(pr["body"]),
+            "pr_description": pr["body"],
             "actor": {key: self.event["sender"][key] for key in ("id", "login", "type")},
             "event_action": self.event["action"],
             "event_updated_at": self.event["pull_request"]["updated_at"],

@@ -13,13 +13,13 @@ The checklist elsewhere in the template is for review information. It does not r
 
 ## After changes
 
-New commits, a changed contribution or updated agreement text require renewed acceptance. The workflow refreshes the declaration and clears its checkbox. Read the updated declaration and check it again after your last change.
+New commits, a changed PR description or updated agreement text require renewed acceptance. The description includes your AI assistance and rights disclosures. The workflow refreshes the declaration and clears its checkbox. Read the updated declaration and check it again after your last change.
 
 Keep the generated declaration intact. A maintainer checking it for you does not count. If the section is missing or a check is still waiting after you accepted, ask the maintainer to recheck the PR. You may need to check the refreshed box again.
 
 ## Contributions with more than one author
 
-Automatic acceptance supports one author per PR. It checks commit authors and rejects declared coauthor trailers. If another person contributed wording or owns relevant rights, disclose that before acceptance. Split work into separate PRs where possible. Otherwise, the maintainer must arrange separate rights review. Do not claim sole authorship of someone else's work.
+Automatic acceptance supports one author per PR. It checks commit authors and rejects declared coauthor trailers. AI tools belong in the assistance disclosure in the PR description, not in coauthor commit trailers. If another person contributed wording or owns relevant rights, disclose that before acceptance. Split work into separate PRs where possible. Otherwise, the maintainer must arrange separate rights review. Do not claim sole authorship of someone else's work.
 
 Your commit author email must be associated with your GitHub account so GitHub can identify the author. You can use your GitHub-provided private email address. A commit GitHub cannot associate with your account requires review.
 
