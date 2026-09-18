@@ -1,8 +1,8 @@
 # Changelog
 
-All notable changes to Kiosk Satellite Localization are documented here. Full release notes for each version are available on the [releases page](https://github.com/jxlarrea/kiosk-satellite-localization/releases).
+Notable changes to Kiosk Satellite Localization are listed below, newest first. This repository does not publish releases. Kiosk Satellite imports reviewed translations from a pinned commit and includes them in app releases.
 
-## Unreleased
+## History
 
 - Add 73 author-approved Spanish messages for File Manager, kiosk notices, screensaver playback errors, Settings search and remote warnings. All 2997 catalog messages have approved Spanish translations.
 
