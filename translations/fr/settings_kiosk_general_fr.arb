@@ -2,7 +2,7 @@
   "@@locale": "fr",
   "settingKioskEnabledTitle": "Activer le mode kiosque",
   "settingKioskEnabledDescription": "Verrouiller la tablette sur Kiosk Satellite. Le balayage du menu est remplacé par le geste de sortie, le bouton retour reste à l'intérieur du kiosque, et les protections ci-dessous s'arment.",
-  "settingKioskStartOnBootTitle": "Démarrer au démarrage de l'appareil",
+  "settingKioskStartOnBootTitle": "Lancer au démarrage de l'appareil",
   "settingKioskStartOnBootDescription": "Lancer Kiosk Satellite lorsque l'appareil s'allume. Sur Android 10+, cela nécessite l'autorisation d'affichage par-dessus d'autres applications ; Android la demande à la première activation.",
   "settingKioskExitGestureTitle": "Geste de sortie du kiosque",
   "settingKioskExitGestureDescription": "Des appuis rapides n'importe où ouvrent le menu, après le code PIN s'il en existe un. Les variantes avec maintien nécessitent de maintenir le dernier appui. Si le geste est désactivé, seule l'administration à distance permet d'accéder aux paramètres.",
