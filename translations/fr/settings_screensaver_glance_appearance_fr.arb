@@ -1,7 +1,7 @@
 {
   "@@locale": "fr",
   "settingScreensaverGlanceScaleTitle": "Mise à l'échelle de la ligne",
-  "settingScreensaverGlanceScaleDescription": "Mettre la ligne à l'échelle pour mieux l'adapter à la taille de votre écran.",
+  "settingScreensaverGlanceScaleDescription": "Ajuste la taille de la ligne à votre écran.",
   "settingScreensaverGlanceFontTitle": "Famille de police",
   "settingScreensaverGlanceFontDescription": "La police avec laquelle la ligne est dessinée.",
   "settingScreensaverGlanceFontWeightTitle": "Graisse de police",

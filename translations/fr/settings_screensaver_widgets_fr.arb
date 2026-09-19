@@ -3,7 +3,7 @@
   "settingScreensaverWidgetsTitle": "Widgets",
   "settingScreensaverWidgetsDescription": "Petites superpositions dans les coins de l'économiseur d'écran.",
   "settingScreensaverWidgetScaleTitle": "Mise à l'échelle globale des widgets",
-  "settingScreensaverWidgetScaleDescription": "Mettre tous les widgets à l'échelle ensemble pour mieux les adapter à la taille de votre écran. Chaque widget conserve sa propre échelle par rapport aux autres.",
+  "settingScreensaverWidgetScaleDescription": "Ajuste la taille de tous les widgets à votre écran. Chaque widget conserve sa propre échelle par rapport aux autres.",
   "settingScreensaverWidgetFontTitle": "Famille de police globale",
   "settingScreensaverWidgetFontDescription": "La police avec laquelle chaque widget est dessiné. Un widget peut choisir la sienne.",
   "settingScreensaverWidgetFontWeightTitle": "Graisse de police globale",

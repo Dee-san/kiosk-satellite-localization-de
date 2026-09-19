@@ -7,7 +7,7 @@
   "settingEsphomeExcludedEntitiesTitle": "Entités exclues",
   "settingEsphomeExcludedEntitiesDescription": "Choisissez les entités à exclure de Home Assistant. Toutes les autres entités disponibles sont exposées. L'enregistrement reconnecte ESPHome.",
   "settingEsphomeNodeNameTitle": "Nom du nœud",
-  "settingEsphomeNodeNameDescription": "Nomme ce kiosque sur le réseau, et Home Assistant en tire les noms de ses actions. Le renommer renomme ces actions.",
+  "settingEsphomeNodeNameDescription": "Identifie ce kiosque sur le réseau. Home Assistant s'en sert pour former les noms de ses actions ; le renommer renomme donc ces actions.",
   "settingEsphomeNodeNamePlaceholder": "Défini au premier démarrage",
   "settingBtproxyKeyTitle": "Clé de chiffrement",
   "settingBtproxyKeyDescription": "Collez cette clé dans Home Assistant lorsqu'il demande la clé de chiffrement. Générée automatiquement au premier démarrage.",

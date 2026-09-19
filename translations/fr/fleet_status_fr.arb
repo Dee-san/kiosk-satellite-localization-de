@@ -55,7 +55,7 @@
   "fleetErrorDidNotTakeTheUpload": "n'a pas accepté l'envoi",
   "fleetProfileNameExists": "Un profil nommé {name} existe déjà",
   "fleetAlreadyOnVersion": "déjà en version {version}",
-  "fleetUnsupportedBuild": "Ce kiosque exécute un build sans gestion de flotte. Il rejoindra la flotte dès qu'il exécutera un build qui la prend en charge.",
+  "fleetUnsupportedBuild": "Ce kiosque utilise une version sans gestion de flotte. Il pourra rejoindre la flotte lorsqu'il sera mis à jour.",
   "fleetErrorAddressMismatch": "Cette adresse appartient à un autre kiosque ou à une autre flotte",
   "fleetErrorInvalidIp": "Saisissez une adresse IP valide.",
   "fleetErrorInvalidPort": "Saisissez un port entre 1 et 65535.",

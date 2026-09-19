@@ -6,7 +6,7 @@
   "screensaverOverlayClockNote": "Masqué dans les modes d'économiseur d'écran Horloge numérique et Flux de caméras.",
   "screensaverOverlayCameraNote": "Masqué dans le mode d'économiseur d'écran Flux de caméras.",
   "screensaverOverlayScale": "Échelle",
-  "screensaverOverlayScaleHelp": "Mettre la taille de ce widget à l'échelle pour mieux l'adapter à votre écran.",
+  "screensaverOverlayScaleHelp": "Ajuste la taille de ce widget à votre écran.",
   "screensaverOverlayFont": "Famille de police",
   "screensaverOverlayCorner": "Coin",
   "screensaverOverlayWidget": "Widget",

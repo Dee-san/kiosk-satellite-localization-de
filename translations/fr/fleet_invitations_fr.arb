@@ -16,7 +16,7 @@
   "fleetFollowsName": "Suit {name}",
   "fleetLeadsAFleet": "Dirige une flotte",
   "fleetNoFleetManagement": "Pas de gestion de flotte",
-  "fleetKiosksOnThisNetworkThatDoNotFollowThis": "Kiosques sur ce réseau qui ne suivent pas celui-ci. Choisissez-en un pour définir ce qu'il reçoit, puis l'invitation est envoyée. Un kiosque dont le build n'inclut pas la gestion de flotte rejoint la flotte dès qu'il exécute un build qui la prend en charge.",
+  "fleetKiosksOnThisNetworkThatDoNotFollowThis": "Kiosques de ce réseau qui ne suivent pas celui-ci. Choisissez-en un et définissez ce qu'il recevra pour lui envoyer l'invitation. Si sa version n'inclut pas la gestion de flotte, il pourra rejoindre la flotte lorsqu'il sera mis à jour.",
   "fleetJoinedTheFleet": "A rejoint la flotte",
   "fleetSettingsFromTheLeaderArriveShortly": "Les paramètres du leader arrivent sous peu.",
   "fleetAddByIp": "Ajouter par IP",
