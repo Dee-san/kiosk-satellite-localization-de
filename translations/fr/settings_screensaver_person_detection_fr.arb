@@ -12,7 +12,7 @@
   "screensaverDetectionStatusUnavailable": "État indisponible.",
   "screensaverDetectionOff": "Désactivé.",
   "screensaverDetectionStarting": "Démarrage...",
-  "screensaverDetectionWaiting": "En attente du premier signal. Le capteur signale toutes les 30 secondes tant que quelqu'un est visible.",
+  "screensaverDetectionWaiting": "En attente du premier signal. Le capteur transmet une mesure toutes les 30 secondes tant que quelqu'un est visible.",
   "screensaverDetectionLastHeartbeat": "Dernier signal {ago}.",
   "screensaverDetectionSecondsAgo": "il y a {count} s",
   "screensaverDetectionMinutesAgo": "il y a {count} min",

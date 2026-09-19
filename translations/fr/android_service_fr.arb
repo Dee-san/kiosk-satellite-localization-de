@@ -1,6 +1,6 @@
 {
   "@@locale": "fr",
-  "androidServiceChannelHelp": "Affiché tant que le Kiosk Satellite Service maintient l'application active écran éteint ou derrière une autre application.",
+  "androidServiceChannelHelp": "Affiché tant que le Kiosk Satellite Service maintient l'application active lorsque l'écran est éteint ou qu'une autre application est au premier plan.",
   "androidServiceListening": "écoute d'un mot de réveil",
   "androidServiceRtspAudio": "audio microphone RTSP activé",
   "androidServiceEsphome": "service ESPHome actif",

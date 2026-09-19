@@ -1,7 +1,7 @@
 {
   "@@locale": "fr",
   "settingMotionSensorTitle": "Capteur de mouvement",
-  "settingMotionSensorDescription": "Exposer le mouvement comme capteur Home Assistant. ATTENTION : garde la caméra en fonctionnement en permanence, même écran éteint.",
+  "settingMotionSensorDescription": "Exposer le mouvement comme capteur Home Assistant. ATTENTION : garde la caméra en fonctionnement en permanence, même lorsque l'écran est éteint.",
   "settingMotionSensorOffDelayTitle": "Retour à l'état inactif après",
   "settingMotionSensorOffDelayDescription": "Secondes sans mouvement avant que le capteur repasse à l'état inactif.",
   "settingMotionFpsTitle": "Fréquence d'images pour la détection de mouvement",

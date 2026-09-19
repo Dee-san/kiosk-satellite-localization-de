@@ -24,7 +24,7 @@
   "voiceCacheCount": "Supprimés : {count}",
   "voiceVerySensitive": "Très sensible",
   "voiceWakeWordPreferFp32Title": "Préférer les modèles vsWakeWord fp32",
-  "voiceWakeWordPreferFp32Description": "Utilise les modèles fp32 au lieu des versions int8 plus légères. Ajoute 10 à 30 % d'utilisation du CPU en écoute pour éviter environ 2 % de dérive de confiance.",
+  "voiceWakeWordPreferFp32Description": "Utilise les modèles fp32 au lieu des versions int8 plus légères. Augmente l'utilisation du CPU de 10 à 30 % pendant l'écoute, pour éviter environ 2 % de dérive de confiance.",
   "voiceWakeWordResumeTimeoutSecondsTitle": "Délai de reprise (secondes)",
   "voiceWakeWordResumeTimeoutSecondsDescription": "Auto-réparation : reprend l'écoute si la page n'appelle jamais setWakeWordActive(true) après un transfert. Attend tant qu'un échange vocal diffuse encore de l'audio, pour ne jamais couper un long échange.",
   "voiceSlightlySensitive": "Légèrement sensible",

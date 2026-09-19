@@ -1,7 +1,7 @@
 {
   "@@locale": "fr",
   "settingHaThemeTitle": "Thème",
-  "settingHaThemeDescription": "Clair ou sombre pour le tableau de bord Home Assistant, également réglable via l'entité Thème dans Home Assistant. Auto suit les paramètres ci-dessous.",
+  "settingHaThemeDescription": "Clair ou sombre pour le tableau de bord Home Assistant, également réglable via l'entité Thème dans Home Assistant. « Auto » suit les paramètres ci-dessous.",
   "settingThemeMatchAppTitle": "Synchroniser les thèmes Home Assistant avec Kiosk Satellite",
   "settingThemeMatchAppDescription": "Faire correspondre automatiquement votre thème Home Assistant à celui de l'interface Kiosk Satellite.",
   "settingThemeAutoTitle": "Adapter le thème à l'heure de la journée",

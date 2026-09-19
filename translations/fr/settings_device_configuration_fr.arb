@@ -18,7 +18,7 @@
   "deviceReplaceIdentity": "Conserve le nom et l'identité ESPHome de la sauvegarde ; l'appareil d'origine doit rester hors ligne.",
   "deviceNewIdentity": "Attribue son propre nom et sa propre identité ESPHome, afin que les deux appareils soient uniques.",
   "deviceRestoreStorage": "Restaurer le stockage local de la Webview",
-  "deviceRestoreStorageHelp": "Inclut la session Home Assistant connectée et la sélection assist_satellite de Voice Satellite - deux appareils ne doivent pas partager le même satellite.",
+  "deviceRestoreStorageHelp": "Inclut la session Home Assistant connectée et la sélection assist_satellite de Voice Satellite : deux appareils ne doivent pas partager le même satellite.",
   "deviceDownload": "Télécharger",
   "deviceChooseFile": "Choisir un fichier…",
   "deviceImportFailedSentence": "Échec de l'importation.",
