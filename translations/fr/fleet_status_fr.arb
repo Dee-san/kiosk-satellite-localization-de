@@ -6,7 +6,7 @@
   "fleetWaitingForTheFirstSync": "En attente de la première synchronisation",
   "fleetNothingYet": "Rien pour l'instant",
   "fleetNoCredentials": "Aucun identifiant",
-  "fleetWithTheNames": "Avec les {names}",
+  "fleetWithTheNames": "Avec {names}",
   "fleetTheDashboard": "le tableau de bord",
   "fleetNoDashboard": "aucun tableau de bord",
   "fleetTheDashboardDetail": "Le tableau de bord",

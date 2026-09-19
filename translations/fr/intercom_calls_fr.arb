@@ -29,7 +29,7 @@
   "intercomIsAnnouncing": "fait une annonce",
   "intercomCalling": "Appel en cours…",
   "intercomAnswersIn": "Réponse dans {seconds} s",
-  "intercomRinging": "Ça sonne",
+  "intercomRinging": "Sonnerie en cours",
   "intercomConnecting": "Connexion…",
   "intercomDoneDuration": "Terminé, {duration}",
   "intercomEndedDuration": "Appel terminé, {duration}",
