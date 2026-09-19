@@ -2,6 +2,6 @@
   "@@locale": "fr",
   "mediaGroupLead": "Dirige le groupe",
   "mediaGroupReadFailed": "Le groupe n'a pas pu être lu.",
-  "mediaGroupEmpty": "Aucun autre lecteur à grouper.",
+  "mediaGroupEmpty": "Aucun autre lecteur avec lequel former un groupe.",
   "mediaSpeakerSelection": "Sélection des enceintes"
 }

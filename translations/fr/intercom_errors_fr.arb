@@ -12,7 +12,7 @@
   "intercomNeedsDiscovery": "l'interphone nécessite l'administration à distance et Trouver d'autres kiosques",
   "intercomAlreadyCalling": "déjà en communication",
   "intercomNoReadyError": "aucun kiosque n'est prêt",
-  "intercomKeyLength": "une clé fait au moins 16 caractères",
+  "intercomKeyLength": "une clé doit comporter au moins 16 caractères",
   "intercomMicHeld": "la page occupe le microphone",
   "intercomMicPermission": "microphone non accordé",
   "intercomCallerNoAnswer": "l'appelant n'a pas répondu",

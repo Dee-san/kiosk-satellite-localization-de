@@ -7,7 +7,7 @@
   "esphomeAdvanced": "Paramètres avancés",
   "esphomeAdvancedHelp": "Adresse MAC Wi-Fi réelle ou usurpée",
   "esphomeMacInvalid": "Saisissez une adresse MAC valide.",
-  "esphomeMacHardware": "Signale {mac}.",
-  "esphomeMacManual": "Signale {mac}, saisie ci-dessous.",
+  "esphomeMacHardware": "Adresse signalée : {mac}.",
+  "esphomeMacManual": "Adresse signalée : {mac}, saisie ci-dessous.",
   "esphomeMacUnavailable": "Android ne révélera pas l'adresse matérielle de cet appareil."
 }

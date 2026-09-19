@@ -1,7 +1,7 @@
 {
   "@@locale": "fr",
   "settingBrowserCutoutModeTitle": "Encoche d'affichage",
-  "settingBrowserCutoutModeDescription": "Que faire de la zone d'écran autour d'une encoche caméra ou d'un poinçon. Choisissez Éviter l'encoche si la caméra se trouve au-dessus de boutons en haut du tableau de bord.",
+  "settingBrowserCutoutModeDescription": "Comment traiter la zone de l'écran autour d'une encoche ou d'un trou de caméra. Choisissez « Éviter l'encoche » si la caméra se trouve au-dessus de boutons en haut du tableau de bord.",
   "settingScreenOrientationTitle": "Orientation de l'écran",
   "settingScreenOrientationDescription": "Forcer l'écran dans une orientation. Utilisez ceci sur un appareil sans capteur de rotation, ou installé d'une façon que le capteur interprète mal.",
   "settingKeepScreenOnTitle": "Garder l'écran allumé",
@@ -13,7 +13,7 @@
   "screenAudioScreen": "Écran",
   "screenAudioCutoutAlways": "Utiliser la zone de l'encoche",
   "screenAudioCutoutShort": "Bords courts uniquement",
-  "screenAudioCutoutDefault": "Par défaut du système",
+  "screenAudioCutoutDefault": "Valeur par défaut du système",
   "screenAudioCutoutNever": "Éviter l'encoche",
   "screenAudioAutomatic": "Automatique",
   "screenAudioLandscape": "Paysage",

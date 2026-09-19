@@ -4,6 +4,6 @@
   "launcherNone": "Aucune pour l'instant",
   "launcherListFailed": "Impossible de lister les applications",
   "launcherListError": "Impossible de lister les applications : {error}",
-  "launcherListingFailed": "échec de la liste",
-  "launcherEmpty": "Aucune application lançable trouvée."
+  "launcherListingFailed": "échec de la récupération de la liste",
+  "launcherEmpty": "Aucune application pouvant être lancée n'a été trouvée."
 }

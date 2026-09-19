@@ -22,14 +22,14 @@
   "voiceVersion": "Version de Voice Satellite",
   "voiceVersionHelp": "La version de l'intégration installée dans Home Assistant.",
   "voiceVadDefault": "Par défaut",
-  "voiceVadRelaxed": "Détendue",
+  "voiceVadRelaxed": "Tolérante",
   "voiceVadAggressive": "Agressive",
   "voiceGeneral": "Général",
   "voiceStart": "Démarrer",
   "voiceNotavailable": "Non disponible",
   "voiceDisabled": "Désactivé",
   "settingWakeWordBackgroundTitle": "Continuer à écouter en arrière-plan",
-  "settingWakeWordBackgroundDescription": "Continuer à entendre le mot de réveil pendant qu'une autre application est au premier plan, et revenir à la détection. Nécessite une notification permanente et l'affichage par-dessus d'autres applications.",
+  "settingWakeWordBackgroundDescription": "Continuer à écouter le mot de réveil pendant qu'une autre application est au premier plan, et revenir au premier plan dès qu'il est détecté. Nécessite une notification permanente et l'affichage par-dessus d'autres applications.",
   "settingWakeWordReturnToBackgroundTitle": "Revenir à l'application précédente",
   "settingWakeWordReturnToBackgroundDescription": "Revenir à l'application précédente ou à l'écran d'accueil une fois qu'une interaction vocale a ramené Kiosk Satellite au premier plan puis s'est terminée."
 }

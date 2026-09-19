@@ -8,7 +8,7 @@
   "cameraStreamsDeleteView": "Supprimer la vue",
   "cameraStreamsCreateView": "Créer une vue caméra",
   "cameraStreamsAddFirst": "Ajoutez d'abord une caméra.",
-  "cameraStreamsChooseCameras": "Choisissez et ordonnez jusqu'à 12 caméras.",
+  "cameraStreamsChooseCameras": "Choisissez jusqu'à 12 caméras et classez-les dans l'ordre voulu.",
   "cameraStreamsShowFailed": "Impossible d'afficher la vue",
   "cameraStreamsShowFailedRemote": "Impossible d'afficher la vue",
   "cameraStreamsEditView": "Modifier la vue",
@@ -20,10 +20,10 @@
   "cameraStreamsInView": "Dans cette vue",
   "cameraStreamsAvailable": "Disponible",
   "cameraStreamsPosition": "Position {position}",
-  "cameraStreamsMissingGo2Rtc": "Manquant sur Go2RTC",
+  "cameraStreamsMissingGo2Rtc": "Absent de Go2RTC",
   "cameraStreamsSaveViewFailed": "Impossible d'enregistrer la vue",
   "cameraStreamsDeleteNamed": "Supprimer {name} ?",
-  "cameraStreamsCannotUndo": "Ceci est irréversible.",
+  "cameraStreamsCannotUndo": "Cette action est irréversible.",
   "cameraStreamsShow": "Afficher",
   "cameraStreamsStop": "Arrêter"
 }

@@ -42,15 +42,15 @@
   "updateUploadEmpty": "L'envoi était vide.",
   "updateInvalidApk": "Ce fichier n'est pas un APK Android.",
   "updateUploadedGone": "L'APK envoyé a disparu. Envoyez-le à nouveau.",
-  "updateShizukuInstallerFailed": "Shizuku n'a pas pu installer la mise à jour. Aucun installateur de confirmation n'a été ouvert.",
+  "updateShizukuInstallerFailed": "Shizuku n'a pas pu installer la mise à jour. Le programme d'installation avec confirmation n'a pas été ouvert.",
   "updateUploadSpace": "Espace libre insuffisant : l'APK fait {size} Mo et l'installation nécessite environ {required} Mo, mais l'appareil dispose de {free} Mo libres.",
   "updateUploadInterrupted": "L'envoi a été interrompu après {size} Mo : {error}",
   "updateUploadEarly": "L'envoi s'est terminé prématurément : {received} sur {expected} Mo reçus.",
   "updateWrongPackage": "L'APK est {package}, pas Kiosk Satellite ({expected}).",
-  "updateOlderBuild": "L'APK est la version {version} (build {build}), antérieure à la version en cours d'exécution {currentVersion} (build {currentBuild}). Les rétrogradations sont refusées : Android n'en installerait pas non plus.",
+  "updateOlderBuild": "L'APK est la version {version} (build {build}), antérieure à la version en cours d'exécution {currentVersion} (build {currentBuild}). Les installations d'une version antérieure sont refusées : Android ne les accepterait pas non plus.",
   "updateDownloadHttpFailed": "Échec du téléchargement (HTTP {status}).",
   "updateDownloadStalled": "Le téléchargement s'est bloqué : aucune donnée reçue depuis {seconds} secondes.",
   "deviceUpdateFailedDetail": "Échec de la mise à jour : {error}",
   "deviceInstallFailedDetail": "Échec de l'installation : {error}",
-  "updateAnotherPackage": "un autre paquet"
+  "updateAnotherPackage": "un autre package"
 }

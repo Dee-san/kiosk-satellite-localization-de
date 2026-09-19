@@ -6,7 +6,7 @@
   "gestureDescribeFingerTap": "Appui à {count} doigts",
   "gestureDescribeFingerHold": "Maintien à {count} doigts pendant {seconds} s",
   "gestureDescribeSequence": "Séquence de coins : {sequence}",
-  "gestureDescribeClaps": "{count} claquements",
+  "gestureDescribeClaps": "{count} claquements de mains",
   "gestureDescribeOpenHand": "Montrer une main ouverte",
   "gestureDescribeOneFinger": "Montrer {count} doigt",
   "gestureDescribeFingers": "Montrer {count} doigts",

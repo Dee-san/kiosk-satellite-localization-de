@@ -8,7 +8,7 @@
   "voiceReactive": "Barre d'activité réactive",
   "voiceReactiveHelp": "La barre d'activité réagit à l'audio. NON RECOMMANDÉ pour les appareils peu puissants comme l'Echo Show.",
   "voiceRate": "Fréquence de mise à jour de la barre réactive",
-  "voiceRateHelp": "Fréquence de rafraîchissement de la barre d'activité. Plus élevé est plus fluide et utilise davantage le CPU.",
+  "voiceRateHelp": "Fréquence de rafraîchissement de la barre d'activité. Une valeur plus élevée est plus fluide mais utilise davantage le CPU.",
   "voiceScaleHelp": "La taille du texte de la superposition.",
   "voiceUpdateIntegration": "Mettez à jour l'intégration Voice Satellite dans Home Assistant pour contrôler ces paramètres depuis le kiosque.",
   "voiceDashboardRequired": "Disponible tant que le kiosque affiche votre tableau de bord Home Assistant."

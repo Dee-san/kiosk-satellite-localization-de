@@ -4,7 +4,7 @@
   "overviewOpen": "Ouvrir",
   "overviewUpdate": "Mettre à jour",
   "overviewInvitation": "{name} souhaite diriger ce kiosque",
-  "overviewInvitationHelp": "Confirmez sur l'écran du kiosque ou là-bas dans Gestion de flotte.",
+  "overviewInvitationHelp": "Confirmez sur l'écran du kiosque ou dans Gestion de flotte sur ce kiosque.",
   "overviewOutdatedOne": "1 suiveur exécute une autre version",
   "overviewOutdatedMany": "{count} suiveurs exécutent une autre version",
   "overviewSyncWaiting": "{names}. La synchronisation attend la version {version}.",

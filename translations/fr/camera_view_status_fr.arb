@@ -3,7 +3,7 @@
   "cameraViewerTitle": "Vue caméra",
   "cameraViewerConnecting": "Connexion...",
   "cameraViewerReconnecting": "Reconnexion...",
-  "cameraViewerTrying": "Essai de {transport}...",
+  "cameraViewerTrying": "Tentative via {transport}...",
   "cameraViewerCannotDecode": "Cet appareil ne peut pas décoder le {codec}",
   "cameraViewerCannotPlay": "Cet appareil ne peut pas lire les flux {transport}",
   "cameraViewerCannotDecodeStream": "Cet appareil ne peut pas décoder ce flux",
@@ -13,6 +13,6 @@
   "cameraViewerStartRetry": "Le serveur de caméra n'a pas pu démarrer ce flux. Nouvel essai...",
   "cameraViewerStartDelayedRetry": "Le serveur de caméra n'a pas pu démarrer ce flux. Nouvel essai dans {seconds} s",
   "cameraViewerMissingRetry": "Flux introuvable sur le serveur de caméra. Nouvel essai dans {seconds} s",
-  "cameraViewerLoginRetry": "Le serveur de caméra a rejeté la connexion. Nouvel essai dans {seconds} s",
-  "cameraViewerMissing": "Flux manquant sur Go2RTC"
+  "cameraViewerLoginRetry": "Le serveur de caméra a rejeté l'authentification. Nouvel essai dans {seconds} s",
+  "cameraViewerMissing": "Flux absent de Go2RTC"
 }

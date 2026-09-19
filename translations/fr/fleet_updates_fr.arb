@@ -7,5 +7,5 @@
   "fleetNothingToUpdate": "Rien à mettre à jour",
   "fleetUpdating": "Mise à jour en cours",
   "fleetNamesInstalling": "{names} en cours d'installation.",
-  "fleetSearchUpdates": "Installez la version proposée à chaque suiveur, puis ici."
+  "fleetSearchUpdates": "Installer la version proposée à chaque suiveur, puis sur ce kiosque."
 }

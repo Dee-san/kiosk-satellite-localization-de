@@ -14,7 +14,7 @@
   "cameraViewer": "{count} spectateur connecté. Vidéo réelle : {resolution}.",
   "cameraViewers": "{count} spectateurs connectés. Vidéo réelle : {resolution}.",
   "cameraReady": "Prêt. L'encodeur démarre lorsqu'un spectateur se connecte.",
-  "cameraFallback": "{requested} demandé, la caméra a fourni {actual}.",
+  "cameraFallback": "Demandé : {requested}. Fourni par la caméra : {actual}.",
   "cameraAudioError": "Audio : {error}",
   "cameraAudioPaused": "Audio en pause tant que le navigateur utilise le microphone.",
   "cameraAudioStreaming": "Diffusion audio du microphone.",

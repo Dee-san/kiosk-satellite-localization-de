@@ -5,7 +5,7 @@
   "settingScreensaverGlanceFontTitle": "Famille de police",
   "settingScreensaverGlanceFontDescription": "La police avec laquelle la ligne est dessinée.",
   "settingScreensaverGlanceFontWeightTitle": "Graisse de police",
-  "settingScreensaverGlanceFontWeightDescription": "L'épaisseur avec laquelle le texte de la ligne est dessiné. Par défaut, chaque ligne garde sa propre graisse : normale pour les noms, semi-grasse pour les valeurs.",
+  "settingScreensaverGlanceFontWeightDescription": "Épaisseur du texte de la ligne. Par défaut, chaque ligne garde sa propre graisse : normale pour les noms, semi-grasse pour les valeurs.",
   "settingScreensaverGlanceHideNamesTitle": "Masquer les noms",
   "settingScreensaverGlanceHideNamesDescription": "Afficher uniquement l'icône et la valeur, avec la valeur dessinée plus grande.",
   "settingScreensaverGlanceBwIconsTitle": "Icônes monochromes",

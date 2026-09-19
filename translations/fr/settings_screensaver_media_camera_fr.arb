@@ -3,7 +3,7 @@
   "settingScreensaverCameraViewsTitle": "Vues caméra",
   "settingScreensaverCameraViewsDescription": "Les vues caméra que l'économiseur d'écran affiche, dans cet ordre.",
   "settingScreensaverCameraViewSecondsTitle": "Secondes par vue caméra",
-  "settingScreensaverCameraViewSecondsDescription": "Durée d'affichage de chaque vue avant la suivante. Avec une seule vue sélectionnée, rien ne tourne.",
+  "settingScreensaverCameraViewSecondsDescription": "Durée d'affichage de chaque vue avant la suivante. Avec une seule vue sélectionnée, il n'y a pas de rotation.",
   "settingScreensaverCameraMuteTitle": "Couper le son sur toutes les vues",
   "settingScreensaverCameraMuteDescription": "Garde toutes les vues silencieuses, même une seule caméra.",
   "screensaverMediaCameraPage": "Économiseur d'écran flux de caméras",

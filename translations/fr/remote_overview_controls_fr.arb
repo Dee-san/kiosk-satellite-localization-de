@@ -21,7 +21,7 @@
   "overviewBrightnessGrant": "La luminosité utilise une solution de secours au niveau de l'application. Accordez « Modifier les paramètres système » pour que le curseur contrôle la luminosité réelle de l'écran.",
   "overviewRestartQuestion": "Redémarrer cet appareil ? Kiosk Satellite revient automatiquement au démarrage.",
   "overviewRestart": "Redémarrer",
-  "overviewNoSnapshot": "Aucun instantané n'est revenu.",
+  "overviewNoSnapshot": "Aucun instantané reçu.",
   "overviewSnapshotTitle": "Instantané caméra",
   "overviewUpdateCheckFailed": "Échec de la vérification des mises à jour. L'appareil peut-il joindre GitHub ?",
   "overviewLatest": "Vous êtes sur la dernière version.",

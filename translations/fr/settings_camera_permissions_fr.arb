@@ -5,7 +5,7 @@
   "cameraCameraPermission": "Autorisation de caméra manquante",
   "cameraCameraPermissionHelp": "Sans elle, la caméra ne peut pas être utilisée. La boîte de dialogue d'autorisation apparaît sur l'écran de la tablette.",
   "cameraGrantOnDevice": "Autoriser sur l'appareil",
-  "cameraCameraBlocked": "Bloqué. Android ne redemandera pas, autorisez-le donc dans les paramètres de l'application.",
+  "cameraCameraBlocked": "Bloqué. Android ne redemandera pas l'autorisation : autorisez la caméra dans les paramètres de l'application.",
   "cameraCameraNeeded": "Sans cela, la caméra ne peut pas être utilisée.",
   "cameraAppSettings": "Paramètres de l'application"
 }

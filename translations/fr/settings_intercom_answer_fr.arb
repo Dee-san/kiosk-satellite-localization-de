@@ -7,7 +7,7 @@
   "settingIntercomRingSoundTitle": "Sonnerie",
   "settingIntercomRingSoundDescription": "Joué au volume des notifications.",
   "settingIntercomAcceptAnnouncementsTitle": "Accepter les annonces",
-  "settingIntercomAcceptAnnouncementsDescription": "Lire Annoncer à tous depuis les autres kiosques.",
+  "settingIntercomAcceptAnnouncementsDescription": "Lire les annonces « Annoncer à tous » envoyées par les autres kiosques.",
   "intercomOptionAnswerRing": "Sonner",
   "intercomOptionAnswerAuto": "Répondre automatiquement",
   "intercomOptionAnswerDnd": "Ne pas déranger",

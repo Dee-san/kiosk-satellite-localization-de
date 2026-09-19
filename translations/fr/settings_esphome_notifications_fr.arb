@@ -14,6 +14,6 @@
   "esphomeSound": "Son",
   "esphomeNotificationTest": "Notification de test",
   "esphomeNotificationHelp": "Les notifications sont envoyées depuis Home Assistant avec l'action {action}. Le test en affiche une par-dessus le tableau de bord.",
-  "esphomeNotificationBody": "Voici à quoi ressemble et comment sonne une notification de Home Assistant.",
+  "esphomeNotificationBody": "Voici l'aspect et le son d'une notification de Home Assistant.",
   "esphomeNotificationSearch": "L'action Home Assistant qui envoie les notifications, et un bouton pour en afficher une."
 }

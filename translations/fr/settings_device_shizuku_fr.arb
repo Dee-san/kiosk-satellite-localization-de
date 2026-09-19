@@ -22,7 +22,7 @@
   "deviceShizukuGrantAllHelp": "Accorde toutes les autorisations utilisées par KS, y compris pour les fonctionnalités actuellement désactivées.",
   "deviceShizukuSetup": "Configurer Shizuku",
   "deviceShizukuSetupHelp": "Lire les instructions d'installation et de démarrage.",
-  "deviceShizukuLifetime": "Shizuku démarré via ADB doit être redémarré après un redémarrage de l'appareil. L'accès shell ne fournit pas les autorisations root.",
+  "deviceShizukuLifetime": "Shizuku démarré via ADB doit être relancé après chaque redémarrage de l'appareil. L'accès shell ne fournit pas les autorisations root.",
   "deviceShizukuFailed": "Échec de la demande Shizuku",
   "deviceShizukuApprove": "Approuvez la demande sur le kiosque.",
   "deviceShizukuTestOk": "Shizuku a exécuté avec succès une commande avec un accès {access}.",

@@ -1,13 +1,13 @@
 {
   "@@locale": "fr",
   "settingSendspinSonosGroupVolumeTitle": "Ajuster le volume du groupe",
-  "settingSendspinSonosGroupVolumeDescription": "Tant que la pièce suivie joue au sein d'un groupe, le curseur de volume règle le volume de tout le groupe. Désactivé, seulement celui de cette pièce.",
+  "settingSendspinSonosGroupVolumeDescription": "Tant que la pièce suivie joue au sein d'un groupe, le curseur de volume règle le volume de tout le groupe. Si l'option est désactivée, seul le volume de cette pièce est modifié.",
   "settingSendspinSonosInputsTitle": "Afficher TV et entrée ligne",
   "settingSendspinSonosInputsDescription": "Afficher l'activité dans le lecteur multimédia quand les entrées eARC ou ligne sont actives.",
   "mediaSonosHint": "Enceintes sur le réseau, en ajouter une par adresse",
   "mediaSonosSpeakers": "Enceintes",
   "mediaSonosNoneFound": "Aucun Sonos trouvé",
-  "mediaSonosDiscoveryEmpty": "Rien n'a répondu sur ce réseau. Ajoutez-en une par adresse.",
+  "mediaSonosDiscoveryEmpty": "Aucune enceinte n'a répondu sur ce réseau. Ajoutez-en une par adresse.",
   "mediaSonosAddTitle": "Ajouter un Sonos par adresse",
   "mediaSonosLooking": "Recherche…",
   "mediaSonosEmpty": "Aucune enceinte pour l'instant",
@@ -18,10 +18,10 @@
   "mediaSonosSearch": "Rechercher",
   "mediaSonosSearching": "Recherche…",
   "mediaSonosAddAddress": "Ajouter par adresse",
-  "mediaSonosAddressHelp": "L'adresse de l'enceinte sur le réseau. Tout le foyer est ajouté à partir de celle-ci.",
+  "mediaSonosAddressHelp": "L'adresse de l'enceinte sur le réseau. Toutes les enceintes du foyer Sonos sont ajoutées à partir de celle-ci.",
   "mediaSonosPickRoom": "Choisissez une pièce dans Source du lecteur, Sonos.",
   "mediaSonosAdded": "Sonos ajouté",
-  "mediaSonosNoRooms": "L'enceinte n'a listé aucune pièce.",
+  "mediaSonosNoRooms": "L'enceinte n'a signalé aucune pièce.",
   "mediaSonosNoAddress": "aucune adresse",
   "mediaSonosUnreachable": "Aucun Sonos n'a répondu à {host}."
 }

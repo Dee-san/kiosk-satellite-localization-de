@@ -4,7 +4,7 @@
   "kioskBackAgain": "Appuyez à nouveau sur retour pour revenir en arrière",
   "kioskHoldOn": "Mode maintien activé",
   "kioskHoldOff": "Mode maintien désactivé",
-  "kioskHoldNotice": "La vue actuelle reste affichée jusqu'à ce que vous le désactiviez.",
+  "kioskHoldNotice": "La vue actuelle reste affichée jusqu'à la désactivation du mode.",
   "kioskDownloadComplete": "Téléchargement terminé",
   "kioskDownloadFailed": "Échec du téléchargement",
   "kioskDownload": "Télécharger",

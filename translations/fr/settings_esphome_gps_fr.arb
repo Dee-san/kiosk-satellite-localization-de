@@ -7,7 +7,7 @@
   "esphomeGps": "Capteur GPS",
   "esphomeGpsHelp": "Exposer les données du capteur GPS à Home Assistant",
   "esphomeLocationOff": "Désactivé.",
-  "esphomeLocationWaiting": "En attente du premier relevé. Un démarrage à froid à ciel ouvert peut prendre quelques minutes.",
+  "esphomeLocationWaiting": "En attente de la première position GPS. Un démarrage à froid à ciel ouvert peut prendre quelques minutes.",
   "esphomeCoordinates": "Dernières coordonnées",
   "esphomeLocationDenied": "Autorisation de localisation non accordée.",
   "esphomeLocationAbsent": "Aucun récepteur GPS.",

@@ -1,7 +1,7 @@
 {
   "@@locale": "fr",
   "voiceMicHeld": "La détection du mot de réveil peut vous entendre.",
-  "voiceMicBlocked": "Bloqué. Android ne redemandera pas, autorisez-le donc dans les paramètres de l'application.",
+  "voiceMicBlocked": "Bloqué. Android ne redemandera pas l'autorisation : autorisez le microphone dans les paramètres de l'application.",
   "voiceMicMissing": "Sans cela, rien n'écoute le mot de réveil.",
   "voiceForegroundHeld": "Kiosk Satellite peut revenir au premier plan quand il vous entend.",
   "voiceForegroundMissing": "Sans cela, le mot de réveil est entendu et rien ne se passe.",

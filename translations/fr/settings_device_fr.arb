@@ -1,7 +1,7 @@
 {
   "@@locale": "fr",
   "settingDeviceNameTitle": "Nom de l'appareil",
-  "settingDeviceNameDescription": "Nom convivial affiché dans la gestion à distance et utilisé comme nom d'appareil publié auprès de Home Assistant.",
+  "settingDeviceNameDescription": "Nom d'affichage indiqué dans la gestion à distance et utilisé comme nom d'appareil publié dans Home Assistant.",
   "settingDeviceHostnameTitle": "Nom mDNS",
   "settingDeviceHostnameDescription": "Accédez à l'administration à distance avec ce nom et le port configuré sur le réseau local. Effacez-le pour reprendre le nom de l'appareil.",
   "settingDisableImpellerTitle": "Moteur de rendu historique",

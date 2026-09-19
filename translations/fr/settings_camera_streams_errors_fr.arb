@@ -1,7 +1,7 @@
 {
   "@@locale": "fr",
   "cameraStreamsNameRequired": "nom requis",
-  "cameraStreamsBaseUrlRequired": "un baseUrl HTTP ou HTTPS valide est requis",
+  "cameraStreamsBaseUrlRequired": "une valeur baseUrl HTTP ou HTTPS valide est requise",
   "cameraStreamsServerNotFound": "serveur introuvable",
   "cameraStreamsInvalidStreamList": "Go2RTC a renvoyé une liste de flux invalide",
   "cameraStreamsKindRequired": "kind doit être go2rtc, whep ou ha",
