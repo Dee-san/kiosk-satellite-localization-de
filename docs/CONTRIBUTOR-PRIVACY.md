@@ -1,6 +1,6 @@
 # Contributor privacy notice
 
-Version 1.1
+Version 1.2
 
 This notice explains how contribution records, agreement acceptance and public credits are handled.
 
@@ -20,7 +20,7 @@ Routine acceptance does not require identity documents or a separate signing ser
 
 PR content, public account information and selected credits are visible according to the repository's visibility and GitHub's own terms. Public checks may show the agreement version, covered revision and acceptance status. Public contributions can be copied by others and cannot reliably be recalled from every copy.
 
-GitHub Actions records acceptance evidence on the `contributor-records` branch of this repository so later edits to a PR do not erase the record. This branch has the same visibility as the repository. When the repository is public, anyone can read or copy these records. They include your GitHub account ID and username, acceptance declaration and timestamp, agreement text, contribution revisions and contributed files before and after the change. The workflow stores selected acceptance fields rather than the full PR description or event payload.
+GitHub Actions records acceptance evidence on the `contributor-records` branch of this repository so later edits to a PR do not erase the record. This branch has the same visibility as the repository. When the repository is public, anyone can read or copy these records. They include your GitHub account ID and username, acceptance declaration and timestamp, agreement text, contribution revisions and contributed files before and after the change. New acceptance records also retain the PR description as it stood at acceptance, including AI assistance and rights disclosures. They do not retain the full event payload. Earlier records may contain only the selected acceptance fields.
 
 Any additional private identity or authority evidence must stay outside this repository and use a private contact route. Access to that additional evidence is limited to Xavier Larrea and people or service providers who need it for rights verification, legal advice or legal obligations.
 

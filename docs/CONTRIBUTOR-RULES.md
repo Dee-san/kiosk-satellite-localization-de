@@ -19,14 +19,14 @@ Kiosk Satellite's author maintains English and Spanish. Report problems in those
 7. Do not insert HTML, scripts, tracking links, advertising, political commentary or personal information.
 8. Leave untranslated entries absent. Do not use empty strings or copy English text just to increase coverage. Preserve an English product name when it is the correct translation.
 9. Do not copy translations from another product, repository or translation database. Permission to reuse text does not prove that you can grant exclusive rights to it.
-10. Machine translation may assist a fluent human, but that person must check every submitted message. Disclose assistance and verify that the tool's terms permit the intended use. Do not submit raw generated batches or use a tool when its output rights are unclear.
+10. Machine translation may assist a fluent human, but that person must check every submitted message. Disclose assistance and verify that the tool's terms permit the intended use. Do not submit raw generated batches or use a tool when its output rights are unclear. Follow the AI and translation-service terms in section 5 of the contributor agreement. Disable optional training and content sharing before uploading project material. Disclose the product, account type, terms link and any earlier use with those settings enabled. Keep AI assistance in the PR description, not a coauthor commit trailer.
 11. Do not use em dashes or en dashes in translated prose or repository documentation. Rephrase the sentence or use other punctuation without changing its meaning. Preserve technical values as required by rule 3.
 
 ## Opening a PR
 
 Use one language per PR and keep the change focused. Edit the translation files only. Source changes, tooling and policy changes need a separate maintainer-led change.
 
-Include the language tag, source revision, changed areas, your fluency, validation results and your preferred public credit. State which screens you tested. If you could not test in the app, say so. Small corrections and partial translations are welcome. A new language stays in draft until all messages in its initial supported scope are translated and reviewed and the language has been tested in the app.
+Include the language tag, source revision, changed areas, your fluency, validation results and your preferred public credit. State which screens you tested. If you could not test in the app, say so. Small corrections to existing languages are welcome. For a new language, submit the complete current English catalog in one PR. You may open a draft while working, but completeness checks will remain unsuccessful until every current message is present. Sync with the latest `main` before requesting review. The language must also be reviewed and tested in the app before it ships.
 
 Follow the validation instructions published with the translation files and resolve any failures reported by PR checks. Do not change workflow files to make your PR pass.
 

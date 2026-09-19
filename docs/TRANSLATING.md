@@ -81,6 +81,7 @@ Use this table to choose what to work on. The paths use the English labels visib
 
 | English reference | Text to translate | Where you see it |
 | --- | --- | --- |
+| [voice_timers_en.arb](../source/voice_timers_en.arb) | Timer names, gesture hints, finished status and action errors | Floating timer pills above the dashboard, screensaver, Now Playing and camera views on the device. |
 | [common_en.arb](../source/common_en.arb) | Shared actions, time picker labels and color presets | Shared buttons and dialogs in setup, Settings and the drawer. Import is under Welcome > Restore backup. |
 | [settings_menu_en.arb](../source/settings_menu_en.arb) | Settings menu page names, summaries and group headings | Settings > menu on the device and the remote administration sidebar. Includes remote-only entries such as Overview and File Manager. |
 | [settings_search_en.arb](../source/settings_search_en.arb) | Search box hint, clear button, result heading and no-match message | Settings > search box on the device and the remote administration sidebar |
@@ -283,7 +284,7 @@ Use plain text. HTML and plural or grammatical selection expressions are not sup
 
 ## Check font compatibility
 
-A translation should be readable as well as correct. When a build containing your language is available, check it on the kiosk and in remote administration. If you do not have a suitable build or device, mark the PR **not yet tested** and describe what you could not check. You can submit a partial translation before testing. The maintainer coordinates the rendering review before a new language ships.
+A translation should be readable as well as correct. When a build containing your language is available, check it on the kiosk and in remote administration. If you do not have a suitable build or device, mark the PR **not yet tested** and describe what you could not check. You can open a draft before completing the translation or testing. The maintainer coordinates the rendering review before a new language ships.
 
 Use the actual translated screens and check:
 
@@ -315,10 +316,25 @@ If you have Python 3 installed, run this from the repository's top-level folder:
 python3 tools/catalog.py validate
 ```
 
-For the German example above, the result includes `de/common_de.arb: 2/43 translated`. That means two of the forty-two messages have translations. It is fine to submit that partial file.
+For the German example above, the result reports two translated messages and the current total for that file. A partial file is useful while drafting. A new language must cover the complete current catalog before final review.
 
 Commit your translation files to your fork and open a PR against this repository. Fill in the PR template with your language, what you translated and your preferred public credit. Copy the `revision` value from [source/manifest.json](../source/manifest.json) into **English source revision**. Include the validation result if you ran it and complete the font compatibility section, even if your status is not yet tested.
 
 After opening the PR, follow the [acceptance guide](PR-ACCEPTANCE.md) to check the agreement box added by the workflow. If you are unsure how to create a file or open a PR, [open an issue](https://github.com/jxlarrea/kiosk-satellite-localization/issues) with your language and the step where you got stuck.
 
 The maintainer reviews translations and includes approved wording in a future app release. Editing a translation file does not immediately change your installed app. If English wording changes later, the affected translations need another review.
+
+
+## Keeping your PR complete
+
+For a new language, translate every message in the current English catalog before requesting final review. You can open a draft earlier, but the completeness check will report the missing file names and message IDs. A correction to an existing language can change only the affected messages and does not require filling unrelated gaps.
+
+Before requesting review, sync your branch with this repository's latest `main`. Add new messages and review wording whose English source or context changed. Push those updates to the same PR. Run `python3 tools/catalog.py validate` to check syntax and placeholders. The PR's required `catalog-validation` check also checks new-language completeness against its target revision and reports source changes that need review. Passing syntax validation alone does not mean a language is complete or reviewed.
+
+Use the generated agreement checkbox after your last change. New commits or an updated agreement require fresh acceptance. A maintainer records wording and device and remote rendering review separately before including your language in the app.
+
+## Using AI assistance
+
+AI and machine translation may help with drafts and wording alternatives. A fluent human must review every submitted message for meaning, grammar and consistency. In the PR description, identify the product, account type, applicable terms link and how you used it. Describe your training and content-sharing settings and disclose any earlier use before disabling them. Do not include private account details or conversations.
+
+The contributor agreement permits disclosed provider permissions needed to operate and secure the service, including associated storage and legal retention. Broader permissions need explicit maintainer approval. Disable optional training and content sharing before providing project material. Disclose AI assistance in the PR description rather than listing the tool as a commit coauthor. See [section 5 of the agreement](CONTRIBUTOR-AGREEMENT.md#5-authorship-and-assurances) for the exact terms.

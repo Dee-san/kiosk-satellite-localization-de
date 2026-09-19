@@ -1,9 +1,11 @@
 import base64
 import copy
 import unittest
+from unittest.mock import patch
+from urllib.parse import parse_qs, urlsplit
 
 from tools.contributor_acceptance import (
-    AGREEMENT, END, START, RECORDS_BRANCH, Acceptance, ApiError, Blocked, Ledger,
+    AGREEMENT, END, START, RECORDS_BRANCH, MAX_FILES, Acceptance, ApiError, Blocked, GitHub, Ledger,
     accepted_event, agreement_from, block, canonical, digest,
     extract_block, make_context, replace_block, sole_author,
 )
@@ -56,6 +58,7 @@ class FakeAPI:
     def __init__(self):
         self.pr = pull()
         self.compare = comparison()
+        self.files = self.compare["files"]
         self.commits = [commit()]
         self.calls = []
         self.checks = []
@@ -75,14 +78,18 @@ class FakeAPI:
             return {"check_runs": []}
         if "/compare/" in path:
             return copy.deepcopy(self.compare)
+        if "/pulls/7/files?" in path:
+            query = parse_qs(urlsplit(path).query)
+            size, page = int(query["per_page"][0]), int(query["page"][0])
+            return copy.deepcopy(self.files[(page - 1) * size:page * size])
         if "/commits?" in path:
             return [{"sha": self.agreement["commit"]}]
         if "/contents/" + AGREEMENT in path:
             return {"encoding": "base64", "content": base64.b64encode(self.agreement["text"].encode()).decode()}
         if "/git/trees/" in path:
             sha = self.merge_sha if "7" * 40 in path else "e" * 40
-            return {"tree": [{"path": "translations/de/ui_de.arb", "mode": self.file_mode,
-                              "type": "blob", "sha": sha}], "truncated": False}
+            return {"tree": [{"path": file["filename"], "mode": self.file_mode,
+                              "type": "blob", "sha": sha} for file in self.files], "truncated": False}
         if "/git/blobs/" in path:
             return {"encoding": "base64", "sha": "e" * 40,
                     "content": base64.b64encode(b'{"hello":"Hallo"}').decode()}
@@ -90,6 +97,8 @@ class FakeAPI:
 
     def pages(self, path):
         self.calls.append(("GET", path))
+        if path.endswith("/files"):
+            return GitHub.pages(self, path)
         return copy.deepcopy(self.commits)
 
     def request(self, method, path, data):
@@ -142,6 +151,7 @@ class AcceptanceTests(unittest.TestCase):
         record = next(iter(self.ledger.records.values()))
         self.assertEqual(record["actor"]["id"], 2)
         self.assertEqual(record["agreement_text"], TEXT)
+        self.assertEqual(record["pr_description"], self.api.pr["body"])
         self.assertEqual(base64.b64decode(record["snapshot"][0]["after"]["base64"]), b'{"hello":"Hallo"}')
 
     def test_maintainer_cannot_accept_for_author(self):
@@ -149,6 +159,14 @@ class AcceptanceTests(unittest.TestCase):
         self.service(self.tick(actor=1)).process(7)
         self.assertFalse(self.ledger.records)
         self.assertEqual(extract_block(self.api.pr["body"]), block(context))
+
+    def test_changed_disclosure_requires_fresh_acceptance(self):
+        self.accept()
+        self.api.pr["body"] = "Updated AI rights disclosure\n" + self.api.pr["body"]
+        self.service({"action": "edited"}).process(7)
+        self.assertIsNone(self.ledger.state(7)["acceptance"])
+        self.assertEqual(self.api.checks[-1]["conclusion"], "failure")
+        self.assertIn("- [ ]", extract_block(self.api.pr["body"]))
 
     def test_bot_cannot_accept(self):
         self.prepare()
@@ -165,7 +183,7 @@ class AcceptanceTests(unittest.TestCase):
         self.assertFalse(self.ledger.records)
 
     def test_manually_fabricated_checked_declaration_cannot_accept_on_open(self):
-        context = make_context(self.api.pr, AGREE, self.api.compare)
+        context = make_context(self.api.pr, AGREE, self.api.compare, self.api.files)
         self.api.pr["body"] = block(context, True)
         self.service({"action": "opened"}).process(7)
         self.assertFalse(self.ledger.records)
@@ -282,10 +300,74 @@ class AcceptanceTests(unittest.TestCase):
         with self.assertRaises(Blocked):
             self.service().process(7)
 
-    def test_truncated_comparison_fails(self):
+    def test_incomplete_paginated_file_list_fails(self):
         self.api.pr["changed_files"] = 2
-        with self.assertRaises(Blocked):
+        with self.assertRaisesRegex(Blocked, "complete contribution file list"):
             self.service().process(7)
+
+    def test_complete_language_retains_every_file_across_pages(self):
+        for count in (180, 325):
+            with self.subTest(files=count):
+                self.setUp()
+                self.api.files = [
+                    {"filename": f"translations/de/section_{i}_de.arb", "status": "added", "sha": "e" * 40}
+                    for i in range(count)
+                ]
+                self.api.compare["files"] = self.api.files[:300]
+                self.api.pr["changed_files"] = count
+                self.accept()
+                record = next(iter(self.ledger.records.values()))
+                self.assertEqual(self.api.checks[-1]["conclusion"], "success")
+                self.assertEqual(len(record["context"]["files"]), count)
+                self.assertEqual(
+                    [item["file"]["filename"] for item in record["snapshot"]],
+                    [item["filename"] for item in self.api.files],
+                )
+                self.assertTrue(all(base64.b64decode(item["after"]["base64"]) == b'{"hello":"Hallo"}'
+                                    for item in record["snapshot"]))
+                self.assertIn(("GET", f"/repos/owner/localization/pulls/7/files?per_page=100&page={(count + 99) // 100}"),
+                              self.api.calls)
+
+    def test_duplicate_files_cannot_hide_an_incomplete_list(self):
+        self.api.pr["changed_files"] = 2
+        self.api.files *= 2
+        with self.assertRaisesRegex(Blocked, "complete contribution file list"):
+            self.service().process(7)
+        self.assertFalse(self.ledger.states)
+
+    def test_github_file_limit_is_checked_before_fetching_files(self):
+        self.api.pr["changed_files"] = MAX_FILES + 1
+        with self.assertRaisesRegex(Blocked, "3,000 changed files"):
+            self.service().process(7)
+        self.assertFalse(any("/files" in path for _, path in self.api.calls))
+
+    def test_head_or_base_change_during_pagination_cannot_issue_declaration(self):
+        for ref in ("head", "base"):
+            with self.subTest(ref=ref):
+                self.setUp()
+                original_get = self.api.get
+
+                def get(path):
+                    result = original_get(path)
+                    if "/pulls/7/files?" in path:
+                        self.api.pr[ref]["sha"] = "9" * 40
+                    return result
+
+                self.api.get = get
+                with self.assertRaisesRegex(Blocked, "PR changed while"):
+                    self.service().process(7)
+                self.assertFalse(self.ledger.states)
+                self.assertFalse(any(method == "PATCH" for method, _ in self.api.calls))
+
+    def test_snapshot_size_limits_still_block_acceptance(self):
+        for limit in ("MAX_BLOB_BYTES", "MAX_SNAPSHOT_BYTES"):
+            with self.subTest(limit=limit):
+                self.setUp()
+                self.prepare()
+                with patch("tools.contributor_acceptance." + limit, 1):
+                    with self.assertRaisesRegex(Blocked, "evidence size limit"):
+                        self.service(self.tick()).process(7)
+                self.assertFalse(self.ledger.records)
 
     def test_pr_body_is_never_evaluated(self):
         self.api.pr["body"] = "$(touch /tmp/never-run) `arbitrary code`"

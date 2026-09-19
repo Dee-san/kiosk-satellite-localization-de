@@ -1,15 +1,16 @@
 ## Translation
 
 - Language tag:
-- English source revision:
+- English source revision (sync with current `main` before requesting review):
 - Screens or messages changed:
 - Fluency and regional variant:
 - Other people who contributed wording, if any:
-- Machine translation assistance, if used:
+- AI or machine translation assistance, if used (product, account type, terms link and scope):
+- Optional training and content sharing disabled before use (or disclose earlier use):
 
 ## Validation
 
-- Validation result:
+- Validation result (new languages must cover the complete current catalog):
 - Screens checked in the app, if any:
 - Wording or layout that needs reviewer input:
 

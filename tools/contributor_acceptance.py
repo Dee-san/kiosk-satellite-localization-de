@@ -20,7 +20,8 @@ START = "<!-- ks-contributor-acceptance:start -->"
 END = "<!-- ks-contributor-acceptance:end -->"
 AGREEMENT = "docs/CONTRIBUTOR-AGREEMENT.md"
 RECORDS_BRANCH = "contributor-records"
-MAX_FILES = 100
+# GitHub's paginated PR files endpoint can return up to 3,000 files.
+MAX_FILES = 3000
 MAX_COMMITS = 100
 MAX_SNAPSHOT_BYTES = 3_000_000
 MAX_BLOB_BYTES = 500_000
@@ -266,16 +267,20 @@ def sole_author(pr, commits):
             raise Blocked("This PR declares another author and needs separate rights review.")
 
 
-def make_context(pr, agreement, comparison):
-    files = comparison.get("files", [])
-    if len(files) != pr["changed_files"] or len(files) > MAX_FILES:
-        raise Blocked("The complete contribution must fit within 100 changed files.")
+def make_context(pr, agreement, comparison, files):
+    if pr["changed_files"] > MAX_FILES:
+        raise Blocked(f"GitHub can list at most {MAX_FILES:,} changed files per PR. This contribution needs separate review.")
+    if len(files) != pr["changed_files"] or len({file["filename"] for file in files}) != len(files):
+        raise Blocked("The complete contribution file list could not be verified. Recheck the current PR revision.")
     manifest = [{key: file.get(key) for key in ("filename", "previous_filename", "status", "sha")}
                 for file in files]
     context = {
         "schema": 1, "number": pr["number"], "author_id": pr["user"]["id"],
         "head": pr["head"]["sha"], "merge_base": comparison["merge_base_commit"]["sha"],
         "files": manifest,
+        "disclosures_sha256": digest((pr.get("body") or "").replace(
+            extract_block(pr.get("body")) or "\0", ""
+        ).replace("\r\n", "\n").strip()),
         "agreement": {key: agreement[key] for key in ("version", "commit", "sha256", "url")},
     }
     context["id"] = digest(canonical(context))
@@ -374,6 +379,7 @@ class Acceptance:
             "schema": 1, "kind": "contributor_acceptance", "repository": self.repository["full_name"],
             "repository_id": self.repository["id"], "context": context,
             "agreement_text": agreement["text"], "declaration": extract_block(pr["body"]),
+            "pr_description": pr["body"],
             "actor": {key: self.event["sender"][key] for key in ("id", "login", "type")},
             "event_action": self.event["action"],
             "event_updated_at": self.event["pull_request"]["updated_at"],
@@ -451,8 +457,14 @@ class Acceptance:
                 self.check(pr, "success", "This PR contains only the repository owner's commits. No contributor license is needed.")
                 return
             agreement = self.load_agreement()
+            if pr["changed_files"] > MAX_FILES:
+                raise Blocked(f"GitHub can list at most {MAX_FILES:,} changed files per PR. This contribution needs separate review.")
             comparison = self.api.get(self.prefix + f"/compare/{pr['base']['sha']}...{pr['head']['sha']}")
-            context = make_context(pr, agreement, comparison)
+            # The comparison supplies the pinned merge base, but its file list
+            # stops at 300 entries. Retrieve every PR file page separately.
+            files = self.api.pages(self.prefix + f"/pulls/{number}/files")
+            self.current(pr)
+            context = make_context(pr, agreement, comparison, files)
             if not context["files"] or any(not TRANSLATION_PATH.fullmatch(file["filename"])
                     or (file["previous_filename"] and not TRANSLATION_PATH.fullmatch(file["previous_filename"]))
                     for file in context["files"]):

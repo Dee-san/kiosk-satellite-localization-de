@@ -4,6 +4,18 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Require complete current catalogs for new-language PRs while allowing focused corrections to existing languages. Catalog validation uses trusted target-branch tooling and reports missing messages and source changes that need review.
+- Add community previews, retained acceptance and merge evidence verification, maintainer review records, native language names and public credit generation. Imports preserve previously enabled languages and require complete reviewed catalogs before a new language is enabled.
+- Clarify AI-assisted translation in contributor agreement and repository license version 1.1. Permit disclosed service processing, require optional training and sharing controls to be disabled and keep broader provider permissions subject to explicit approval. Retain the accepted PR disclosures and require fresh acceptance when they change.
+
+- Support complete-language PRs beyond 100 files in contributor acceptance. Read every page of the PR file list, verify that it is complete and retain the existing evidence size limits.
+
+- Add English and Spanish text for the screen-off timer option that shows a plain black screen at zero brightness (#614).
+
+- Add English and Spanish text for floating Voice Satellite timers, pause and resume gestures, cancellation, saved positioning and local timer alerts (#612).
+
+- Add English and Spanish text for camera date and time overlays and their optional black background (#609).
+
 - Add English and Spanish text for inviting fleet members by IP address and remote admin port, including lookup validation and the invitation flow.
 
 - Add font compatibility guidance and PR rendering status fields. New languages need a rendering review before shipping. Contributors can suggest fonts for maintainer integration under their own licenses. Untested translations and small corrections remain welcome.
