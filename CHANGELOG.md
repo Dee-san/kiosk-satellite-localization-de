@@ -4,6 +4,8 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Add English and Spanish text for Voice Satellite chime selection, previews and local sound storage.
+
 - Require complete current catalogs for new-language PRs while allowing focused corrections to existing languages. Catalog validation uses trusted target-branch tooling and reports missing messages and source changes that need review.
 - Add community previews, retained acceptance and merge evidence verification, maintainer review records, native language names and public credit generation. Imports preserve previously enabled languages and require complete reviewed catalogs before a new language is enabled.
 - Clarify AI-assisted translation in contributor agreement and repository license version 1.1. Permit disclosed service processing, require optional training and sharing controls to be disabled and keep broader provider permissions subject to explicit approval. Retain the accepted PR disclosures and require fresh acceptance when they change.
