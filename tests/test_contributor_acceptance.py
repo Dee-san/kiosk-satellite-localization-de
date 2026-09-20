@@ -62,6 +62,7 @@ class FakeAPI:
         self.commits = [commit()]
         self.calls = []
         self.checks = []
+        self.statuses = []
         self.agreement = AGREE
         self.before_read = None
         self.file_mode = "100644"
@@ -103,6 +104,9 @@ class FakeAPI:
 
     def request(self, method, path, data):
         self.calls.append((method, path))
+        if "/statuses/" in path:
+            self.statuses.append(copy.deepcopy(data))
+            return {"id": len(self.statuses)}
         if path.endswith("/check-runs"):
             self.checks.append(copy.deepcopy(data))
             return {"id": len(self.checks)}
@@ -153,6 +157,69 @@ class AcceptanceTests(unittest.TestCase):
         self.assertEqual(record["agreement_text"], TEXT)
         self.assertEqual(record["pr_description"], self.api.pr["body"])
         self.assertEqual(base64.b64decode(record["snapshot"][0]["after"]["base64"]), b'{"hello":"Hallo"}')
+
+    def test_required_status_passes_only_after_acceptance_is_retained(self):
+        self.prepare()
+        self.assertEqual(self.api.statuses[-1]["context"], "contributor-acceptance")
+        self.assertEqual(self.api.statuses[-1]["state"], "failure")
+        self.assertNotIn("success", [status["state"] for status in self.api.statuses])
+        self.service(self.tick()).process(7)
+        self.assertEqual(self.api.statuses[-1]["state"], "success")
+        self.assertEqual(self.api.checks[-1]["name"], "contributor-acceptance-record")
+        self.assertEqual(self.api.calls[-1], ("POST", "/repos/owner/localization/statuses/" + "b" * 40))
+        self.assertLessEqual(len(self.api.statuses[-1]["description"]), 140)
+        self.assertTrue(self.ledger.records)
+
+    def test_recheck_invalidates_status_before_reading_evidence(self):
+        self.accept()
+        self.ledger.records.clear()
+        with self.assertRaises(Blocked):
+            self.service(name="schedule").process(7)
+        self.assertEqual(self.api.statuses[-1]["state"], "failure")
+
+    def test_changed_head_needs_new_acceptance_status(self):
+        self.accept()
+        self.api.pr["head"]["sha"] = "9" * 40
+        self.service({"action": "synchronize"}).process(7)
+        self.assertEqual(self.api.statuses[-1]["state"], "failure")
+        self.assertIn(("POST", "/repos/owner/localization/statuses/" + "9" * 40), self.api.calls)
+        self.assertIsNone(self.ledger.state(7)["acceptance"])
+
+    def test_legacy_check_is_renamed_before_success_status(self):
+        original_get, original_request = self.api.get, self.api.request
+        patches = []
+
+        def get(path):
+            if "check_name=contributor-acceptance&" in path:
+                return {"check_runs": [{"id": 42, "external_id": "ks-acceptance:10:7",
+                                        "app": {"slug": "github-actions"}}]}
+            return original_get(path)
+
+        def request(method, path, data):
+            if path.endswith("/check-runs/42"):
+                patches.append(copy.deepcopy(data))
+                self.assertFalse(self.api.statuses)
+                return {}
+            return original_request(method, path, data)
+
+        self.api.get, self.api.request = get, request
+        self.service().check(self.api.pr, "success", "Verified retained acceptance")
+        self.assertEqual(patches[0], {"name": "contributor-acceptance-record"})
+        self.assertEqual(patches[-1]["conclusion"], "success")
+        self.assertEqual(self.api.statuses[-1]["state"], "success")
+
+    def test_failed_check_publication_does_not_publish_success_status(self):
+        original_request = self.api.request
+
+        def request(method, path, data):
+            if path.endswith("/check-runs"):
+                raise ApiError(503, path)
+            return original_request(method, path, data)
+
+        self.api.request = request
+        with self.assertRaises(ApiError):
+            self.service().check(self.api.pr, "success", "Verified retained acceptance")
+        self.assertFalse(self.api.statuses)
 
     def test_maintainer_cannot_accept_for_author(self):
         context = self.prepare()
