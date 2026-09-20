@@ -2,7 +2,7 @@
   "@@locale": "de",
   "cameraViewerTitle": "Kameraansicht",
   "cameraViewerConnecting": "Verbindung wird hergestellt...",
-  "cameraViewerReconnecting": "Erneute Verbindung wird hergestellt...",
+  "cameraViewerReconnecting": "Verbindung wird wiederhergestellt...",
   "cameraViewerTrying": "{transport} wird versucht...",
   "cameraViewerCannotDecode": "Dieses Gerät kann {codec} nicht dekodieren",
   "cameraViewerCannotPlay": "Dieses Gerät kann keine {transport}-Streams wiedergeben",
