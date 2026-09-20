@@ -8,7 +8,7 @@
   "voiceScore": "Score",
   "voiceThreshold": "Seuil",
   "voiceHits": "Détections",
-  "voiceNearMisses": "Presque déclenchés",
+  "voiceNearMisses": "Quasi-détections",
   "voicePeak": "Pic",
   "voiceMicLevel": "Niveau du micro",
   "voiceChunkProcessing": "Traitement des blocs (min / moy / max)",

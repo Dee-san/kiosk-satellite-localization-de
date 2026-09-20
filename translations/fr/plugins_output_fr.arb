@@ -1,7 +1,7 @@
 {
   "@@locale": "fr",
   "pluginCharts": "Graphiques",
-  "pluginReadings": "Lectures",
+  "pluginReadings": "Relevés",
   "pluginWaitingForSamples": "En attente d'échantillons",
   "pluginLatest": "Dernier",
   "pluginSelected": "Sélectionné",

@@ -15,7 +15,7 @@
   "settingKioskDisablePowerTitle": "Désactiver le bouton d'alimentation",
   "settingKioskDisablePowerDescription": "Android ne peut pas bloquer le bouton d'alimentation : l'écran se rallume donc aussitôt qu'on appuie dessus. Éteindre l'écran à distance fonctionne toujours.",
   "settingKioskDisableHomeTitle": "Désactiver le bouton d'accueil",
-  "settingKioskDisableHomeDescription": "Épingler l'application avec l'épinglage d'écran Android, ce qui bloque les boutons d'accueil et des applications récentes. Android demande une confirmation la première fois.",
+  "settingKioskDisableHomeDescription": "Épingler l'application avec l'épinglage d'écran Android, ce qui bloque les boutons Accueil et Applications récentes. Android demande une confirmation la première fois.",
   "settingKioskDisableContextMenusTitle": "Désactiver les menus contextuels",
   "settingKioskDisableContextMenusDescription": "Supprimer les menus d'appui long et la sélection de texte dans la vue web.",
   "settingKioskDisablePullRefreshTitle": "Désactiver l'actualisation par glissement",
