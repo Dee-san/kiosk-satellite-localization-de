@@ -1,0 +1,29 @@
+{
+  "@@locale": "en",
+  "aboutLocalizationCredits": "Localization Credits",
+  "@aboutLocalizationCredits": {
+    "context": "Settings > About > Localization Credits",
+    "description": "Title of the page listing translation contributors, and the About row that opens it.",
+    "x-locations": {
+      "device": [
+        "Settings > About > Localization Credits"
+      ],
+      "remoteAdmin": [
+        "About > Localization Credits"
+      ]
+    }
+  },
+  "aboutLocalizationCreditsHint": "The people who translate Kiosk Satellite.",
+  "@aboutLocalizationCreditsHint": {
+    "context": "Settings > About > Localization Credits",
+    "description": "Subtitle of the About row that opens Localization Credits.",
+    "x-locations": {
+      "device": [
+        "Settings > About > Localization Credits"
+      ],
+      "remoteAdmin": [
+        "About > Localization Credits"
+      ]
+    }
+  }
+}

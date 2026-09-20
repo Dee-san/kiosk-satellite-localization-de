@@ -4,6 +4,8 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Record the reviewed French translation by Limoniak from PR #5, add public language credits and add English, Spanish and French text for the Localization Credits page. Keep owner-authored additions separate from community contribution evidence.
+
 - Retain merged contribution records using an explicit trusted default-branch checkout and the GitHub API version that includes the merge commit SHA.
 
 - Report contributor acceptance as a required commit status and keep the detailed evidence check separate so accepted PRs do not remain pending in branch protection.
