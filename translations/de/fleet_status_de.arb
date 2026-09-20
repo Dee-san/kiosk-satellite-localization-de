@@ -30,7 +30,7 @@
   "fleetRunsVersionThisKioskNeedsAnUpdate": "Verwendet {version}, dieser Kiosk benötigt ein Update",
   "fleetNeedsVersion": "Benötigt {version}",
   "fleetDownloadingPercent": "Lade {percent} % herunter",
-  "fleetSyncing": "Synchronisierung läuft…",
+  "fleetSyncing": "Synchronisierung läuft...",
   "fleetErrorUnreachable": "Nicht erreichbar",
   "fleetErrorBadAnswer": "Ungültige Antwort",
   "fleetErrorThePushFailed": "Die Einstellungen konnten nicht übertragen werden",

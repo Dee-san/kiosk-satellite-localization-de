@@ -3,7 +3,7 @@
   "esphomeAllExposed": "Alle verfügbaren Entitäten werden freigegeben",
   "esphomeExcludedCount": "{count} ausgeschlossen",
   "esphomeEntitySearch": "Entitäten suchen",
-  "esphomeEntityLoading": "Entitäten werden geladen…",
+  "esphomeEntityLoading": "Entitäten werden geladen...",
   "esphomeEntityUnavailable": "Derzeit nicht verfügbar",
   "esphomeEntityNoMatch": "Keine passenden Entitäten gefunden",
   "esphomeEntityLoadFailed": "Die Entitäten konnten nicht geladen werden. Schließe die Auswahl und versuche es erneut.",

@@ -11,7 +11,7 @@
   "fleetItsSettingsReplaceThisKioskSInTheCategoriesDetail": "Seine Einstellungen ersetzen ab sofort die dieses Kiosks in den synchronisierten Kategorien. Dieser Kiosk behält seinen Namen, seine Identitäten in Home Assistant, Music Assistant und ESPHome sowie seine ausgewählten Geräte. Du kannst die Flotte jederzeit unter Einstellungen > Flottenverwaltung verlassen.",
   "fleetConfirmOnTheKioskItselfTheInvitationIsWaiting": "Bestätige die Einladung direkt auf dem Kiosk. Sie wird auf dem Bildschirm sowie unter Einstellungen > Flottenverwaltung angezeigt.",
   "fleetAccept": "Annehmen",
-  "fleetLookingForOtherKiosks": "Suche nach anderen Kiosks…",
+  "fleetLookingForOtherKiosks": "Suche nach anderen Kiosks...",
   "fleetNoOtherKioskFoundOnThisNetworkAKiosk": "In diesem Netzwerk wurde kein weiterer Kiosk gefunden. Er wird angezeigt, sobald die Fernverwaltung aktiviert ist und er mit diesem WLAN verbunden ist.",
   "fleetFollowsName": "Folgt {name}",
   "fleetLeadsAFleet": "Führt eine Flotte an",
@@ -21,7 +21,7 @@
   "fleetSettingsFromTheLeaderArriveShortly": "Die Einstellungen des Leiters werden in Kürze übernommen.",
   "fleetAddByIp": "Per IP hinzufügen",
   "fleetFindKiosk": "Kiosk suchen",
-  "fleetFindingKiosk": "Kiosk wird gesucht…",
+  "fleetFindingKiosk": "Kiosk wird gesucht...",
   "fleetIpAddress": "IP-Adresse",
   "fleetRemoteAdminPort": "Fernverwaltungs-Port",
   "fleetAddressHelp": "Gib die IP-Adresse des Kiosks und seinen Fernverwaltungs-Port ein."

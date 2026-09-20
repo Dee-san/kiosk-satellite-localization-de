@@ -1,7 +1,7 @@
 {
   "@@locale": "de",
   "filesUpload": "Datei hochladen",
-  "filesUploading": "Wird hochgeladen…",
+  "filesUploading": "Wird hochgeladen...",
   "filesUploadFailed": "Die Datei konnte nicht hochgeladen werden",
   "filesUploaded": "Datei hochgeladen",
   "filesPermissionMissing": "Die Berechtigung zum Zugriff auf alle Dateien fehlt",
