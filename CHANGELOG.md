@@ -4,6 +4,8 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Report contributor acceptance as a required commit status and keep the detailed evidence check separate so accepted PRs do not remain pending in branch protection.
+
 - Add English and Spanish text for Voice Satellite chime selection, previews and local sound storage.
 
 - Require complete current catalogs for new-language PRs while allowing focused corrections to existing languages. Catalog validation uses trusted target-branch tooling and reports missing messages and source changes that need review.

@@ -16,6 +16,7 @@ from urllib.request import Request, urlopen
 
 
 CHECK = "contributor-acceptance"
+RECORD_CHECK = "contributor-acceptance-record"
 START = "<!-- ks-contributor-acceptance:start -->"
 END = "<!-- ks-contributor-acceptance:end -->"
 AGREEMENT = "docs/CONTRIBUTOR-AGREEMENT.md"
@@ -309,19 +310,39 @@ class Acceptance:
         return self.agreement
 
     def check(self, pr, conclusion, summary):
+        # Publish the merge requirement as a commit status. API-created checks
+        # using GITHUB_TOKEN can appear green without satisfying the Actions
+        # job requirement. Keep the detailed evidence check under its own name.
+        status = {"context": CHECK, "state": conclusion, "description": summary[:140],
+                  "target_url": f"https://github.com/{self.repository['full_name']}/actions/runs/{self.run['id']}"}
+        status_path = self.prefix + "/statuses/" + pr["head"]["sha"]
+        if conclusion != "success":
+            self.api.request("POST", status_path, status)
         external_id = f"ks-acceptance:{self.repository['id']}:{pr['number']}"
         path = self.prefix + "/commits/" + pr["head"]["sha"] + "/check-runs?" + urlencode({
-            "check_name": CHECK, "filter": "latest", "per_page": 100})
+            "check_name": RECORD_CHECK, "filter": "latest", "per_page": 100})
         runs = self.api.get(path)["check_runs"]
+        # Rename the legacy check so GitHub does not require both a check run
+        # and a commit status with the same name on existing PR revisions.
+        legacy_path = self.prefix + "/commits/" + pr["head"]["sha"] + "/check-runs?" + urlencode({
+            "check_name": CHECK, "filter": "latest", "per_page": 100})
+        legacy = self.api.get(legacy_path)["check_runs"]
+        for item in legacy:
+            if (item.get("external_id") == external_id
+                    and item.get("app", {}).get("slug") == "github-actions"):
+                self.api.request("PATCH", self.prefix + f"/check-runs/{item['id']}", {"name": RECORD_CHECK})
+                runs.append(item)
         existing = next((item for item in runs if item.get("external_id") == external_id
                          and item.get("app", {}).get("slug") == "github-actions"), None)
-        data = {"name": CHECK, "external_id": external_id, "status": "completed",
-                "conclusion": conclusion, "output": {"title": CHECK, "summary": summary}}
+        data = {"name": RECORD_CHECK, "external_id": external_id, "status": "completed",
+                "conclusion": conclusion, "output": {"title": RECORD_CHECK, "summary": summary}}
         if existing:
             self.api.request("PATCH", self.prefix + f"/check-runs/{existing['id']}", data)
         else:
             data["head_sha"] = pr["head"]["sha"]
             self.api.request("POST", self.prefix + "/check-runs", data)
+        if conclusion == "success":
+            self.api.request("POST", status_path, status)
 
     def current(self, pr):
         latest = self.api.get(self.prefix + f"/pulls/{pr['number']}")

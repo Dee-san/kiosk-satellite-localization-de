@@ -34,6 +34,7 @@ jobs:
       contents: write
       pull-requests: write
       checks: write
+      statuses: write
     steps:
       # This is the trusted default-branch revision for pull_request_target.
       # Never check out a PR head or execute files fetched from a contributor.
