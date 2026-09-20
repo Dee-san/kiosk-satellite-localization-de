@@ -64,7 +64,7 @@ class GitHub:
                 "Accept": ("application/vnd.github.object+json" if "/contents/" in path
                            else "application/vnd.github+json"),
                 "Content-Type": "application/json",
-                "X-GitHub-Api-Version": "2026-03-10",
+                "X-GitHub-Api-Version": "2022-11-28",
                 "User-Agent": "Kiosk-Satellite-Contributor-Acceptance",
             },
             method=method,

@@ -4,6 +4,8 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Retain merged contribution records using an explicit trusted default-branch checkout and the GitHub API version that includes the merge commit SHA.
+
 - Report contributor acceptance as a required commit status and keep the detailed evidence check separate so accepted PRs do not remain pending in branch protection.
 
 - Add English and Spanish text for Voice Satellite chime selection, previews and local sound storage.
