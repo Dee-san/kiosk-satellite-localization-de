@@ -4,5 +4,5 @@
   "setupPasswordBeforeImport": "Gib oben ein Administrationspasswort mit mindestens 4 Zeichen ein und importiere anschließend die Sicherung.",
   "setupPasswordFailed": "Das Passwort konnte nicht festgelegt werden",
   "setupPasswordExists": "Es wurde bereits ein Passwort festgelegt",
-  "setupPasswordExistsHelp": "Melde dich mit dem auf dem Tablet festgelegten Passwort an, um hier fortzufahren. Die Seite wird neu geladen…"
+  "setupPasswordExistsHelp": "Melde dich mit dem auf dem Tablet festgelegten Passwort an, um hier fortzufahren. Die Seite wird neu geladen..."
 }

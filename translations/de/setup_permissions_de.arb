@@ -11,6 +11,6 @@
   "setupScreenControl": "Bildschirmsteuerung",
   "setupScreenControlHelp": "Erlaubt Kiosk Satellite, den Bildschirm auf Anforderung auszuschalten (Geräteadministrator).",
   "setupGrantPermissions": "Berechtigungen auf dem Gerät erteilen",
-  "setupRequestingPermissions": "Berechtigungen werden auf dem Gerät angefordert…",
+  "setupRequestingPermissions": "Berechtigungen werden auf dem Gerät angefordert...",
   "setupPermissionsRequested": "Berechtigungen wurden auf dem Gerät angefordert"
 }

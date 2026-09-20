@@ -19,7 +19,7 @@
   "voiceCachedModels": "Zwischengespeicherte Modelle",
   "voiceCachedModelsHelp": "Lädt die Modelle erneut von Home Assistant herunter. Nützlich nach der Veröffentlichung einer neuen Modellversion.",
   "voiceClearCache": "Cache löschen",
-  "voiceClearing": "Wird gelöscht…",
+  "voiceClearing": "Wird gelöscht...",
   "voiceCacheCleared": "Dateien gelöscht: {count}. Erneuter Download läuft.",
   "voiceCacheCount": "Dateien gelöscht: {count}",
   "voiceVerySensitive": "Sehr empfindlich",

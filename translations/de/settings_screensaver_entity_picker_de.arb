@@ -11,7 +11,7 @@
   "screensaverOverlaySearchHintRemote": "Nach Name oder Entitäts-ID suchen",
   "screensaverOverlaySearchEmpty": "Zum Suchen von Entitäten tippen.",
   "screensaverOverlayNoMatches": "Keine Treffer gefunden.",
-  "screensaverOverlaySearching": "Suche läuft…",
+  "screensaverOverlaySearching": "Suche läuft...",
   "screensaverOverlayUnreachable": "Verbindung zu Home Assistant nicht möglich",
   "screensaverOverlayNoAnswer": "Das Gerät hat nicht geantwortet.",
   "screensaverOverlaySearchError": "Die Suche nach Entitäten ist fehlgeschlagen: {error}"

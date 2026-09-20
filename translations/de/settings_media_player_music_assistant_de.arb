@@ -16,7 +16,7 @@
   "mediaKioskMenu": "Kiosk-Menü",
   "mediaValidateConnection": "Verbindung prüfen",
   "mediaValidate": "Prüfen",
-  "mediaChecking": "Wird geprüft…",
+  "mediaChecking": "Wird geprüft...",
   "mediaConnected": "Verbunden",
   "mediaConnectedVersion": "Verbunden mit Music Assistant {version}",
   "mediaValidateHint": "Prüft Serveradresse und Token, bevor der Menüeintrag oder Songtexte aktiviert werden.",

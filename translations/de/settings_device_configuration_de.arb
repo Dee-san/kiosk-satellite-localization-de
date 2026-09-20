@@ -20,7 +20,7 @@
   "deviceRestoreStorage": "Lokalen WebView-Speicher wiederherstellen",
   "deviceRestoreStorageHelp": "Beinhaltet die Home-Assistant-Anmeldung und die assist_satellite-Auswahl von Voice Satellite. Zwei Geräte sollten nicht denselben Satelliten verwenden.",
   "deviceDownload": "Herunterladen",
-  "deviceChooseFile": "Datei auswählen…",
+  "deviceChooseFile": "Datei auswählen...",
   "deviceImportFailedSentence": "Import fehlgeschlagen.",
   "deviceReplaceNamed": "\"{name}\" ersetzen"
 }
