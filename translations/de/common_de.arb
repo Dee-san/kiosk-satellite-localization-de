@@ -39,10 +39,10 @@
   "commonEdit": "Editieren",
   "commonMoveUp": "Gehe hoch",
   "commonMoveDown": "Gehe runter",
-  "commonPreviousMonth": "Vorheriger Monat",
+  "commonPreviousMonth": "Letzter Monat",
   "commonNextMonth": "Nächster Monat",
-  "commonLoading": "Laden…",
+  "commonLoading": "Laden...",
   "commonChoose": "Wähle",
   "dlnaPortInvalid": "Wähle einen Port zwischen 1024 und 65535, oder lasse ihn frei",
-  "commonSelectAll": "Wähle alles"
+  "commonSelectAll": "Wähle alles aus"
 }
