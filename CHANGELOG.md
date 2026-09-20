@@ -4,6 +4,8 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Record the complete German translation review for inclusion in Kiosk Satellite 2026.9.66, preserving the 37 maintainer corrections and crediting Dee-san.
+
 - Correct 27 German messages from PR #6 and refine 10 other labels and explanations. Restore current Fleet instructions, clarify permissions and restart behavior and fix terminology and grammar.
 
 - Record maintainer corrections against retained accepted community text without replacing contributor evidence or credit. Prepare the German preview with Dee-san credited for the translation.
