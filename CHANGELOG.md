@@ -4,6 +4,10 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Correct 27 German messages from PR #6 and refine 10 other labels and explanations. Restore current Fleet instructions, clarify permissions and restart behavior and fix terminology and grammar.
+
+- Record maintainer corrections against retained accepted community text without replacing contributor evidence or credit. Prepare the German preview with Dee-san credited for the translation.
+
 - Record the reviewed French translation by Limoniak from PR #5, list Limoniak as the sole French contributor and add the English, Spanish and French Localization Credits title. Include GitHub usernames for profile links and remove the unused credits hint. Keep owner-authored additions separate from community contribution evidence.
 
 - Retain merged contribution records using an explicit trusted default-branch checkout and the GitHub API version that includes the merge commit SHA.

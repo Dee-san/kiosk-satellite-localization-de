@@ -1,7 +1,7 @@
 {
   "@@locale": "de",
   "settingScreensaverDismissOnPersonTitle": "Bei Personenerkennung schließen",
-  "settingScreensaverDismissOnPersonDescription": "Verwendet den Anwesenheitssensor des Geräts, während der Bildschirmschoner aktiv ist, und aktiviert den Bildschirm, wenn sich jemand davor befindet. Erfordert die unten aufgeführte Berechtigung für den Sensorzugriff.",
+  "settingScreensaverDismissOnPersonDescription": "Verwendet den Anwesenheitssensor des Geräts, während der Bildschirmschoner aktiv ist, und aktiviert den Bildschirm, wenn sich jemand davor befindet. Erfordert die unten aufgeführte Berechtigung „Zugriff auf Protokolle“.",
   "settingScreensaverDismissOnPersonScreenOffOnlyTitle": "Nur bei ausgeschaltetem Bildschirm",
   "settingScreensaverDismissOnPersonScreenOffOnlyDescription": "Lässt den Bildschirmschoner sichtbar, wenn bei eingeschaltetem Bildschirm eine Person erkannt wird. Ist der Bildschirm ausgeschaltet, öffnet die Erkennung das Dashboard. Durch Berühren des Bildschirms wird der Bildschirmschoner weiterhin geschlossen.",
   "settingScreensaverPostponeOnPersonTitle": "Bildschirmschoner bei Personenerkennung verschieben",

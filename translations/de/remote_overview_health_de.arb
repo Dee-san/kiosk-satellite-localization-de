@@ -33,7 +33,7 @@
   "overviewMicBlocked": "Mikrofon blockiert. Android wird die Berechtigung nicht erneut anfordern. Erteile sie in den App-Einstellungen und versuche es erneut.",
   "overviewMicDeclined": "Die Mikrofonberechtigung wurde abgelehnt. Die Aktivierungswort-Erkennung benötigt sie. Versuche es erneut, um die Berechtigung erneut anzufordern.",
   "overviewMicLost": "Das Mikrofon funktioniert nicht mehr. Versuche es erneut oder lade die Seite neu.",
-  "overviewModelsUnavailable": "Die Modelle von Home Assistant konnten nicht heruntergeladen werden. Versuche es erneut, sobald sie erreichbar sind.",
+  "overviewModelsUnavailable": "Die Modelle konnten nicht von Home Assistant heruntergeladen werden. Versuche es erneut, sobald Home Assistant wieder erreichbar ist.",
   "overviewCrashed": "Der Detektor ist auf diesem Gerät wiederholt abgestürzt und wurde beendet. Voice Satellite hört weiterhin über den Browser zu. Versuche es erneut oder starte die Anwendung neu.",
   "overviewWakeFailed": "Die Aktivierungswort-Engine konnte nicht gestartet werden. Versuche es erneut oder lade die Seite neu.",
   "overviewNativeUnavailable": "Für {engine} ist keine native Engine verfügbar. Voice Satellite verwendet weiterhin die Erkennung im Browser.",

@@ -18,7 +18,7 @@
   "deviceReplaceIdentity": "Behält den Namen und die ESPHome-Identität aus der Sicherung bei. Das ursprüngliche Gerät muss offline bleiben.",
   "deviceNewIdentity": "Vergibt einen eigenen Namen und eine eigene ESPHome-Identität, damit beide Geräte eindeutig sind.",
   "deviceRestoreStorage": "Lokalen WebView-Speicher wiederherstellen",
-  "deviceRestoreStorageHelp": "Beinhaltet die Home-Assistant-Anmeldung und die assist_satellite-Auswahl von Voice Satellite. Zwei Geräte sollten nicht denselben Satelliten verwenden.",
+  "deviceRestoreStorageHelp": "Beinhaltet die Home-Assistant-Anmeldung und die assist_satellite-Auswahl von Voice Satellite. Zwei Geräte dürfen nicht denselben Satelliten verwenden.",
   "deviceDownload": "Herunterladen",
   "deviceChooseFile": "Datei auswählen...",
   "deviceImportFailedSentence": "Import fehlgeschlagen.",

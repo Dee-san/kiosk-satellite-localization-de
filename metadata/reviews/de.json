@@ -1,0 +1,409 @@
+{
+  "commonColorAmber": {
+    "source": "f0bfa30036987fcf63330d0af1fadc3f531fea117b7666933ad236e4c472bbcd",
+    "translation": "3cc2dd1d6e012b25be5c64e6c1ac8ecdc15960ddf26ce6a1e59dfbe973bb09bc",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "5fa3188cc950d6d3a7806ffa0cd2addce49dbcdb24cbc2e37abc2fba24b5b1e0",
+      "reason": "Amber is not yellow."
+    }
+  },
+  "deviceInstallConfirmation": {
+    "source": "01a7d96171d1c13122ca2e04b1e3cbb43bb7fb95677df9ce077f8f7dfd44dd1b",
+    "translation": "45991780c4ba9fb2943fa29aa6fc48fc5e49f2913dc935e681a82a29c8ffa502",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "8a0fc617ae04b3456138cca0b1642849fb2fd20b73bf8770422e2e5894546e3f",
+      "reason": "Avoid the unwieldy compound installationsbestätigungslosen."
+    }
+  },
+  "deviceUiGuardHeld": {
+    "source": "dff9498f822bfd139a637341137b83748abfc8bf4393d112d82c64aad062dd06",
+    "translation": "134afc7effe95e5ab7a6f03320bc8f44e1a1c5c0ba7f51f3b769ee2cd0702192",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "e8f2a86b2b8a9e59060a0ec7c695f1f323c7bc5c69517d76af431e2cb8c61148",
+      "reason": "Closes the recents screen, not the apps themselves."
+    }
+  },
+  "kioskGuardHeld": {
+    "source": "b2b315c8191bdc74a23090f1123aaca49b1223ac573939f277972924eefacb20",
+    "translation": "a7ea1f051a15d5aad93b9ccdbd5eedd47d929bf8ae7369f2bfca8791bd97d13b",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "d168f236e0a2d6a1f27611c14100ac463d6c894bb0d018f4896719792d51a5fb",
+      "reason": "Closes the recents screen, not the apps."
+    }
+  },
+  "voiceWakeWordPreferFp32Description": {
+    "source": "a6810f023b869ec875b5be8f9674c1002969efc094d533172311e6ea0e7ccd46",
+    "translation": "6dbd91df6c2a7f4a1ecf3b1d835b740c6b13c0b5ec16c7140cefdd6c087fb4b4",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "6bd5fead6b56a387d05bfa1a6fa6be5b38b811fd0c13bf59dd63087a117c4353",
+      "reason": "Confidence scores and recognition accuracy are different quantities."
+    }
+  },
+  "commonChoose": {
+    "source": "2b408c17415537a6aa26da362e4c2087c0111cf0f59d18aee09ed0477669c44c",
+    "translation": "0bf1eddb22bf4cfaf016d040423e7873aec47db1acce9bf57e2a467270c8be56",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "d638ea876df26ae9de476645d5c4911a4b3c310a2eff9d87ece407d092ea2c5f",
+      "reason": "Consistent infinitive button labels."
+    }
+  },
+  "commonInstall": {
+    "source": "dd7f5cec676397db0614937fcb45fb6eed7415371a1327cfecb799d49b3ee353",
+    "translation": "f5680425f4b5599ea1951f325cf4950a7d0d9d1980d1d13b1f9b7d1d01401cc8",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "1d94a875206dd4634bb0bff792a8c86523df6c379f5da98e8e2db3ac0130db07",
+      "reason": "Consistent infinitive button labels."
+    }
+  },
+  "commonSelectAll": {
+    "source": "059b1672d0a191960b66bf00bc09c1fd5efd03a3091c7cd86dbbe63a1a700cc9",
+    "translation": "051da525afd3f2b95262854c7b5313dda9ca70dda77de49e428580f272d34764",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "52ab485698da9815c641b05669ead602eee4b76bd8529dcf298fd51fe825b43b",
+      "reason": "Consistent infinitive button labels."
+    }
+  },
+  "screensaverOverlayFontCursive": {
+    "source": "cc67553b609aabf5535cbc0abbad6f7f5bc138c70f11a8bd03604a235c4838c8",
+    "translation": "b7e4ee5c14fea3d01d342a51c3d66b949e03d7f2aceea163bdbc2c6fc7e083a7",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "e97611074427dfece3a4f5b4f4144b4d0cc91d4bbad035e796ce08b309b6e4e7",
+      "reason": "Cursive font family means script handwriting, not italic styling."
+    }
+  },
+  "commonMoveDown": {
+    "source": "812a34abc682ea8f506ca7f0d3ebc15e505ef55d22979c7b646c6742c8dddd8b",
+    "translation": "cff6c98a4f1bc0d6fbe25b8b94de571c386fd2e6c83cb0964e03adf8e1107472",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "2dcb9e6eb0c879592e69c41bb4e12656622f89cdb5189bd5225f8b2760fb22b7",
+      "reason": "Describe moving an item rather than going somewhere."
+    }
+  },
+  "commonMoveUp": {
+    "source": "87086c9bd0d0261fb2eb073aca17adf03411e3770e154c5bcf03f36b7722ba7a",
+    "translation": "eb839bf5eab9992c2086654e00e57749be43104a8e6e23eae5d653c4fa0d321d",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "202f01fc84ee4d73641692a126fa4a95772bf2ffeb258a66dead1a98a957b6f8",
+      "reason": "Describe moving an item rather than going somewhere."
+    }
+  },
+  "mediaGroupLead": {
+    "source": "169bfe9fd48c53202db8c89860a4e4a2f6c4b91b5124c52b7ccc3ad9b89b9b8d",
+    "translation": "4811de2bd0dd6c7f24af521e6ce1de89e73dfd68e21e52571a6c58b1a5234800",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "645f8f61ba880803a9f454a87e5937fed24f93ad9ff1cb0ce7db0efe7b019300",
+      "reason": "Describes the group leader status, not an action to control the group."
+    }
+  },
+  "commonColorDim": {
+    "source": "8fcfbd8584e58196fa92bfc72e236e0b761abaa473b821e89ff71fa612d21681",
+    "translation": "4860d6b49baba51944be22619fc611acea24b1031a1d0676b37dbbea1bb94ae5",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "d6ad130dc1d24c81e7c21bd133b8c5e63da9486cfb8ea9e5d09d0f01517c1b0d",
+      "reason": "Dim is a color choice, not an action."
+    }
+  },
+  "deviceGuardMissing": {
+    "source": "cf72eaf679f2923557f9230b5f451e1b45ecb10eafee84cc7dd7db83245c806c",
+    "translation": "951f6449eadcb8fe72a85256ebf2485f30f765efc211b20e0161ec8cc6a97559",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "46f3a505fdbeaa346b2983268a6d4dfc7bd7c04d5ecbc3d95eaef1222015b485",
+      "reason": "Distinguish the recents screen from the apps themselves."
+    }
+  },
+  "deviceGuardIdle": {
+    "source": "5b79655717c27bbe4408e042518c8482282b49664fa0422f2ee10bff305adfb8",
+    "translation": "ca75c473139babb2f997f6ffc3ea57e498f12dd9e46557e789147aa9333ab954",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "c96dc15305487b9b0d2d1a829ef2248bb17600eefc5d89e62581094fd8b0d349",
+      "reason": "Does not close the apps themselves."
+    }
+  },
+  "fleetKiosksMemberOfTheFleetAFollowerMustConfirm": {
+    "source": "169aed7fb19fbb474efb4c65deb84749185f6dffd46c6e91f86d4073d421eb44",
+    "translation": "b79e6b31b69740e88353e9c5159b6d43122996da49b0dce92113cdd0dd50aa3b",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "4e39fa9694cbedb5e4a8e9f157a6badd6fee97012a907ea7d6a944d772d4c597",
+      "reason": "Drops the discovered-kiosk and IP-address instructions."
+    }
+  },
+  "screensaverScreenOffWarning": {
+    "source": "914ef1124ed1ea8aa161ad665e1093881725223a20cc8c836270e219a4b0a048",
+    "translation": "d1254e1bff18e0b7511b7ea5df52506d547048a614016272b828dca7b8acabe4",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "f14cf0f6aa5d1fc6cd7a2d5ef91379fefba419deaa9b3684ac9cc3fce5436a89",
+      "reason": "Home Assistant entities become unavailable, not merely stop updating."
+    }
+  },
+  "haNoUpdates": {
+    "source": "df566ed2f3f81d22aef663771ac3d0da115134dc03b52d665cee3fd8de4b4f45",
+    "translation": "0d6f589bdffaa70b2ae9cffb812f4a41f7ba46a5283dcc247eb91521fe3127b9",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "c4882bd72b6b1b39803f10a10a656fefa8fee0840c6f506b5f65dd5323158988",
+      "reason": "Incorrect article and adjective case."
+    }
+  },
+  "commonDelete": {
+    "source": "373d48363c58dbb98303367b7ab9f9038a7366ddf76e9f3b5d9912c38f89e903",
+    "translation": "6c2d352161df580922a184a99f8f0900612154aaa4c8f7fd03df2fbec0e24f06",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "46e3db66ae11bcdc888feb58fd103bc6b9692e12fb54784529a0889aa7c3e30a",
+      "reason": "Misspelling and mismatch with the Delete action."
+    }
+  },
+  "aboutLocalizationCredits": {
+    "source": "44a9a05fd7f10607383d5140d6b3585112a4ccdd1e630fb3861727a615880311",
+    "translation": "522547967bdac21c9633ee59a4d38ffa27c90941fcee3f75c3927e0b6ee799b7",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "76a4b3ecd3875bc33341c32eb39667e68e4f9d612670fcccd59d127ed9f3dee8",
+      "reason": "More natural page title than Übersetzungsdanksagungen."
+    }
+  },
+  "deviceRestoreStorageHelp": {
+    "source": "35f8da56984a26fb3c96c1412d99b9b95a26a2960fecbbefcf17233561ecd682",
+    "translation": "24a8a5933e8a07c9097cac577d55485d793bfcf745f113e8d591f6fe45a2b327",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "5dbb1a834b32c3042710cbcf66a04c8d7bfe68f2eb66c66dcb087f24d187e2ba",
+      "reason": "Must not was weakened to should not."
+    }
+  },
+  "kioskGuardMissing": {
+    "source": "9eea8baf7562ed297aec204b3e0e40402da73625c8316fed94252e499f1cb2a4",
+    "translation": "8240f768e73028959ba2c06421b9518fb6b8abe76f617e44adc8855ec79a7a13",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "ca8e4472fa7128c0878dafee4bd4e70f36caaf5c2423e5c65608dfa52a34e878",
+      "reason": "Name the recents screen accurately."
+    }
+  },
+  "kioskGuardRemote": {
+    "source": "258a0efd7ac46e4e447df84c1a4ebb18fbc8d38630594b4fcba146a4677e2bdf",
+    "translation": "32ee6846b4dbc29d02630c1e2daa6b0147f101c9f0ba89aa2b1f784348b152bc",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "c91dc7457c2c05fd6498cfac229ef2f85f76df0b2e7afe903e21a9088f391e62",
+      "reason": "Name the recents screen accurately."
+    }
+  },
+  "settingScreensaverDismissOnPersonDescription": {
+    "source": "7b6a8e6744592c79a431399c6c97be30a596c1da183b65f801b0045c01269e74",
+    "translation": "ee07eda05220765bbfe6d8857e437ab29558561342ef97186c82b3db0c613865",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "a95daf145e012066cab38a3654b7712603fd78d0d52b5d39fd2cc350d71f1e30",
+      "reason": "Names the wrong permission: the UI requires log access, not sensor access."
+    }
+  },
+  "cameraStreamsEntityRequired": {
+    "source": "ab8073993b36ed8808c104f6999db87c3229143b8d1b8a3aed82c17ef7b3d66c",
+    "translation": "7dd22f093f61c3fe6d1f629f2623782173cba8bbf9986011ab4339ab45d76fb7",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "5ac56ea6b8d25127d6eef742fc14053d71deab625ffad6d6eef20990bcca21b7",
+      "reason": "Preserve the camera.* domain pattern, including the dot."
+    }
+  },
+  "overviewThisRelease": {
+    "source": "0abfa6461f35cd7b8a4ac0ea05b01969443ca9887966a5b7a5a9d8151fd42c9e",
+    "translation": "d12078badb9a64acfe9904005ba42fb2d390f4b376fcd870407ab035a5694b14",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "2b3147737948b0189813a4c5a662523052ac6d00b0bb3db4f3614178cf6ba989",
+      "reason": "Preserve the noun phrase for 'this release' instead of the adjective aktuell."
+    }
+  },
+  "aboutCheckFailed": {
+    "source": "bcc362165037f5754130119ea67319a3dc6d347a1328c613d3c08b3096ddd5e0",
+    "translation": "380b6d30273402773ae64711f92534d41d11d8c23eb9026f240a4021959059b6",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "ee1b1f9359d46b81b543f5bb43aa8be52c8236d7eca5ecee95310f111f1b2ac0",
+      "reason": "Reports a failed check as no updates found."
+    }
+  },
+  "deviceHelperHint": {
+    "source": "2c7e8b4b93e0a9709d8f485046d6c3a6dfdccc3b9b00cefb4eec59d3b30c6963",
+    "translation": "f8fcb2bbca8141c96a080e2abd9c1be7659494756fdb557e6285168cda19b3af",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "e68707fe1bf0a4d01d7d9f7662614ed8832bcd5e0d8cd0c416c7459076fd94e9",
+      "reason": "Silent updates do not require confirmation. They are not unconfirmed updates."
+    }
+  },
+  "fleetNoOtherKioskFoundOnThisNetworkAKiosk": {
+    "source": "7b0f1eba8057f2d2d298cac0c6dd726b63a75278ffbdd7a87b51a22190f50b99",
+    "translation": "f158ed5d71fad1c4720aa8eb418ccce6dbab3ca88cb8e0c03f88d3a1fe7bfa4a",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "f5b86f868d74fbff21d63b19f8a2f73ad3c8a98431ae437c90d03d7ee73f06a8",
+      "reason": "Stale instructions omit Add by IP and introduce a same-Wi-Fi restriction absent from source."
+    }
+  },
+  "screensaverDetectionRestartRemote": {
+    "source": "f98692004ec7769eead40d6e1d23785f84a0c2487a46851e9a327d7cc414d7ec",
+    "translation": "4dd4197d7bb2c8808df8807fca0e420521891e575b29967c448756190c5a6de9",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "06ddcd1ade22f7e7eaf71f96a62e9dd38c8b5d8438b270682c9e2f12814021ae",
+      "reason": "The button restarts the app on the device, not Android."
+    }
+  },
+  "settingLockdownAllowScreensaverDescription": {
+    "source": "338811a047f698f6a05b636aae66af3b4cd24e8136a75f3efd76e1ee957fbf06",
+    "translation": "cb7168c42ad4380f767b967b34b09b90c1f05e3d691cbe08a38ac655e2faa88b",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "596f469b68683e9cba4fdde7395b6d110391579390083e867c5e5f1e3e148566",
+      "reason": "The feature stays disabled during lockdown. The source does not promise dismissal when the lock is lifted."
+    }
+  },
+  "lockdownExplanation": {
+    "source": "1e53b064cc7abc3c8d935035ab88b0460d2fe901cc32eddcb289b14b04345f13",
+    "translation": "e053eb415dba5169e839203539f2dc8b1f36241c5573679c4b8c03513a20a82b",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "2acd260288beee8bdabe9b4f8099a26d3069de6892afe800e482fd8e417de122",
+      "reason": "The recents screen is blocked, not the apps themselves."
+    }
+  },
+  "deviceUpdateUrlPath": {
+    "source": "1c09bd89a6397faa3214b7c224de1c4b020173ec0fa8282af26ae47597329fce",
+    "translation": "c19752d5df7b22381494856b8130d18c8fb161b9107b776d61dc9dd5397dc3e1",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "9f331d089eb68e9b29dec34a21c21be3a339ffb3204cae7e4df3f31374aa5488",
+      "reason": "The restriction concerns URL components after the path, not additional folder levels."
+    }
+  },
+  "overviewModelsUnavailable": {
+    "source": "df0590ed02943a202727df21c8bc07a08a3d2e99643a4bc9dd4a922667e41842",
+    "translation": "13b46c556fcc8f6c58fa1fef002d8745633cc934e0cbab6eb91db31936b9066b",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "442f0df90fa7013f1405d897135253b9d770f874123e28937d1d650150f0df0d",
+      "reason": "The retry condition is Home Assistant being reachable, not the models."
+    }
+  },
+  "settingMotionSensorOffDelayTitle": {
+    "source": "e7683e86ce46f6eecf66f891c36ed566e7a08a043b7b5956b9998191367dcf31",
+    "translation": "b0e1b63290a8a9687213a996930cddc8e507d9637a3250f3bda92ae2420e22f2",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "ce68299a33575a54556391cedb72a40ac6c89f3a950ba45e08ca8be03147077d",
+      "reason": "The sensor returns to clear after inactivity. Detection itself does not stop."
+    }
+  },
+  "gestureDescribeCornerTaps": {
+    "source": "ace601d19547b8e57f89d268a326db7e44dd87b4f4ac4075ec2e05f2a8600a73",
+    "translation": "f0d608f0e9767be968d46326ecaed4fd37797e293f28cd57e5a222ec3543042f",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "d35beeff2867b4d437e8b9f1b73b4ad7adbb70ac4e474f8a612b057c41cb418c",
+      "reason": "Unidiomatic count construction: '{count} Tippen'."
+    }
+  },
+  "mediaSonosSearchHelp": {
+    "source": "fe32281e65c9df80d719e32c7450ea29ac7b30b584cc59c130a6e944b05c2b7e",
+    "translation": "f891f00cf074d0a0bd77be9fc2fb5dcd7f1481654512d0a11760bfa3ddc854af",
+    "author": "Dee-san",
+    "provenance": "e69b7988f2fca16116639e0fd6a63d4430c75f4c4c7ad86d875642d5cdf89b58",
+    "maintainerCorrection": {
+      "reviewer": "Xavier Larrea",
+      "originalTranslation": "43233cc937b50387127b86dde0d6352ecfbfc4ca6254b628978dc9965abfb6b6",
+      "reason": "VLAN takes the neuter article: im selben VLAN, not in derselben VLAN."
+    }
+  }
+}

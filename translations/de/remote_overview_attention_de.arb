@@ -8,7 +8,7 @@
   "overviewOutdatedOne": "1 Follower verwendet eine andere Version",
   "overviewOutdatedMany": "{count} Follower verwenden andere Versionen",
   "overviewSyncWaiting": "{names}. Die Synchronisierung wartet auf Version {version}.",
-  "overviewThisRelease": "aktuell",
+  "overviewThisRelease": "diese Version",
   "overviewUpdateAvailable": "Update verfügbar",
   "overviewInstallHelp": "Kiosk Satellite {version} ist zur Installation bereit. Die Installation muss auf dem Bildschirm des Tablets bestätigt werden.",
   "overviewHaSetup": "Home Assistant nicht eingerichtet",

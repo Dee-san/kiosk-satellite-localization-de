@@ -2,7 +2,7 @@
   "@@locale": "de",
   "settingMotionSensorTitle": "Bewegungssensor",
   "settingMotionSensorDescription": "Veröffentlicht Bewegungen als Home-Assistant-Sensor. WARNUNG: Die Kamera bleibt dadurch dauerhaft eingeschaltet, auch wenn der Bildschirm ausgeschaltet ist.",
-  "settingMotionSensorOffDelayTitle": "Erkennung beenden nach",
+  "settingMotionSensorOffDelayTitle": "Bewegungsstatus zurücksetzen nach",
   "settingMotionSensorOffDelayDescription": "Sekunden ohne Bewegung, bevor der Sensor keine Bewegung mehr meldet.",
   "settingMotionFpsTitle": "Bildrate für Bewegungserkennung",
   "settingMotionFpsDescription": "Bilder pro Sekunde, die von der Kamera zur Bewegungserkennung ausgewertet werden. Niedrigere Werte benötigen weniger CPU-Leistung. Ein Wert von 2 reicht aus, um zu erkennen, dass sich jemand nähert.",

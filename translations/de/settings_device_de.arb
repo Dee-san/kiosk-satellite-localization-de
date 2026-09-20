@@ -35,7 +35,7 @@
   "deviceRemoteHintActual": "Diesen Kiosk über einen Browser in deinem Netzwerk verwalten",
   "deviceUpdatesHint": "Wo die Anwendung nach neuen Versionen sucht",
   "deviceShizukuHint": "Verbindung, Android-Berechtigungen und Einrichtung",
-  "deviceHelperHint": "Status von nicht bestätigten Updates, Einrichtung per ADB und Anleitungen",
+  "deviceHelperHint": "Status von Updates ohne Bestätigung, Einrichtung per ADB und Anleitungen",
   "deviceAnalyticsHint": "Anonyme Informationen teilen, um Kiosk Satellite zu verbessern",
   "deviceHardwareHint": "Modell, Android-Version, Adressen, Speicher und Betriebszeit",
   "deviceHaHint": "Verbindung, Version und Inhalte des Kiosks",

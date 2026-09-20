@@ -1,7 +1,7 @@
 {
   "@@locale": "de",
   "fleetAddAKiosk": "Kiosk hinzufügen",
-  "fleetKiosksMemberOfTheFleetAFollowerMustConfirm": "Kiosks der Flotte. Jeder Follower muss die Einladung auf seinem Gerät bestätigen.",
+  "fleetKiosksMemberOfTheFleetAFollowerMustConfirm": "Füge einen gefundenen Kiosk hinzu oder gib seine IP-Adresse ein. Der Follower muss die Einladung auf seinem Bildschirm annehmen.",
   "fleetSendInvitation": "Einladung senden",
   "fleetInviteAgain": "Erneut einladen",
   "fleetRemoveName": "{name} entfernen?",
@@ -12,7 +12,7 @@
   "fleetConfirmOnTheKioskItselfTheInvitationIsWaiting": "Bestätige die Einladung direkt auf dem Kiosk. Sie wird auf dem Bildschirm sowie unter Einstellungen > Flottenverwaltung angezeigt.",
   "fleetAccept": "Annehmen",
   "fleetLookingForOtherKiosks": "Suche nach anderen Kiosks...",
-  "fleetNoOtherKioskFoundOnThisNetworkAKiosk": "In diesem Netzwerk wurde kein weiterer Kiosk gefunden. Er wird angezeigt, sobald die Fernverwaltung aktiviert ist und er mit diesem WLAN verbunden ist.",
+  "fleetNoOtherKioskFoundOnThisNetworkAKiosk": "Keine Kiosks gefunden. Verwende „Per IP hinzufügen“, um einen Kiosk unter einer bekannten Adresse zu finden.",
   "fleetFollowsName": "Folgt {name}",
   "fleetLeadsAFleet": "Führt eine Flotte an",
   "fleetNoFleetManagement": "Keine Flottenverwaltung",

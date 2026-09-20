@@ -1,6 +1,6 @@
 {
   "@@locale": "de",
-  "gestureDescribeCornerTaps": "{count} Tippen auf die Ecke {corner}",
+  "gestureDescribeCornerTaps": "{count}-mal auf die Ecke {corner} tippen",
   "gestureDescribeCornerHold": "Ecke {corner} {seconds}s gedrückt halten",
   "gestureDescribeFingerDouble": "Doppeltippen mit {count} Fingern",
   "gestureDescribeFingerTap": "Tippen mit {count} Fingern",

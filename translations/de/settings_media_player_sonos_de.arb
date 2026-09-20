@@ -14,7 +14,7 @@
   "mediaSonosEmptyHelp": "Suche in diesem Netzwerk oder füge einen Lautsprecher über seine Adresse hinzu.",
   "mediaSonosForget": "Entfernen",
   "mediaSonosSearchTitle": "Im Netzwerk suchen",
-  "mediaSonosSearchHelp": "Sucht nach Sonos-Lautsprechern in diesem Netzwerk. Die Lautsprecher müssen sich in derselben VLAN wie dieses Gerät befinden, damit sie automatisch gefunden werden können.",
+  "mediaSonosSearchHelp": "Sucht nach Sonos-Lautsprechern in diesem Netzwerk. Die Lautsprecher müssen sich im selben VLAN wie dieses Gerät befinden, damit sie automatisch gefunden werden können.",
   "mediaSonosSearch": "Suchen",
   "mediaSonosSearching": "Suche läuft...",
   "mediaSonosAddAddress": "Per Adresse hinzufügen",

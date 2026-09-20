@@ -16,7 +16,7 @@
   "haWatched": "Überwachte Entitäten",
   "haEntityListUnavailable": "Die Entitätenliste ist derzeit nicht verfügbar.",
   "haWatching": "In dieser Ansicht werden {count} Entitäten überwacht.",
-  "haNoUpdates": "Im letzten Minute gab es keine Aktualisierungen.",
+  "haNoUpdates": "In der letzten Minute gab es keine Aktualisierungen.",
   "haFiltered": "{percent}% der Aktualisierungen der letzten Minute wurden gefiltert ({dropped} von {total}).",
   "haRawUpdates": "Ein Element auf dieser Seite empfängt weiterhin alle Entitätsaktualisierungen, daher bringt die Filterung hier weniger Vorteile.",
   "haAllStates": "Diese Ansicht liest die Zustände aller Entitäten, daher werden deren Aktualisierungen nicht gefiltert.",

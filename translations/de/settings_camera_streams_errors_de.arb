@@ -8,7 +8,7 @@
   "cameraStreamsProtocolRequired": "Bitte Automatisch, WebRTC, HLS oder MJPEG auswählen.",
   "cameraStreamsServerRequired": "Bitte einen gültigen Server auswählen.",
   "cameraStreamsStreamRequired": "Bitte den Namen des Streams eingeben.",
-  "cameraStreamsEntityRequired": "Bitte eine Entität eingeben, die mit camera beginnt.",
+  "cameraStreamsEntityRequired": "Eine Entitäts-ID im Format camera.* ist erforderlich.",
   "cameraStreamsWhepRequired": "Bitte eine gültige WHEP-URL eingeben.",
   "cameraStreamsCameraNotFound": "Kamera nicht gefunden.",
   "cameraStreamsListRequired": "Die Kameraauswahl muss eine Liste sein.",

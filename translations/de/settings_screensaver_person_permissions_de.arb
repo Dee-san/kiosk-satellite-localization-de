@@ -10,7 +10,7 @@
   "screensaverDetectionGranted": "Erteilt",
   "screensaverDetectionMissing": "Berechtigung fehlt",
   "screensaverDetectionRestart": "Neu starten",
-  "screensaverDetectionRestartRemote": "Gerät neu starten",
+  "screensaverDetectionRestartRemote": "Kiosk Satellite auf dem Gerät neu starten",
   "screensaverDetectionLogRestart": "Der Protokollzugriff wurde erteilt, wird aber erst nach einem Neustart von Kiosk Satellite wirksam.",
   "screensaverDetectionLogMissing": "Der Zugriff auf die Protokolle wurde nicht erteilt."
 }
