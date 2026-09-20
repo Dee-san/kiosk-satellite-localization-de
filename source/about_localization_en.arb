@@ -12,18 +12,5 @@
         "About > Localization Credits"
       ]
     }
-  },
-  "aboutLocalizationCreditsHint": "The people who translate Kiosk Satellite.",
-  "@aboutLocalizationCreditsHint": {
-    "context": "Settings > About > Localization Credits",
-    "description": "Subtitle of the About row that opens Localization Credits.",
-    "x-locations": {
-      "device": [
-        "Settings > About > Localization Credits"
-      ],
-      "remoteAdmin": [
-        "About > Localization Credits"
-      ]
-    }
   }
 }

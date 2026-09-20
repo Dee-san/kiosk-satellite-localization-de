@@ -424,8 +424,18 @@ class CommunityTests(unittest.TestCase):
         self.assertIn('"Zoë $Name"', js)
         self.assertIn('"Zoë \\$Name"', dart)
         self.assertNotIn("Not imported", js)
-        self.assertNotIn('"login"', js)
+        self.assertIn('"login": "another"', js)
         self.assertIn("Xavier Larrea", js)
+
+    def test_credits_reject_a_username_that_could_change_the_profile_url(self):
+        self.add_language()
+        self.approve_fixture()
+        path = self.repo / "metadata/credits.json"
+        credits = catalog.read(path)
+        credits["de"]["2"]["login"] = "someone/other"
+        catalog.write(path, credits)
+        with self.assertRaisesRegex(ValueError, "GitHub username"):
+            catalog.generate(self.app, self.repo, "de")
 
     def add_language(self, locale="de"):
         for name, source in catalog.load_sources(self.repo / "source").items():
