@@ -4,6 +4,8 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Localize the Immich Media screensaver's Pair landscape photos setting in Spanish, German and French. The German and French messages are maintainer additions.
+
 - Localize the Immich Media screensaver's Exclude tags filter: the setting name, its help and the empty pick words, in Spanish, German and French. The German and French messages are maintainer additions.
 
 - Shorten the Overview metric tile names to RAM and Temp in every language, so the chart beside the name gets the width. German and French are maintainer changes.
