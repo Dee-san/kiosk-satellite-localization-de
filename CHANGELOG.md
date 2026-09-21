@@ -4,7 +4,7 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
-- Localize the Overview's CPU, memory and temperature tiles: the three names, the free memory line and the percent and degree values, in Spanish.
+- Localize the Overview's CPU, memory and temperature tiles: the three names, the free memory line and the percent and degree values, in Spanish, German and French. The German and French messages are maintainer additions.
 
 - Record the complete German translation review for inclusion in Kiosk Satellite 2026.9.66, preserving the 37 maintainer corrections and crediting Dee-san.
 
