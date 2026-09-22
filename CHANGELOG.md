@@ -4,6 +4,8 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Update Weather Mood to use optional weather widgets and add the missing weather entity prompt in English, Spanish, German and French. Remove the built-in weather display wording.
+
 - Add Weather Mood screensaver settings and weather conditions in English, Spanish, German and French. The new translations are maintainer additions.
 
 - Localize the Immich Media screensaver's Pair landscape photos setting in Spanish, German and French. The German and French messages are maintainer additions.

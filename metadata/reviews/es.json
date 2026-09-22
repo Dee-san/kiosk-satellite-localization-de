@@ -16034,26 +16034,6 @@
     "translation": "096d2d0bd3ec2e266869f107a8144ca7dc1b6a6cf3adfc18dd9fab23a4f5d0ec",
     "author": "Xavier Larrea"
   },
-  "weatherConditionSnowy": {
-    "source": "c1b1735f448dd43f141ab072b5348775cb72c99db3b9029c1c36a60b0395703f",
-    "translation": "2e9c5ef2170a20c7a5d1d7395477632607acced9fe3636c8a794830a23029733",
-    "author": "Xavier Larrea"
-  },
-  "settingScreensaverWeatherLocationTitle": {
-    "source": "27a1a683cf13f9b78d2a37848c4e9e80b1331ca535135bf93a667cd3c9d83484",
-    "translation": "e9f771fc192400531f72edf6c3a3cb865266624bbdeeee44d894e8624d592249",
-    "author": "Xavier Larrea"
-  },
-  "weatherConditionHail": {
-    "source": "ac8054599b03056a08702167b7da8341169cc7e56d874a9d17ecee3a4b1fe040",
-    "translation": "905d5fdc6ee0a324db45257c00cc5c191cce1c2b22e2cf68952fa5408e288fae",
-    "author": "Xavier Larrea"
-  },
-  "settingScreensaverWeatherLocationDescription": {
-    "source": "a5bd338b6ee266116535470ede0b5849698a01467e329dea81dc2884d199a5ab",
-    "translation": "2db4904d56a0e692a8ee0f1378f0d70c7ffd53a531cf64b8c50cac444a536acd",
-    "author": "Xavier Larrea"
-  },
   "screensaverWeatherMoodPage": {
     "source": "ffd03527408e45c1de1a2ce89e9ff322e4b8015f0c54bd890d772192cc774370",
     "translation": "024d5f4737570ef1249fa0f4809c0fde726a71b766e4809e8365952960115dd6",
@@ -16065,38 +16045,8 @@
     "author": "Xavier Larrea"
   },
   "settingScreensaverWeatherEntityDescription": {
-    "source": "7325c996b76ac1db2d749fa7e47eab48fbcabab508993417a0558cb9b0622833",
-    "translation": "4f21f4d63653f99f0fc37daa4a8411be9a42e939a3e71c7eb2ff01688025a4d8",
-    "author": "Xavier Larrea"
-  },
-  "weatherConditionCloudy": {
-    "source": "8f4ed2ce6c009c245bba925239d4f1146a42ca21dfa9674a7f66c8e9f13bae6c",
-    "translation": "05d79e1157e18bd2ce85924d336a4e2bdce43e676f600d50c476b24e6dabbb17",
-    "author": "Xavier Larrea"
-  },
-  "weatherConditionRainy": {
-    "source": "263c6203bef257d04d6573c1c2260e7738a02383ad3fe8e7d93cc6ce2a3555a1",
-    "translation": "7efc1088dede5724387fd1a106d7f1c755d630254f4759895ddb508632b1fcca",
-    "author": "Xavier Larrea"
-  },
-  "weatherConditionPartlyCloudy": {
-    "source": "92e7633ea3e45561b621ad8f8b51c1f4b33aa6c4e7079bc1a904303b78e8d37e",
-    "translation": "b089e2b6a49f1c831b60da8f28bc20688df34e3ea002b317e201b7992873b96a",
-    "author": "Xavier Larrea"
-  },
-  "weatherConditionClearNight": {
-    "source": "ee1f94d3780b11654280b8943388d970edcb6c82c401d0025bea94072d0be8b4",
-    "translation": "c1adb21752f0ee33e7891d955a48034aa0e726a7e6a39828474b7a4cfac6ef16",
-    "author": "Xavier Larrea"
-  },
-  "weatherConditionWindy": {
-    "source": "134cd0071cc1af3c08c70e612bc5fda621ad47e4bd2c0056899088f0cf7cd585",
-    "translation": "8868a56c346a78588a256cafba2b72e02d212983a7e13cba0f7a7c09ddf7009b",
-    "author": "Xavier Larrea"
-  },
-  "weatherConditionExceptional": {
-    "source": "ac4c7230d19497e9aad17507be8c8080cdcb8dce2be833043a852afc93a15d9e",
-    "translation": "fa049044d0dfa1888dde9ff6f33cbefa009e1aae8acf3f4fe8f4ca83218c159b",
+    "source": "174ea857e44d70ad87b4500b6bc1e1c91f2164ffaf2a5ddf7ae7c02e9e8d36a5",
+    "translation": "9d5da3d18647329ea07db70b161437278fe1f31936d10d0b2f06126bcd18672e",
     "author": "Xavier Larrea"
   },
   "screensaverWeatherMood": {
@@ -16114,44 +16064,14 @@
     "translation": "a33d08f6c0343467596153b679b700fbe4846c600b84313f9a17f762c132bd0c",
     "author": "Xavier Larrea"
   },
-  "weatherConditionThunderstorms": {
-    "source": "d5474f78decf883d6c628d2871e76263061f3363c7cde8f24006abb4f024596d",
-    "translation": "654468dccb42a5961c73d003ae1cef5206c514183f9a04cca23802c372443f36",
-    "author": "Xavier Larrea"
-  },
-  "weatherConditionPouring": {
-    "source": "1c75b532e7333eaa227688d6a6448e7cf5ecef91914d9f1291912e463ba07357",
-    "translation": "1a7d530086918c39962a934f26a3055941494ccc93ce685b7e5dbfda5179cde6",
-    "author": "Xavier Larrea"
-  },
-  "screensaverWeatherMoodWidgetNote": {
-    "source": "f2be69e0f7cbfe6cdc020bd480e3d125c52fca3cce4ea60fe3ce08c71b89402a",
-    "translation": "69e3b6359b12d37ccbf3224900ec39ef7e421c5c717e235537b7d8c01354fea0",
-    "author": "Xavier Larrea"
-  },
   "screensaverWeatherMoodSummary": {
-    "source": "334b2fb6f36269a351ae08a4a0cbdca235c3400691bb1f4801aeed5b9c5facaf",
-    "translation": "7efa2850eb699fc0622df0af1f9cd22e5f2f3a5b56fe8081ea56ace013c54a9c",
+    "source": "27debc20c620e6b3c20c032b1758fc5ec6eee6649aeffb554a6ea0ce368d5bb4",
+    "translation": "afa6c26a4ac108a874e688ba296bfb2f1fa005117a1c7c9c25f3654df54096e4",
     "author": "Xavier Larrea"
   },
-  "weatherConditionSleet": {
-    "source": "d19afa17880c6ac31c1426a606081017cc8a3bcfd999d972dbb9840fb93a5056",
-    "translation": "a658d501c1ec30b04cb916311c9df4dba09fc1c144268f8f81dfa8572b1f85d2",
-    "author": "Xavier Larrea"
-  },
-  "weatherConditionSunny": {
-    "source": "188320a512f64b05c2b89e5e18bca15280c4e3645e60b22556af0ee5efb3db60",
-    "translation": "dca546278713ec8e4a774f7fef8419516d9e64d7c4bd01497e013b13ab564cb5",
-    "author": "Xavier Larrea"
-  },
-  "weatherConditionLightning": {
-    "source": "68462cebc604191f38e988911b75c1591b452346d9897ada91f62e27505bbb56",
-    "translation": "463beab61afb57e9a4df455347375242c4c04485ba5b499880ee66f2a1640f7e",
-    "author": "Xavier Larrea"
-  },
-  "weatherConditionFog": {
-    "source": "df881e6c411dff74e913ca59e2425bc5b8fa93c8b218e950f14b19b3928c83f2",
-    "translation": "a4ca9bf74b9a8f3e68af5ff3a93673f813b7f3dcd4a538fbc88ed8ad219c6c11",
+  "screensaverWeatherMoodSelectEntity": {
+    "source": "7bb83abae8325c44fe9936ace10800464d42c55b110e7df5110a0be21f370949",
+    "translation": "9462a844bb333be64804858f6a6d8e0b6dde6dfa37d068d14ed85d43ee1c9e57",
     "author": "Xavier Larrea"
   }
 }

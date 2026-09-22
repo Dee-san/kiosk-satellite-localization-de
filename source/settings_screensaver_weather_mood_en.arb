@@ -26,7 +26,7 @@
       ]
     }
   },
-  "screensaverWeatherMoodSummary": "Weather entity, location, lightning",
+  "screensaverWeatherMoodSummary": "Weather entity, lightning",
   "@screensaverWeatherMoodSummary": {
     "context": "Settings:Screensaver:Weather Mood screensaver",
     "description": "Weather Mood setting, guidance or weather condition.",
@@ -52,34 +52,8 @@
       ]
     }
   },
-  "settingScreensaverWeatherEntityDescription": "The Home Assistant weather entity that controls the scene and weather information. Day and night follow sun.sun, with local time as a fallback.",
+  "settingScreensaverWeatherEntityDescription": "The Home Assistant weather entity that controls the animated scene. Day and night follow sun.sun, with local time as a fallback.",
   "@settingScreensaverWeatherEntityDescription": {
-    "context": "Settings:Screensaver:Weather Mood screensaver",
-    "description": "Weather Mood setting, guidance or weather condition.",
-    "x-locations": {
-      "device": [
-        "Settings > Screensaver > Weather Mood screensaver"
-      ],
-      "remoteAdmin": [
-        "Screensaver > Weather Mood screensaver"
-      ]
-    }
-  },
-  "settingScreensaverWeatherLocationTitle": "Location label",
-  "@settingScreensaverWeatherLocationTitle": {
-    "context": "Settings:Screensaver:Weather Mood screensaver",
-    "description": "Weather Mood setting, guidance or weather condition.",
-    "x-locations": {
-      "device": [
-        "Settings > Screensaver > Weather Mood screensaver"
-      ],
-      "remoteAdmin": [
-        "Screensaver > Weather Mood screensaver"
-      ]
-    }
-  },
-  "settingScreensaverWeatherLocationDescription": "A name above the temperature. Leave empty to use the entity name. Weather information reserves the top-left corner and replaces separate weather widgets in this mode.",
-  "@settingScreensaverWeatherLocationDescription": {
     "context": "Settings:Screensaver:Weather Mood screensaver",
     "description": "Weather Mood setting, guidance or weather condition.",
     "x-locations": {
@@ -117,199 +91,9 @@
       ]
     }
   },
-  "screensaverWeatherMoodWidgetNote": "Hidden in Weather Mood and Camera Streams screensaver modes.",
-  "@screensaverWeatherMoodWidgetNote": {
-    "context": "Settings:Screensaver:Weather Mood screensaver",
-    "description": "Weather Mood setting, guidance or weather condition.",
-    "x-locations": {
-      "device": [
-        "Settings > Screensaver > Weather Mood screensaver"
-      ],
-      "remoteAdmin": [
-        "Screensaver > Weather Mood screensaver"
-      ]
-    }
-  },
-  "weatherConditionClearNight": "Clear night",
-  "@weatherConditionClearNight": {
-    "context": "Settings:Screensaver:Weather Mood screensaver",
-    "description": "Weather Mood setting, guidance or weather condition.",
-    "x-locations": {
-      "device": [
-        "Settings > Screensaver > Weather Mood screensaver"
-      ],
-      "remoteAdmin": [
-        "Screensaver > Weather Mood screensaver"
-      ]
-    }
-  },
-  "weatherConditionCloudy": "Cloudy",
-  "@weatherConditionCloudy": {
-    "context": "Settings:Screensaver:Weather Mood screensaver",
-    "description": "Weather Mood setting, guidance or weather condition.",
-    "x-locations": {
-      "device": [
-        "Settings > Screensaver > Weather Mood screensaver"
-      ],
-      "remoteAdmin": [
-        "Screensaver > Weather Mood screensaver"
-      ]
-    }
-  },
-  "weatherConditionExceptional": "Severe weather",
-  "@weatherConditionExceptional": {
-    "context": "Settings:Screensaver:Weather Mood screensaver",
-    "description": "Weather Mood setting, guidance or weather condition.",
-    "x-locations": {
-      "device": [
-        "Settings > Screensaver > Weather Mood screensaver"
-      ],
-      "remoteAdmin": [
-        "Screensaver > Weather Mood screensaver"
-      ]
-    }
-  },
-  "weatherConditionFog": "Fog",
-  "@weatherConditionFog": {
-    "context": "Settings:Screensaver:Weather Mood screensaver",
-    "description": "Weather Mood setting, guidance or weather condition.",
-    "x-locations": {
-      "device": [
-        "Settings > Screensaver > Weather Mood screensaver"
-      ],
-      "remoteAdmin": [
-        "Screensaver > Weather Mood screensaver"
-      ]
-    }
-  },
-  "weatherConditionHail": "Hail",
-  "@weatherConditionHail": {
-    "context": "Settings:Screensaver:Weather Mood screensaver",
-    "description": "Weather Mood setting, guidance or weather condition.",
-    "x-locations": {
-      "device": [
-        "Settings > Screensaver > Weather Mood screensaver"
-      ],
-      "remoteAdmin": [
-        "Screensaver > Weather Mood screensaver"
-      ]
-    }
-  },
-  "weatherConditionLightning": "Lightning",
-  "@weatherConditionLightning": {
-    "context": "Settings:Screensaver:Weather Mood screensaver",
-    "description": "Weather Mood setting, guidance or weather condition.",
-    "x-locations": {
-      "device": [
-        "Settings > Screensaver > Weather Mood screensaver"
-      ],
-      "remoteAdmin": [
-        "Screensaver > Weather Mood screensaver"
-      ]
-    }
-  },
-  "weatherConditionThunderstorms": "Thunderstorms",
-  "@weatherConditionThunderstorms": {
-    "context": "Settings:Screensaver:Weather Mood screensaver",
-    "description": "Weather Mood setting, guidance or weather condition.",
-    "x-locations": {
-      "device": [
-        "Settings > Screensaver > Weather Mood screensaver"
-      ],
-      "remoteAdmin": [
-        "Screensaver > Weather Mood screensaver"
-      ]
-    }
-  },
-  "weatherConditionPartlyCloudy": "Partly cloudy",
-  "@weatherConditionPartlyCloudy": {
-    "context": "Settings:Screensaver:Weather Mood screensaver",
-    "description": "Weather Mood setting, guidance or weather condition.",
-    "x-locations": {
-      "device": [
-        "Settings > Screensaver > Weather Mood screensaver"
-      ],
-      "remoteAdmin": [
-        "Screensaver > Weather Mood screensaver"
-      ]
-    }
-  },
-  "weatherConditionPouring": "Pouring",
-  "@weatherConditionPouring": {
-    "context": "Settings:Screensaver:Weather Mood screensaver",
-    "description": "Weather Mood setting, guidance or weather condition.",
-    "x-locations": {
-      "device": [
-        "Settings > Screensaver > Weather Mood screensaver"
-      ],
-      "remoteAdmin": [
-        "Screensaver > Weather Mood screensaver"
-      ]
-    }
-  },
-  "weatherConditionRainy": "Rainy",
-  "@weatherConditionRainy": {
-    "context": "Settings:Screensaver:Weather Mood screensaver",
-    "description": "Weather Mood setting, guidance or weather condition.",
-    "x-locations": {
-      "device": [
-        "Settings > Screensaver > Weather Mood screensaver"
-      ],
-      "remoteAdmin": [
-        "Screensaver > Weather Mood screensaver"
-      ]
-    }
-  },
-  "weatherConditionSnowy": "Snowy",
-  "@weatherConditionSnowy": {
-    "context": "Settings:Screensaver:Weather Mood screensaver",
-    "description": "Weather Mood setting, guidance or weather condition.",
-    "x-locations": {
-      "device": [
-        "Settings > Screensaver > Weather Mood screensaver"
-      ],
-      "remoteAdmin": [
-        "Screensaver > Weather Mood screensaver"
-      ]
-    }
-  },
-  "weatherConditionSleet": "Sleet",
-  "@weatherConditionSleet": {
-    "context": "Settings:Screensaver:Weather Mood screensaver",
-    "description": "Weather Mood setting, guidance or weather condition.",
-    "x-locations": {
-      "device": [
-        "Settings > Screensaver > Weather Mood screensaver"
-      ],
-      "remoteAdmin": [
-        "Screensaver > Weather Mood screensaver"
-      ]
-    }
-  },
-  "weatherConditionSunny": "Sunny",
-  "@weatherConditionSunny": {
-    "context": "Settings:Screensaver:Weather Mood screensaver",
-    "description": "Weather Mood setting, guidance or weather condition.",
-    "x-locations": {
-      "device": [
-        "Settings > Screensaver > Weather Mood screensaver"
-      ],
-      "remoteAdmin": [
-        "Screensaver > Weather Mood screensaver"
-      ]
-    }
-  },
-  "weatherConditionWindy": "Windy",
-  "@weatherConditionWindy": {
-    "context": "Settings:Screensaver:Weather Mood screensaver",
-    "description": "Weather Mood setting, guidance or weather condition.",
-    "x-locations": {
-      "device": [
-        "Settings > Screensaver > Weather Mood screensaver"
-      ],
-      "remoteAdmin": [
-        "Screensaver > Weather Mood screensaver"
-      ]
-    }
+  "screensaverWeatherMoodSelectEntity": "Select a weather entity in Settings > Screensaver > Weather Mood.",
+  "@screensaverWeatherMoodSelectEntity": {
+    "context": "Screensaver:Weather Mood",
+    "description": "Prompt shown on a black screen until a weather entity is selected."
   }
 }
