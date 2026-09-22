@@ -19240,5 +19240,149 @@
     "translation": "0853a2e0fcf551592b91f4a9c7f3f27f58aaf04bfc2c62f982baadecf2308e53",
     "author": "Xavier Larrea",
     "ownerAuthored": true
+  },
+  "settingScreensaverWeatherEntityDescription": {
+    "source": "7325c996b76ac1db2d749fa7e47eab48fbcabab508993417a0558cb9b0622833",
+    "translation": "a462e4093619455f5eb245b3f2fd5b31642ada65153db8f37972102a38b59df3",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "settingScreensaverWeatherLocationTitle": {
+    "source": "27a1a683cf13f9b78d2a37848c4e9e80b1331ca535135bf93a667cd3c9d83484",
+    "translation": "1bcb206afbd0470df5944d8e82af280774c6cf5ae33a28c298fd4497a4cd33c5",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "weatherConditionHail": {
+    "source": "ac8054599b03056a08702167b7da8341169cc7e56d874a9d17ecee3a4b1fe040",
+    "translation": "b8840dfab41b0ecbec59a49d575eacd14e9800dbb9bae21e18f3142cf8da8619",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "weatherConditionCloudy": {
+    "source": "8f4ed2ce6c009c245bba925239d4f1146a42ca21dfa9674a7f66c8e9f13bae6c",
+    "translation": "76ccb62476ca69c3823c97f98562e904c25afa3b58cd0f607c9b47feae1f437e",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "weatherConditionSunny": {
+    "source": "188320a512f64b05c2b89e5e18bca15280c4e3645e60b22556af0ee5efb3db60",
+    "translation": "8d39a210121fdc795e5394dbceaf1ee5c8a6d66af0edf1044f5c8ae3ba2da5fd",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "weatherConditionWindy": {
+    "source": "134cd0071cc1af3c08c70e612bc5fda621ad47e4bd2c0056899088f0cf7cd585",
+    "translation": "6e948434bd1cc4e128b67001b06b0014e3549a5cb3a7a7b9e34b9cc8290e66a1",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "screensaverWeatherMoodSummary": {
+    "source": "334b2fb6f36269a351ae08a4a0cbdca235c3400691bb1f4801aeed5b9c5facaf",
+    "translation": "47cfafe595c3a0e7f0e5fec4ca9724eb99428335062b53c3e2cfd6057076584b",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "settingScreensaverWeatherEntityTitle": {
+    "source": "f825dfb0d7652e2b9238f4627b4f5a52aae2c02da61cc65e4c9499d94db5d7e8",
+    "translation": "a3080762899509de82c8545060b5cb5d838a59223b1cb107db7c642b0badbd0f",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "settingScreensaverWeatherLightningDescription": {
+    "source": "2df4e852ac19a9a1b6be88b8de9e533830ff122f9a8deff3af4299a7112f3cfb",
+    "translation": "a5d04792679a9234fdcf59dd3df47f415c48d427d053c6bc4a1000313508fc44",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "weatherConditionRainy": {
+    "source": "263c6203bef257d04d6573c1c2260e7738a02383ad3fe8e7d93cc6ce2a3555a1",
+    "translation": "18147e7dda232528a6b383a3e927bade52939ebe8cffcc53bfc86e287097707a",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "screensaverWeatherMoodPage": {
+    "source": "ffd03527408e45c1de1a2ce89e9ff322e4b8015f0c54bd890d772192cc774370",
+    "translation": "c39053f5c787d08d7e0ed62f4535d68390a49af2580688a78a30e105d7249ad7",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "weatherConditionSnowy": {
+    "source": "c1b1735f448dd43f141ab072b5348775cb72c99db3b9029c1c36a60b0395703f",
+    "translation": "f41bdef268b9010ad285401c224cea2cfdd4e31b6f7fa4e6fddf584142cad4ef",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "weatherConditionLightning": {
+    "source": "68462cebc604191f38e988911b75c1591b452346d9897ada91f62e27505bbb56",
+    "translation": "381b1bf72af9ee49c45a1393c96528af87ff6f390e93f161c5afab5f162edcf2",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "weatherConditionPartlyCloudy": {
+    "source": "92e7633ea3e45561b621ad8f8b51c1f4b33aa6c4e7079bc1a904303b78e8d37e",
+    "translation": "a1b2fee1e6431c712083a34521e38d330e197eca80cb5bf904c2f4e0de6653fa",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "weatherConditionClearNight": {
+    "source": "ee1f94d3780b11654280b8943388d970edcb6c82c401d0025bea94072d0be8b4",
+    "translation": "8d1c9707cf3bf11585d2d361cda47a2237383493203a19e8b86b4d3b58003fe2",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "weatherConditionThunderstorms": {
+    "source": "d5474f78decf883d6c628d2871e76263061f3363c7cde8f24006abb4f024596d",
+    "translation": "511e79cf77bf8fd2c51a35a4ed2328ce27644450bf190d2a2db9e6d0ee3b3773",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "weatherConditionPouring": {
+    "source": "1c75b532e7333eaa227688d6a6448e7cf5ecef91914d9f1291912e463ba07357",
+    "translation": "a128469b5852e6bc98c54cc51ebb1943b61635b4d1a06939bf3058ad6dc87b5e",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "weatherConditionFog": {
+    "source": "df881e6c411dff74e913ca59e2425bc5b8fa93c8b218e950f14b19b3928c83f2",
+    "translation": "15f15fc291ccd5e914085e516184329a5e80eeb6ac82bcabc2236f51c453592e",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "weatherConditionExceptional": {
+    "source": "ac4c7230d19497e9aad17507be8c8080cdcb8dce2be833043a852afc93a15d9e",
+    "translation": "fcdeed9c60bf322e50e2a39fad6d9e92f36373ca13818c9d2826e8caf5e8071a",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "weatherConditionSleet": {
+    "source": "d19afa17880c6ac31c1426a606081017cc8a3bcfd999d972dbb9840fb93a5056",
+    "translation": "48ea222a93b41f9fcc595fb420495097771242012465fe87106eea9373d2d34b",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "screensaverWeatherMoodWidgetNote": {
+    "source": "f2be69e0f7cbfe6cdc020bd480e3d125c52fca3cce4ea60fe3ce08c71b89402a",
+    "translation": "0abacf15b34da87f973eef0283bedfa4a01c154c416856578d0273f9fa3a7e4a",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "screensaverWeatherMood": {
+    "source": "bbda8e41cb13e5d6adfb816ca35825206d16dd1456a9a81001b23376788e11af",
+    "translation": "335c2c9eb59e241a73a4488efc833c6df0e2fb7acf94c3bae3fa4572c3d2d154",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "settingScreensaverWeatherLocationDescription": {
+    "source": "a5bd338b6ee266116535470ede0b5849698a01467e329dea81dc2884d199a5ab",
+    "translation": "bd71e728edbd57da6e26587f56e182cdb53509374e741647a125bc51d1629c0e",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "settingScreensaverWeatherLightningTitle": {
+    "source": "c028ebae7c42803191ba8f8f59bfb0db19d009283013b7ad39e81b55c6f8f555",
+    "translation": "381b1bf72af9ee49c45a1393c96528af87ff6f390e93f161c5afab5f162edcf2",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
   }
 }
