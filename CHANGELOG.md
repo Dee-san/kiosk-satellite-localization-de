@@ -4,6 +4,8 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Add hand gesture hold duration settings and tester feedback in English, German, Spanish and French.
+
 - Clarify that the Weather Mood bar Feels like toggle replaces the displayed temperature in English, Spanish, German and French.
 
 - Label apparent temperatures separately in the weather widget and Weather Mood bar. Update Feels like guidance in English, Spanish, German and French.
