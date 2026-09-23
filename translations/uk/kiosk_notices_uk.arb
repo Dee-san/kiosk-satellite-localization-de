@@ -6,7 +6,7 @@
   "kioskHoldOff": "Режим утримання вимкнено",
   "kioskHoldNotice": "Поточний екран залишатиметься активним, доки ви його не вимкнете.",
   "kioskDownloadComplete": "Завантаження завершено",
-  "kioskDownloadFailed": "Помилка завантаження: {error}",
+  "kioskDownloadFailed": "Завантаження не вдалося: {reason}",
   "kioskDownload": "Завантажити",
   "kioskDownloading": "Завантаження…",
   "kioskOpen": "Відкрити",
