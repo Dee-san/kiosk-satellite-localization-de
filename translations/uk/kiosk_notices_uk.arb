@@ -1,0 +1,19 @@
+{
+  "@@locale": "uk",
+  "kioskBackClose": "Натисніть «Назад» ще раз, щоб закрити застосунок",
+  "kioskBackAgain": "Натисніть «Назад» ще раз, щоб повернутися",
+  "kioskHoldOn": "Режим утримання увімкнено",
+  "kioskHoldOff": "Режим утримання вимкнено",
+  "kioskHoldNotice": "Поточний екран залишатиметься активним, доки ви його не вимкнете.",
+  "kioskDownloadComplete": "Завантаження завершено",
+  "kioskDownloadFailed": "Помилка завантаження: {error}",
+  "kioskDownload": "Завантажити",
+  "kioskDownloading": "Завантаження…",
+  "kioskOpen": "Відкрити",
+  "kioskTip": "Підказка",
+  "kioskMenuHint": "Проведіть від лівого краю або торкніться трьома пальцями, щоб відкрити меню налаштувань.",
+  "kioskUnknownLink": "Неможливо відкрити посилання: {url}",
+  "kioskOpenAppFailed": "Не вдалося відкрити застосунок: {package}",
+  "kioskWebViewMissing": "Android System WebView відсутній або вимкнений",
+  "kioskWebViewMissingHelp": "Встановіть або увімкніть Android System WebView для належного відображення сторінок."
+}

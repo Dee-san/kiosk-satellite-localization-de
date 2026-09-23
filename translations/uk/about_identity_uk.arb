@@ -1,0 +1,13 @@
+{
+  "@@locale": "uk",
+  "aboutApp": "Застосунок",
+  "aboutVersion": "Версія застосунку",
+  "aboutBuild": "Збірка",
+  "aboutPackage": "Пакет",
+  "aboutAttribution": "Подяки та ліцензії",
+  "aboutSource": "Вихідний код",
+  "aboutIssues": "Звіти про помилки",
+  "aboutChangelog": "Журнал змін",
+  "aboutPrivacy": "Політика конфіденційності",
+  "aboutTerms": "Умови використання"
+}
