@@ -4,6 +4,8 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Add the Weather Mood Dawn/Dusk preview and update time-of-day guidance in English, Spanish, German and French.
+
 - Add the Weather Mood Scene blur control in English, Spanish, German and French.
 
 - Add Weather Mood clock and weather information bar controls in English, Spanish, German and French. Reuse the existing clock and widget translations for shared controls.
