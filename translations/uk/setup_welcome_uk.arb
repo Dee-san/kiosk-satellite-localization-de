@@ -14,7 +14,7 @@
   "setupServicePermissions": "Системні дозволи",
   "setupPasswordShort": "Пароль занадто короткий",
   "setupPasswordMinimum": "Мінімум 8 символів",
-  "setupRemoteAddress": "Адреса віддаленого доступу",
+  "setupRemoteAddress": "You can continue this setup remotely from a web browser at {address}, whether the switch above is on or not.",
   "remoteWelcomeTitle": "Ласкаво просимо до Kiosk Satellite",
   "remoteWelcomePassword": "Введіть пароль віддаленого доступу",
   "remoteWelcomeReady": "Кіоск готовий до налаштування",
