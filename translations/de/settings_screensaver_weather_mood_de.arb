@@ -45,5 +45,7 @@
   "settingScreensaverWeatherBarOpacityDescription": "Die untere Leiste abdunkeln, damit die Wetterinformationen gut lesbar bleiben.",
   "screensaverWeatherBarHumidityDescription": "Die Luftfeuchtigkeit anzeigen, wenn die Wetterentität sie meldet.",
   "screensaverWeatherBarWindDescription": "Die Windgeschwindigkeit anzeigen, wenn die Wetterentität sie meldet.",
-  "screensaverWeatherBarVisibilityDescription": "Die Sichtweite anzeigen, wenn die Wetterentität sie meldet."
+  "screensaverWeatherBarVisibilityDescription": "Die Sichtweite anzeigen, wenn die Wetterentität sie meldet.",
+  "settingScreensaverWeatherBlurTitle": "Szenenunschärfe",
+  "settingScreensaverWeatherBlurDescription": "Die animierte Wetterszene weichzeichnen, während Uhr, Wetterleiste und Widgets scharf bleiben."
 }

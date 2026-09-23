@@ -19522,5 +19522,17 @@
     "translation": "8d2dc77195864f1ab4daf47c1aba4acedcf5c23a6c68ecc151c7bb8a0b81ef31",
     "author": "Xavier Larrea",
     "ownerAuthored": true
+  },
+  "settingScreensaverWeatherBlurTitle": {
+    "source": "1901ab06616591865737f2cb23e39126068284788728c796f801a12d571f5788",
+    "translation": "f63815a2ea9f12b8ad90074b4e440d60092122fd1d6d328e1c2c4e97330c1b23",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
+  },
+  "settingScreensaverWeatherBlurDescription": {
+    "source": "1d8e164fbbc394d76a8efbe9860352ba75deb311ec1bc05cce5b9a8d7bf63295",
+    "translation": "ce01ce248068aab4b92b47c8e7d692924785f354c4c2c990d9f54634945e3b0e",
+    "author": "Xavier Larrea",
+    "ownerAuthored": true
   }
 }
