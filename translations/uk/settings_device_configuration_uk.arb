@@ -18,7 +18,7 @@
   "deviceReplaceIdentity": "Зберігає назву та ідентифікатор ESPHome резервної копії; оригінальний пристрій має залишатися офлайн.",
   "deviceNewIdentity": "Призначити власну назву та ідентифікатор ESPHome, щоб обидва пристрої були унікальними.",
   "deviceRestoreStorage": "Відновити локальне сховище Webview",
-  "deviceRestoreStorageHelp": "Включає сеанс входу в Home Assistant та вибір assist_satellite у Voice Satellite — два пристрої не повинні спільно використовувати один супутник.",
+  "deviceRestoreStorageHelp": "Включає сеанс входу в Home Assistant та вибір assist_satellite у Voice Satellite - два пристрої не повинні спільно використовувати один супутник.",
   "deviceDownload": "Завантажити",
   "deviceChooseFile": "Вибрати файл…",
   "deviceImportFailedSentence": "Імпорт не вдався.",
