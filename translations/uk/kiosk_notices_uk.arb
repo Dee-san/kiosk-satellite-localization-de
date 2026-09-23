@@ -12,7 +12,7 @@
   "kioskOpen": "Відкрити",
   "kioskTip": "Підказка",
   "kioskMenuHint": "Проведіть від лівого краю або торкніться трьома пальцями, щоб відкрити меню налаштувань.",
-  "kioskUnknownLink": "Неможливо відкрити посилання: {url}",
+  "kioskUnknownLink": "Не вдалося відкрити посилання: k",
   "kioskOpenAppFailed": "Не вдалося відкрити застосунок: {package}",
   "kioskWebViewMissing": "Android System WebView відсутній або вимкнений",
   "kioskWebViewMissingHelp": "Встановіть або увімкніть Android System WebView для належного відображення сторінок."
