@@ -4,6 +4,8 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Add Weather Mood clock and weather information bar controls in English, Spanish, German and French. Reuse the existing clock and widget translations for shared controls.
+
 - Localize the hint under the About page's Localization Credits row in English, Spanish, German and French. The German and French messages are maintainer additions.
 
 - Add Weather Preview controls and scene choices in English, Spanish, German and French for device settings and Remote Admin.
