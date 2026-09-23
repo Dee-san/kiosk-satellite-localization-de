@@ -1,0 +1,23 @@
+{
+  "@@locale": "uk",
+  "setupRemoteHeading": "Віддалене адміністрування",
+  "setupTitle": "Налаштування\nKiosk Satellite",
+  "setupWelcomeLead": "Перетворіть цей планшет на кіоск Home Assistant. Налаштування займе пару хвилин, і цей майстер проведе вас крок за кроком.",
+  "setupDeviceName": "Назва пристрою",
+  "setupDeviceNameHelp": "Як цей кіоск називатиметься в Home Assistant, у віддаленому адмініструванні та в мережі. Можна змінити в будь-який час у Налаштуваннях, розділ «Пристрій».",
+  "setupEnableRemote": "Увімкнути віддалене адміністрування",
+  "setupEnableRemoteHelp": "Дозволити керування та конфігурацію цього кіоска через веб-інтерфейс з іншого комп’ютера.",
+  "setupRemotePassword": "Пароль віддаленого доступу",
+  "setupRestoreHeading": "Відновлення",
+  "setupRestore": "Відновити з файлу конфігурації",
+  "setupRestoreHelp": "Якщо у вас є збережена резервна копія налаштувань кіоска.",
+  "setupServicePermissions": "Системні дозволи",
+  "setupPasswordShort": "Пароль занадто короткий",
+  "setupPasswordMinimum": "Мінімум 8 символів",
+  "setupRemoteAddress": "Адреса віддаленого доступу",
+  "remoteWelcomeTitle": "Ласкаво просимо до Kiosk Satellite",
+  "remoteWelcomePassword": "Введіть пароль віддаленого доступу",
+  "remoteWelcomeReady": "Кіоск готовий до налаштування",
+  "remoteInitialPassword": "Початковий пароль",
+  "remoteNewPassword": "Новий пароль"
+}
