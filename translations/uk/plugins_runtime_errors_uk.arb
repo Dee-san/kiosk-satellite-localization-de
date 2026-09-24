@@ -20,7 +20,7 @@
   "pluginErrorEnablePlugins": "Спочатку увімкніть плагіни",
   "pluginErrorRestartEnable": "Цей плагін не зупинився коректно. Перезапустіть Kiosk Satellite перед його увімкненням.",
   "pluginErrorInstalledIntegrity": "Встановлений плагін не пройшов перевірку цілісності. Перевстановіть його.",
-  "pluginErrorAndroidOld": "Версія Android надто старa",
+  "pluginErrorAndroidOld": "Версія Android надто стара",
   "pluginErrorNativeIntegrity": "Встановлені нативні бібліотеки не пройшли перевірку цілісності",
   "pluginErrorNativeFileIntegrity": "Встановлена нативна бібліотека не пройшла перевірку цілісності",
   "pluginErrorReadInstalled": "Не вдалося прочитати встановлений плагін: {error}",

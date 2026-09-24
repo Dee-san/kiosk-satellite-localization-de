@@ -43,6 +43,6 @@
   "commonNextMonth": "Наступний місяць",
   "commonLoading": "Завантаження…",
   "commonChoose": "Вибрати",
-  "dlnaPortInvalid": "Вкажіть дійсний номер порту",
+  "dlnaPortInvalid": "Введіть порт від 1024 до 65535 або залиште поле порожнім",
   "commonSelectAll": "Вибрати все"
 }

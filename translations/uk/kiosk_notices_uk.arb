@@ -11,9 +11,9 @@
   "kioskDownloading": "Завантаження…",
   "kioskOpen": "Відкрити",
   "kioskTip": "Підказка",
-  "kioskMenuHint": "Проведіть від лівого краю або торкніться трьома пальцями, щоб відкрити меню налаштувань.",
+  "kioskMenuHint": "Проведіть від лівого краю, щоб відкрити меню.",
   "kioskUnknownLink": "Невідоме посилання кіоска",
   "kioskOpenAppFailed": "Не вдалося відкрити застосунок",
   "kioskWebViewMissing": "Android System WebView відсутній або вимкнений",
-  "kioskWebViewMissingHelp": "Встановіть або увімкніть Android System WebView для належного відображення сторінок."
+  "kioskWebViewMissingHelp": "На цьому пристрої немає провайдера WebView, тому неможливо відобразити Home Assistant. Встановіть Android System WebView або Chrome, а потім перезапустіть Kiosk Satellite."
 }

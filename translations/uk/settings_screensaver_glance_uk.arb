@@ -5,7 +5,7 @@
   "settingScreensaverGlanceEntitiesTitle": "Сутності",
   "settingScreensaverGlanceEntitiesDescription": "До чотирьох сутностей для показу, кожна з можливістю власної назви.",
   "settingScreensaverGlanceNowPlayingTitle": "Показувати у \"Зараз грає\"",
-  "settingScreensaverGlanceNowPlayingDescription": "Показувати рядок на повноекранному виглядi \"Зараз грає\". Він залишається прихованим під час показу тексту пісні.",
+  "settingScreensaverGlanceNowPlayingDescription": "Показувати рядок на повноекранному вигляді \"Зараз грає\". Він залишається прихованим під час показу тексту пісні.",
   "screensaverOverlayShowing": "Відображається",
   "screensaverOverlayReorder": "Відображається (перетягніть для зміни порядку)",
   "screensaverOverlayFull": "Це максимальна кількість сутностей у рядку. Видаліть одну, щоб додати іншу.",

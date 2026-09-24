@@ -19,7 +19,7 @@
   "settingCameraRtspAudioTitle": "Включати звук із мікрофона",
   "settingCameraRtspAudioDescription": "Включати звук із мікрофона в потік камери. Використовує ваші налаштування мікрофона. ПОПЕРЕДЖЕННЯ: Збільшене навантаження на процесор.",
   "settingCameraRtspAuthTitle": "Вимагати автентифікацію",
-  "settingCameraRtspAuthDescription": "Вимагати ім'я користувача та пароль для перегляду потоку. Трафік потоку не зашифрований.",
+  "settingCameraRtspAuthDescription": "Вимагати ім'я користувача та пароль для перегляду потоку. Автентифікація сама по собі не вмикає шифрування.",
   "settingCameraRtspUsernameTitle": "Імʼя користувача",
   "settingCameraRtspUsernameDescription": "Імʼя користувача для клієнтів трансляції.",
   "settingCameraRtspPasswordTitle": "Пароль",

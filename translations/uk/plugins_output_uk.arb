@@ -6,7 +6,7 @@
   "pluginLatest": "Останній",
   "pluginSelected": "Вибрано",
   "pluginNoDataYet": "Даних ще немає",
-  "pluginTapOrDragToInspectSamplesDoubleTapTo": "Торкніться або потягніть, щоб переглянути дані. Подвійний дотик слідкувати за найновішими.",
+  "pluginTapOrDragToInspectSamplesDoubleTapTo": "Торкніться або проведіть, щоб оглянути вибірки. Торкніться двічі, щоб стежити за останніми.",
   "pluginNoData": "Немає даних",
   "pluginOn": "Увімкнено",
   "pluginEmpty": "Порожньо",
