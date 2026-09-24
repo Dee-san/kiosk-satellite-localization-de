@@ -19,7 +19,7 @@
   "settingCameraRtspAudioTitle": "Включати звук із мікрофона",
   "settingCameraRtspAudioDescription": "Включати звук із мікрофона в потік камери. Використовує ваші налаштування мікрофона. ПОПЕРЕДЖЕННЯ: Збільшене навантаження на процесор.",
   "settingCameraRtspAuthTitle": "Вимагати автентифікацію",
-  "settingCameraRtspAuthDescription": "Вимагати імʼя користувача та пароль для перегляду потоку. Трафік трансляції не шифрується.",
+  "settingCameraRtspAuthDescription": "Вимагати ім'я користувача та пароль для перегляду потоку. Трафік потоку не зашифрований.",
   "settingCameraRtspUsernameTitle": "Імʼя користувача",
   "settingCameraRtspUsernameDescription": "Імʼя користувача для клієнтів трансляції.",
   "settingCameraRtspPasswordTitle": "Пароль",
@@ -42,5 +42,7 @@
   "settingCameraRtspDateTimeTitle": "Показувати дату й час",
   "settingCameraRtspDateTimeDescription": "Показувати дату й час пристрою у верхньому лівому куті відео, використовуючи його формат дати та налаштування 12/24-годинного формату.",
   "settingCameraRtspDateTimeBackgroundTitle": "Чорний фон",
-  "settingCameraRtspDateTimeBackgroundDescription": "Додати чорний фон за датою й часом для кращої видимості."
+  "settingCameraRtspDateTimeBackgroundDescription": "Додати чорний фон за датою й часом для кращої видимості.",
+  "settingCameraRtspTlsTitle": "Шифрувати потік",
+  "settingCameraRtspTlsDescription": "Використовувати TLS для шифрування відео та аудіо. Потрібен сумісний плеєр."
 }

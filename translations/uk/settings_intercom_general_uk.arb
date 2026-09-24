@@ -16,5 +16,7 @@
   "intercomRegenerate": "Згенерувати заново",
   "intercomKeyChanged": "Ключ змінено",
   "intercomNotSet": "Не встановлено",
-  "intercomOpen": "Відкрити"
+  "intercomOpen": "Відкрити",
+  "settingIntercomTlsTitle": "Шифрувати зв'язок",
+  "settingIntercomTlsDescription": "Використовувати TLS для шифрування викликів інтеркому між кіосками. Це має бути увімкнено на всіх кіосках у виклику."
 }

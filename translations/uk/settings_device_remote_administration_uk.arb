@@ -15,5 +15,7 @@
   "deviceByNameHelp": "Та сама адреса за назвою хоста в мережах, що підтримують домен .local.",
   "devicePasswordNeeded": "Встановіть пароль адміністратора нижче, щоб запустити сервер.",
   "deviceServerStopped": "Сервер не запущено.",
-  "devicePortError": "Не вдалося прослуховувати порт {port}: {error}"
+  "devicePortError": "Не вдалося прослуховувати порт {port}: {error}",
+  "settingRemoteTlsTitle": "Використовувати HTTPS",
+  "settingRemoteTlsDescription": "Шифрувати віддалене адміністрування, API та WebSocket. Ваш браузер може запропонувати прийняти сертифікат пристрою."
 }

@@ -13,5 +13,8 @@
   "gestureReadingHand": "Розпізнавання руки",
   "gestureNoFingers": "Немає піднятих пальців",
   "gestureHandsCount": "У кадрі {count} рук, розпізнається більша з них.",
-  "gestureTesterSearch": "Перегляд пальців, які зчитує камера, у реальному часі."
+  "gestureTesterSearch": "Перегляд пальців, які зчитує камера, у реальному часі.",
+  "gestureHoldConfirmed": "Утримання підтверджено",
+  "gestureHoldProgress": "Прогрес утримання: {progress}",
+  "gestureTesterHoldDuration": "Тривалість утримання: {duration}"
 }

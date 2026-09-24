@@ -10,12 +10,13 @@
   "screensaverOverlayLocation": "Місце",
   "screensaverOverlayLocationDetail": "Назва місця над температурою.",
   "screensaverOverlayFeelsLike": "Відчувається як",
-  "screensaverOverlayFeelsLikeHelp": "Відчутна температура після фактичної, наприклад \"30° / 33°\".",
+  "screensaverOverlayFeelsLikeHelp": "Відчутна температура після фактичної, \"30° / 33°\".",
   "screensaverOverlayFeelsLikeOnly": "Лише відчувається як",
-  "screensaverOverlayFeelsLikeOnlyHelp": "Показувати відчутну температуру замість фактичної.",
+  "screensaverOverlayFeelsLikeOnlyHelp": "Відчутна температура на місці фактичної.",
   "screensaverOverlayForecast": "Прогноз",
   "screensaverOverlayForecastHelp": "Погодні умови з відповідною піктограмою.",
   "screensaverOverlayHumidity": "Вологість",
   "screensaverOverlayWind": "Швидкість вітру",
-  "screensaverOverlayVisibility": "Видимість"
+  "screensaverOverlayVisibility": "Видимість",
+  "screensaverWeatherFeelsLikeValue": "Відчувається як {temperature}"
 }

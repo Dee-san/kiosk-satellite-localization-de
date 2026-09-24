@@ -18,5 +18,7 @@
   "intercomCallerNoAnswer": "той, хто телефонував, не відповів",
   "intercomMissedcall": "Пропущений виклик",
   "intercomListening": "Прослуховування",
-  "intercomAnnouncementsoff": "Оголошення вимкнено"
+  "intercomAnnouncementsoff": "Оголошення вимкнено",
+  "intercomEncryptionMismatch": "Невідповідність шифрування",
+  "intercomEncryptionMismatchHelp": "Невідповідність шифрування. Увімкніть шифрування зв'язку на всіх кіосках у виклику."
 }

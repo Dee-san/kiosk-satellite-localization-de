@@ -15,5 +15,10 @@
   "gestureAddHelp": "Виберіть жест і дію, яку він запускає.",
   "gestureTouchHelp": "Жести відстежуються, а не блокуються: дотики також доходять до панелі керування, тому кути та форми з кількох пальців захищають від випадкового натискання там.",
   "gestureClapper": "Хлопавка",
-  "gestureReadFailed": "Не вдалося прочитати налаштування."
+  "gestureReadFailed": "Не вдалося прочитати налаштування.",
+  "gestureHandGestures": "Жести руками",
+  "settingHandGestureHoldSecondsTitle": "Тривалість утримання",
+  "settingHandGestureHoldSecondsDescription": "Утримуйте той самий жест пальцями протягом цього часу перед виконанням дії. Збільште для зменшення випадкових спрацьовувань.",
+  "gestureHoldInstant": "Миттєво",
+  "gestureHoldSeconds": "{seconds} с"
 }
