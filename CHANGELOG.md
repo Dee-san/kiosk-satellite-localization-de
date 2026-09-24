@@ -4,6 +4,20 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Add TLS certificate management, HTTPS, camera streaming encryption and intercom encryption text in English, German, Spanish and French. Include certificate errors and preserve contributor credits for updated guidance.
+
+- Add hand gesture hold duration settings and tester feedback in English, German, Spanish and French.
+
+- Clarify that the Weather Mood bar Feels like toggle replaces the displayed temperature in English, Spanish, German and French.
+
+- Label apparent temperatures separately in the weather widget and Weather Mood bar. Update Feels like guidance in English, Spanish, German and French.
+
+- Add the Weather Mood Dawn/Dusk preview and update time-of-day guidance in English, Spanish, German and French.
+
+- Add the Weather Mood Scene blur control in English, Spanish, German and French.
+
+- Add Weather Mood clock and weather information bar controls in English, Spanish, German and French. Reuse the existing clock and widget translations for shared controls.
+
 - Localize the hint under the About page's Localization Credits row in English, Spanish, German and French. The German and French messages are maintainer additions.
 
 - Add Weather Preview controls and scene choices in English, Spanish, German and French for device settings and Remote Admin.
