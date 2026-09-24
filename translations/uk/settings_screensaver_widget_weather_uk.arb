@@ -1,0 +1,21 @@
+{
+  "@@locale": "uk",
+  "screensaverOverlayWeatherEntity": "Об'єкт погоди",
+  "screensaverOverlayNoWeather": "Немає об'єктів погоди",
+  "screensaverOverlayNoWeatherHelp": "Home Assistant не повідомив про жоден об'єкт.",
+  "screensaverOverlayPickWeather": "Виберіть об'єкт погоди...",
+  "screensaverOverlayWeatherRequired": "Виберіть об'єкт погоди.",
+  "screensaverOverlayLocationName": "Назва місця",
+  "screensaverOverlayLocationHelp": "Залиште порожнім, щоб приховати рядок розташування.",
+  "screensaverOverlayLocation": "Місце",
+  "screensaverOverlayLocationDetail": "Назва місця над температурою.",
+  "screensaverOverlayFeelsLike": "Відчувається як",
+  "screensaverOverlayFeelsLikeHelp": "Відчутна температура після фактичної, наприклад \"30° / 33°\".",
+  "screensaverOverlayFeelsLikeOnly": "Лише відчувається як",
+  "screensaverOverlayFeelsLikeOnlyHelp": "Показувати відчутну температуру замість фактичної.",
+  "screensaverOverlayForecast": "Прогноз",
+  "screensaverOverlayForecastHelp": "Погодні умови з відповідною піктограмою.",
+  "screensaverOverlayHumidity": "Вологість",
+  "screensaverOverlayWind": "Швидкість вітру",
+  "screensaverOverlayVisibility": "Видимість"
+}
