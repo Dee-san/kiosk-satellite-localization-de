@@ -54,7 +54,7 @@
   "screensaverFontRegular": "Звичайний",
   "screensaverFontMedium": "Середній",
   "screensaverFontBold": "Жирний",
-  "screensaverFontBlack": "Чорний",
+  "screensaverFontBlack": "Наджирний",
   "screensaverNoPhoto": "Фотографію не вибрано",
   "screensaverBackgroundHint": "Шлях до файлу зображення або URL-адреса",
   "screensaverImageUrlError": "Введіть повну URL-адресу зображення",

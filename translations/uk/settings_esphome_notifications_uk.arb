@@ -13,7 +13,7 @@
   "esphomeAppearance": "Зовнішній вигляд",
   "esphomeSound": "Звук",
   "esphomeNotificationTest": "Тестове сповіщення",
-  "esphomeNotificationHelp": "Сповіщення надсилаються з Home Assistant дією {action}. Тест показує одне поверх панелі приладів.",
+  "esphomeNotificationHelp": "Сповіщення надсилаються з Home Assistant дією {action}. Тест показує одне поверх панелі керування.",
   "esphomeNotificationBody": "Ось так виглядає і звучить сповіщення від Home Assistant.",
   "esphomeNotificationSearch": "Дія Home Assistant для надсилання сповіщень і кнопка для тестового показу."
 }
