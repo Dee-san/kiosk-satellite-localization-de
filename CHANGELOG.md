@@ -4,6 +4,8 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Add TLS certificate management, HTTPS, camera streaming encryption and intercom encryption text in English, German, Spanish and French. Include certificate errors and preserve contributor credits for updated guidance.
+
 - Add hand gesture hold duration settings and tester feedback in English, German, Spanish and French.
 
 - Clarify that the Weather Mood bar Feels like toggle replaces the displayed temperature in English, Spanish, German and French.
