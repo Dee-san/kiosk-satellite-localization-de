@@ -1,0 +1,11 @@
+{
+  "@@locale": "ru",
+  "cameraNoCamera": "Камера не обнаружена",
+  "cameraNoCameraHelp": "Устройство не сообщает ни одной пригодной камеры.",
+  "cameraCameraPermission": "Нет разрешения на камеру",
+  "cameraCameraPermissionHelp": "Без него камеру не использовать. Диалог выдачи появится на экране планшета.",
+  "cameraGrantOnDevice": "Предоставить на устройстве",
+  "cameraCameraBlocked": "Заблокировано. Android больше не спросит: разрешите в настройках приложения.",
+  "cameraCameraNeeded": "Без этого камеру не использовать.",
+  "cameraAppSettings": "Настройки приложения"
+}

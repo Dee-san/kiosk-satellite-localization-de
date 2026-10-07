@@ -1,0 +1,12 @@
+{
+  "@@locale": "ru",
+  "overviewNoScreenshot": "Нет скриншота",
+  "overviewStill": "Стоп-кадр",
+  "overviewLive": "Вживую",
+  "overviewFullSize": "Полный размер",
+  "overviewLiveInterval": "Вживую, каждые 5 секунд",
+  "overviewTaken": "Снято {age}",
+  "overviewCameraViewNamed": "Просмотр камеры: {name}",
+  "overviewCameraView": "Просмотр камеры",
+  "overviewScreenOffState": "Экран выключен"
+}
