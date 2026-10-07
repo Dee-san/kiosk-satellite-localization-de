@@ -4,6 +4,8 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Add the Gestures editor's Plugin trigger gesture in Spanish, German, French, Ukrainian, Dutch and Simplified Chinese: its name, the Trigger picker and the hint shown when no plugin declares one. Add the Plugin Manager's Too many triggers and invalid trigger ID manifest errors. The German, French, Ukrainian, Dutch and Simplified Chinese messages are maintainer additions.
+
 - Add the Sendspin Player page's Adjust the group volume hint in Spanish, German, French, Ukrainian, Dutch and Simplified Chinese. The switch reuses the Sonos page's title. The German, French, Ukrainian, Dutch and Simplified Chinese messages are maintainer additions.
 
 - Add the Gestures action chooser's Stop the alarm and Snooze the alarm actions in Spanish, German, French, Ukrainian, Dutch and Simplified Chinese. The German, French, Ukrainian, Dutch and Simplified Chinese messages are maintainer additions.
