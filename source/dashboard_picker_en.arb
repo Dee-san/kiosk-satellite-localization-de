@@ -540,10 +540,10 @@
       ]
     }
   },
-  "dashboardPickerStart": "Start dashboard",
-  "@dashboardPickerStart": {
+  "dashboardPickerDefault": "Default dashboard",
+  "@dashboardPickerDefault": {
     "context": "Dashboard picker",
-    "description": "Setting name: the view the kiosk opens on.",
+    "description": "Setting name: the view the kiosk opens on and comes back to.",
     "x-locations": {
       "device": [
         "Settings > Home Assistant > Dashboard",
@@ -567,7 +567,7 @@
   "dashboardPickerStartHelp": "Where the kiosk opens and comes back to.",
   "@dashboardPickerStartHelp": {
     "context": "Dashboard picker",
-    "description": "Description of the Start dashboard setting.",
+    "description": "Description of the Default dashboard setting.",
     "x-locations": {
       "device": [
         "Settings > Home Assistant > Dashboard",

@@ -19145,7 +19145,7 @@
     "author": "Xavier Larrea"
   },
   "dashboardPickerStartHelp": {
-    "source": "0bd24d5987a61a5238695da39ee0977cfde90bf44db6654d8c026f954d230608",
+    "source": "c5741c8a19a644609e074f562a661d497265e49dbdcbc7fe0cadda0531591a08",
     "translation": "3d5f0fea8b6e5d1a90f5de201487f313d6ee92d89e7cd7c3b52aa1802dee7897",
     "author": "Xavier Larrea"
   },
@@ -19212,6 +19212,11 @@
   "dashboardPickerAddViews": {
     "source": "4ca59fe1599880c44e966559dffd802d7bdcf9f127b5ea119608cabe6cabdeb8",
     "translation": "424150814232277090429b0fd1bc96fe8a9cf5aac130d1850cc11aefbfa53d58",
+    "author": "Xavier Larrea"
+  },
+  "dashboardPickerDefault": {
+    "source": "b2fc6b9cf07dcd2e8f45f9686fd9494a5ffcab7c6dddc32dd984bc678bcc8564",
+    "translation": "34bebd29165ee94a3e3e23ac24cbe372dd176641c757a1ae98f0d0f187eb97a7",
     "author": "Xavier Larrea"
   }
 }

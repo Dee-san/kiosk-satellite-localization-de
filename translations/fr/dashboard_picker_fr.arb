@@ -22,6 +22,6 @@
   "dashboardPickerShowing": "Affichée",
   "dashboardPickerMissing": "Cette vue n'existe plus dans Home Assistant. Choisissez-en une autre.",
   "dashboardPickerAddViews": "Ajouter des vues",
-  "dashboardPickerStart": "Tableau de bord de démarrage",
+  "dashboardPickerDefault": "Tableau de bord par défaut",
   "dashboardPickerStartHelp": "Là où le kiosque s'ouvre et revient."
 }

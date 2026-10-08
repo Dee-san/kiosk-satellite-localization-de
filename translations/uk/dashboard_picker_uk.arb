@@ -22,6 +22,6 @@
   "dashboardPickerShowing": "На екрані",
   "dashboardPickerMissing": "Цього виду більше немає в Home Assistant. Виберіть інший.",
   "dashboardPickerAddViews": "Додати види",
-  "dashboardPickerStart": "Стартова панель",
+  "dashboardPickerDefault": "Панель керування за замовчуванням",
   "dashboardPickerStartHelp": "Тут кіоск відкривається і сюди повертається."
 }
