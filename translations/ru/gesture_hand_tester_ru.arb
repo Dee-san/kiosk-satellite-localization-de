@@ -10,10 +10,10 @@
   "gestureTesterTrigger": "Срабатывает: {action}",
   "gestureNoCount": "Ни один жест не использует это количество.",
   "gestureNoHand": "Руки в кадре нет",
-  "gestureReadingHand": "Чтение руки",
+  "gestureReadingHand": "Распознавание руки",
   "gestureNoFingers": "Пальцы не подняты",
   "gestureHandsCount": "Рук в кадре: {count}, читается большая.",
-  "gestureTesterSearch": "Живой обзор пальцев, которые считывает камера.",
+  "gestureTesterSearch": "Пальцы, которые распознаёт камера, в реальном времени.",
   "gestureHoldConfirmed": "Удержание подтверждено",
   "gestureHoldProgress": "Прогресс удержания: {progress}",
   "gestureTesterHoldDuration": "Длительность удержания: {duration}"

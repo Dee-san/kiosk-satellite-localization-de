@@ -3,7 +3,7 @@
   "screensaverDetectionPermissions": "Необходимые системные разрешения",
   "screensaverDetectionLogAccess": "Доступ к журналам",
   "screensaverDetectionChecking": "Проверка…",
-  "screensaverDetectionReadable": "Датчик присутствия устройства может читаться.",
+  "screensaverDetectionReadable": "Датчик присутствия устройства доступен для чтения.",
   "screensaverDetectionRestartRequired": "Предоставлено. Перезапустите Kiosk Satellite, чтобы применить.",
   "screensaverDetectionGrantHelp": "Это разрешение выдаётся только через ADB. Полная команда в документе Meta Portal. Затем перезапустите Kiosk Satellite.",
   "screensaverDetectionGrantRemoteHelp": "Это разрешение выдаётся только через ADB. Ниже полная команда, готовая к копированию. Затем перезапустите Kiosk Satellite.",

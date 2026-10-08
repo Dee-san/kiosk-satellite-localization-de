@@ -8,7 +8,7 @@
   "voiceCheckHaBad": "Не подключено. Проверьте настройку Home Assistant.",
   "voiceCheckEsphome": "Этот киоск в Home Assistant",
   "voiceCheckEsphomeOk": "Добавлен через ESPHome.",
-  "voiceCheckEsphomeBad": "Ещё не добавлен. Home Assistant перечисляет этот киоск как обнаруженный в Настройки, Устройства и службы. Добавьте его там, затем вернитесь.",
+  "voiceCheckEsphomeBad": "Ещё не добавлен. Home Assistant перечисляет этот киоск как обнаруженный в разделе «Настройки», «Устройства и службы». Добавьте его там, затем вернитесь.",
   "voiceCheckEsphomeOff": "Сервер ESPHome выключен. Включите его, затем добавьте этот киоск в Home Assistant.",
   "voiceCheckAdmin": "Токен администратора",
   "voiceCheckAdminOk": "Вызовы инструментов и результаты будут показываться.",
@@ -46,7 +46,7 @@
   "voiceStepCheck": "Проверить спутник в Home Assistant",
   "voiceMigrationStep": "Шаг {n} из {total}",
   "voiceMigrationStillPoint": "Они всё ещё указывают на {satellite}. Измените их в Home Assistant на спутник этого киоска. Мастер их не трогает.",
-  "voiceMigrationNotUp": "Спутник не поднялся вовремя.",
+  "voiceMigrationNotUp": "Спутник не запустился вовремя.",
   "voiceMigrationNotReported": "Home Assistant не сообщил о спутнике.",
   "voiceMigrationBusy": "Миграция уже выполняется."
 }

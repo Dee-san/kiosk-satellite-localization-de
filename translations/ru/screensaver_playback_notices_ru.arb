@@ -6,7 +6,7 @@
   "screensaverFolderUnreadable": "Не удалось прочитать {folder}. Выдано ли разрешение на медиа?",
   "screensaverReadPhotosFailed": "Не удалось прочитать фотографии.",
   "screensaverImmichNotReady": "Immich не подключён. Проверьте его в настройках.",
-  "screensaverNoMediaMatch": "Нет медиа под выбранный источник и фильтры.",
+  "screensaverNoMediaMatch": "Нет медиа, подходящих под источник и фильтры.",
   "screensaverNoMediaSource": "В выбранном источнике нет медиа.",
   "screensaverImmichUnreachable": "Сервер Immich недоступен.",
   "screensaverRetryNotice": "{error} Повтор выполняется автоматически.",

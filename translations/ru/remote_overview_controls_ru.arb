@@ -21,7 +21,7 @@
   "overviewBrightnessGrant": "Яркость использует резервный режим приложения. Выдайте разрешение «Изменение системных настроек», чтобы ползунок управлял реальной яркостью панели.",
   "overviewRestartQuestion": "Перезапустить это устройство? Kiosk Satellite вернётся после загрузки.",
   "overviewRestart": "Перезапустить",
-  "overviewNoSnapshot": "Снимок не вернулся.",
+  "overviewNoSnapshot": "Снимок не получен.",
   "overviewSnapshotTitle": "Снимок камеры",
   "overviewUpdateCheckFailed": "Не удалось проверить обновления. Устройство имеет доступ к GitHub?",
   "overviewLatest": "У вас последняя версия.",

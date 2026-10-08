@@ -1,9 +1,9 @@
 {
   "@@locale": "ru",
   "settingIntercomTalkModeTitle": "Режим разговора",
-  "settingIntercomTalkModeDescription": "«Нажмите, чтобы говорить» передаёт, пока кнопка удерживается. «Без рук» держит микрофон открытым весь звонок.",
-  "intercomOptionTalkPtt": "Нажмите, чтобы говорить",
-  "intercomOptionTalkHandsfree": "Без рук",
+  "settingIntercomTalkModeDescription": "«Нажать и говорить» передаёт звук, пока кнопка удерживается. «Громкая связь» держит микрофон открытым весь звонок.",
+  "intercomOptionTalkPtt": "Нажать и говорить",
+  "intercomOptionTalkHandsfree": "Громкая связь",
   "settingIntercomMaxCallMinutesTitle": "Максимальная длительность звонка",
   "settingIntercomMaxCallMinutesDescription": "Звонки завершаются сами по прошествии этого времени.",
   "intercomOptionCallUnlimited": "Без ограничения",

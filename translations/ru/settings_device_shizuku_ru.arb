@@ -28,7 +28,7 @@
   "deviceShizukuTestOk": "Shizuku успешно выполнил команду с доступом {access}.",
   "shizukuPermissionUnconfirmed": "Android не подтвердил это разрешение. Проверьте менеджер разрешений на устройстве.",
   "shizukuPermissionReadFailed": "Не удалось прочитать текущие разрешения. Попробуйте снова.",
-  "shizukuRestartTimedOut": "Команда перезапуска истекла по тайм-ауту",
+  "shizukuRestartTimedOut": "Истёк тайм-аут команды перезапуска",
   "shizukuRestartRefused": "Android отказал в перезапуске",
   "shizukuCommandTimedOut": "Истёк тайм-аут команды",
   "shizukuRequestRejected": "Android отклонил запрос",

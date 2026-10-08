@@ -31,7 +31,7 @@
   "deviceNotOffered": "Не предлагается",
   "deviceOn": "вкл",
   "deviceOff": "выкл",
-  "deviceServiceHint": "Статус, что его удерживает, нужные разрешения",
+  "deviceServiceHint": "Статус, что поддерживает её работу, нужные разрешения",
   "deviceRemoteHintActual": "Управляйте этим киоском из браузера в вашей сети",
   "deviceUpdatesHint": "Где приложение ищет новые выпуски",
   "deviceShizukuHint": "Соединение, разрешения Android и настройка",

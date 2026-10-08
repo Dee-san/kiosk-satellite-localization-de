@@ -3,7 +3,7 @@
   "settingIntercomAnswerModeTitle": "Режим ответа",
   "settingIntercomAnswerModeDescription": "«Звонок» спрашивает на экране. «Отвечать автоматически» открывает звонок после сигнала.",
   "settingIntercomRingSecondsTitle": "Звонить в течение",
-  "settingIntercomRingSecondsDescription": "Как долго звонит вызов до учёта как пропущенного.",
+  "settingIntercomRingSecondsDescription": "Как долго звонит вызов, прежде чем считается пропущенным.",
   "settingIntercomRingSoundTitle": "Звук звонка",
   "settingIntercomRingSoundDescription": "Проигрывается на громкости уведомлений.",
   "settingIntercomAcceptAnnouncementsTitle": "Принимать объявления",

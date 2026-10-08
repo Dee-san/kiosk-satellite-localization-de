@@ -19,6 +19,6 @@
   "voiceLogScore": "оценка",
   "voiceLogDecoded": "распознано",
   "voiceLogDistance": "ред",
-  "voiceLogConfidence": "доверие",
+  "voiceLogConfidence": "увер.",
   "voiceTesterPlayRecent": "Проиграть последние 10 с"
 }

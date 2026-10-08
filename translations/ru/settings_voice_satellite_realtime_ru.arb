@@ -20,7 +20,7 @@
   "settingVoiceRealtimeGeminiReasoningDescription": "Больше усилий: лучше отвечает на сложные вопросы. Нужна думающая модель, например gemini-3.8-live-extended-thinking.",
   "settingVoiceRealtimeGeminiSearchTitle": "Google Поиск",
   "settingVoiceRealtimeGeminiSearchBillingDescription": "Позволяет модели искать в интернете. Нужен включённый биллинг у API-ключа.",
-  "settingVoiceRealtimeGeminiProactiveTitle": "Игнорировать речь не себе",
+  "settingVoiceRealtimeGeminiProactiveTitle": "Игнорировать речь, обращённую не к ассистенту",
   "settingVoiceRealtimeGeminiProactiveDescription": "Модель молчит, когда слышит обращение не к ней. Экспериментально у Google.",
   "settingVoiceRealtimeXaiWebSearchTitle": "Поиск в интернете",
   "settingVoiceRealtimeXaiWebSearchDescription": "Позволяет модели искать в интернете.",

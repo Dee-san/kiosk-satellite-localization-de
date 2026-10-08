@@ -15,5 +15,5 @@
   "esphomeNotificationTest": "Тестовое уведомление",
   "esphomeNotificationHelp": "Уведомления отправляются из Home Assistant действием {action}. Тест показывает одно поверх панели.",
   "esphomeNotificationBody": "Так выглядит и звучит уведомление из Home Assistant.",
-  "esphomeNotificationSearch": "Действие Home Assistant, отправляющее уведомления, и кнопка показать одно."
+  "esphomeNotificationSearch": "Действие Home Assistant, отправляющее уведомления, и кнопка для показа тестового уведомления."
 }

@@ -11,7 +11,7 @@
   "overviewWatchingMany": "Отслеживается сущностей: {count}",
   "overviewFilterDisabled": "Фильтрация выключена, вид использует сущностей: {count}",
   "overviewWakeOff": "Определение слова пробуждения выключено",
-  "overviewListeningFor": "Слушает {words}",
+  "overviewListeningFor": "Слушает: {words}",
   "overviewListening": "Слушает",
   "overviewNotListening": "Не слушает",
   "overviewEntitiesProxy": "Сущности и BT-прокси",
@@ -41,7 +41,7 @@
   "overviewSuspended": "Готово (приостановлено на время голосового сеанса)",
   "overviewCpu": "ЦП",
   "overviewMemory": "ОЗУ",
-  "overviewTemperature": "Темп",
+  "overviewTemperature": "Темп.",
   "overviewMemoryFree": "Свободно {amount} ГБ",
   "overviewMetricPercent": "{value}%",
   "overviewMetricDegrees": "{value}°C"

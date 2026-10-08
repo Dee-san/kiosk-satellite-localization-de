@@ -18,10 +18,10 @@
   "mediaSonosSearch": "Найти",
   "mediaSonosSearching": "Поиск…",
   "mediaSonosAddAddress": "Добавить по адресу",
-  "mediaSonosAddressHelp": "Адрес колонки в сети. Из него добавляется всё домашнее хозяйство.",
+  "mediaSonosAddressHelp": "Адрес колонки в сети. По нему добавляется вся система Sonos.",
   "mediaSonosPickRoom": "Выберите комнату в «Источник плеера», Sonos.",
   "mediaSonosAdded": "Sonos добавлен",
-  "mediaSonosNoRooms": "Колонка не перечислила комнат.",
+  "mediaSonosNoRooms": "Колонка не вернула ни одной комнаты.",
   "mediaSonosNoAddress": "нет адреса",
   "mediaSonosUnreachable": "По адресу {host} Sonos не ответил."
 }

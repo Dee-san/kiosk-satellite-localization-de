@@ -3,7 +3,7 @@
   "voiceMicHeld": "Определение слова пробуждения вас слышит.",
   "voiceMicBlocked": "Заблокировано. Android больше не спросит: разрешите в настройках приложения.",
   "voiceMicMissing": "Без этого слово пробуждения никто не слушает.",
-  "voiceForegroundHeld": "Kiosk Satellite может выйти вперёд, услышав вас.",
+  "voiceForegroundHeld": "Kiosk Satellite может выйти на передний план, услышав вас.",
   "voiceForegroundMissing": "Без этого слово пробуждения слышно, но ничего не происходит.",
   "voiceNotificationHeld": "Постоянное уведомление, включающее фоновое прослушивание.",
   "voiceNotificationMissing": "Нужно для надёжной работы фонового прослушивания.",

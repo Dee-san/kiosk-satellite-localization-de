@@ -34,7 +34,7 @@
   "deviceInstallingOn": "Установка на {name}…",
   "deviceInstallingNames": "{names}: установка.",
   "deviceUpdateUrlInvalid": "Введите URL папки, например http://nas.local/kiosk-satellite",
-  "deviceUpdateUrlPath": "Введите только URL папки, без ничего после пути. Пример: http://nas.local/kiosk-satellite",
+  "deviceUpdateUrlPath": "Введите только URL папки, ничего не добавляя после пути. Пример: http://nas.local/kiosk-satellite",
   "updateDownloadBusy": "Загрузка уже идёт. Дождитесь её завершения.",
   "updateInstallBusy": "Установка уже идёт. Дождитесь её завершения.",
   "updateNoAvailable": "Обновлений нет.",

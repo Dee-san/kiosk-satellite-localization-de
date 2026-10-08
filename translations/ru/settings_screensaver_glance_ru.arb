@@ -7,7 +7,7 @@
   "settingScreensaverGlanceNowPlayingTitle": "Показывать на «Сейчас играет»",
   "settingScreensaverGlanceNowPlayingDescription": "Показывать ряд на полноэкранном виде «Сейчас играет». Скрывается, пока показан текст песни.",
   "screensaverOverlayShowing": "Показываются",
-  "screensaverOverlayReorder": "Показываются (перетащите для порядка)",
+  "screensaverOverlayReorder": "Показываются (перетащите, чтобы изменить порядок)",
   "screensaverOverlayFull": "Это максимум ряда. Уберите одну сущность, чтобы добавить другую.",
   "screensaverOverlayPickerTitle": "Сущности «Сводки»",
   "screensaverOverlayGlanceEmpty": "Пока пусто. До {count} сущностей.",

@@ -36,7 +36,7 @@
   "cameraExtraSizes": "Выключите «Анализ движения при стриминге», чтобы использовать также {sizes}.",
   "cameraAnalysisOff": "Определение движения, лиц и жесты рукой приостанавливаются при подключённых зрителях. Снимки берутся из кадров видео в разрешении стриминга.",
   "cameraRejectedSizes": "Кодировщик не может использовать {sizes} при этих настройках.",
-  "cameraRejectedCount": "Размеров камеры исключено: {count}: кодировщик не может использовать их при этих настройках.",
+  "cameraRejectedCount": "Исключено размеров камеры: {count}. Кодировщик не может использовать их при этих настройках.",
   "cameraCaptureRejected": "Другие размеры камеры недоступны в текущей настройке захвата.",
   "cameraOverlaysHeading": "Наложения",
   "settingCameraRtspDateTimeTitle": "Показывать дату и время",
@@ -44,5 +44,5 @@
   "settingCameraRtspDateTimeBackgroundTitle": "Чёрный фон",
   "settingCameraRtspDateTimeBackgroundDescription": "Добавить чёрный фон за датой и временем для видимости.",
   "settingCameraRtspTlsTitle": "Шифровать поток",
-  "settingCameraRtspTlsDescription": "Использовать TLS для шифрования видео и звука. Требуется совместимый зритель."
+  "settingCameraRtspTlsDescription": "Использовать TLS для шифрования видео и звука. Требуется совместимый плеер."
 }

@@ -18,5 +18,5 @@
   "screensaverDetectionMinutesAgo": "{count} мин назад",
   "screensaverDetectionHoursAgo": "{count} ч назад",
   "screensaverDetectionDetected": "Обнаружено",
-  "screensaverDetectionClear": "Чисто"
+  "screensaverDetectionClear": "Не обнаружено"
 }

@@ -6,7 +6,7 @@
   "settingScreensaverWidgetScaleDescription": "Масштабировать все виджеты вместе под размер экрана. Каждый виджет сохраняет свой масштаб относительно остальных.",
   "settingScreensaverWidgetFontTitle": "Общая гарнитура",
   "settingScreensaverWidgetFontDescription": "Шрифт, которым рисуется каждый виджет. Виджет может выбрать свой.",
-  "settingScreensaverWidgetFontWeightTitle": "Общая насыщенность",
+  "settingScreensaverWidgetFontWeightTitle": "Общая насыщенность шрифта",
   "settingScreensaverWidgetFontWeightDescription": "Насколько жирно рисуется текст каждого виджета. По умолчанию собственная насыщенность строк. Виджет может выбрать свою.",
   "settingScreensaverWidgetTextShadowTitle": "Тень текста",
   "settingScreensaverWidgetTextShadowDescription": "Добавить тень тексту виджетов для читаемости на фото.",

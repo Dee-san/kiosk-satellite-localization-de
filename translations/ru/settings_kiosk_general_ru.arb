@@ -1,8 +1,8 @@
 {
   "@@locale": "ru",
   "settingKioskEnabledTitle": "Включить режим киоска",
-  "settingKioskEnabledDescription": "Замкнуть планшет в Kiosk Satellite. Свайп меню заменяется жестом выхода, кнопка «Назад» остаётся внутри киоска, защиты ниже активируются.",
-  "settingKioskStartOnBootTitle": "Стартовать при загрузке",
+  "settingKioskEnabledDescription": "Заблокировать планшет в Kiosk Satellite. Свайп меню заменяется жестом выхода, кнопка «Назад» остаётся внутри киоска, защиты ниже активируются.",
+  "settingKioskStartOnBootTitle": "Запускать при загрузке",
   "settingKioskStartOnBootDescription": "Запускать Kiosk Satellite при включении устройства. На Android 10+ нужно разрешение «Поверх других приложений»; Android спросит при первом включении.",
   "settingKioskExitGestureTitle": "Жест выхода из киоска",
   "settingKioskExitGestureDescription": "Быстрые нажатия где угодно открывают меню, после PIN, если он задан. Варианты с удержанием требуют удержания последнего нажатия. Если выключено, до настроек доберётся только удалённое администрирование.",

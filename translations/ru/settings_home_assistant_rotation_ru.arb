@@ -1,7 +1,7 @@
 {
   "@@locale": "ru",
   "settingHaRotationEnabledTitle": "Включить ротацию видов панели",
-  "settingHaRotationEnabledDescription": "Циклически переключать выбранные виды панели бесконечным циклом, показывая каждый выбранное число секунд.",
+  "settingHaRotationEnabledDescription": "Бесконечно переключать выбранные виды панели по кругу, показывая каждый заданное число секунд.",
   "settingHaRotationSecondsTitle": "Секунд на вид",
   "settingHaRotationSecondsDescription": "Как долго каждый вид остаётся на экране.",
   "settingHaRotationPauseSecondsTitle": "Пауза ротации при взаимодействии (с)",

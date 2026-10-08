@@ -1,9 +1,9 @@
 {
   "@@locale": "ru",
   "settingEsphomeEnabledTitle": "Включить ESPHome",
-  "settingEsphomeEnabledDescription": "Отдавать этот киоск в Home Assistant как устройство ESPHome: его датчики и управления как нативные сущности. Обнаруживается автоматически.",
+  "settingEsphomeEnabledDescription": "Отдавать этот киоск в Home Assistant как устройство ESPHome: его датчики и элементы управления как нативные сущности. Обнаруживается автоматически.",
   "settingEsphomeEntitiesTitle": "Предоставить сущности киоска",
-  "settingEsphomeEntitiesDescription": "Отдавать датчики и управления этого устройства как сущности ESPHome.",
+  "settingEsphomeEntitiesDescription": "Отдавать датчики и элементы управления этого устройства как сущности ESPHome.",
   "settingEsphomeExcludedEntitiesTitle": "Исключённые сущности",
   "settingEsphomeExcludedEntitiesDescription": "Выберите сущности, исключаемые из Home Assistant. Все остальные доступные сущности предоставляются. Сохранение переподключает ESPHome.",
   "settingEsphomeNodeNameTitle": "Имя узла",

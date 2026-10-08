@@ -30,7 +30,7 @@
   "deviceMicBlocked": "Заблокировано. Android больше не спросит: разрешите в настройках приложения.",
   "deviceMicMissing": "Определение слова пробуждения включено, но ничего не слушает.",
   "deviceMicIdle": "Нужно для определения слова пробуждения, интеркома и страниц, запрашивающих микрофон.",
-  "deviceBatteryMissing": "Android может приостановить приложение при выключенном экране, разорвав соединение с Home Assistant и сущности ESPHome вместе с ним.",
+  "deviceBatteryMissing": "Android может приостановить приложение при выключенном экране: соединение с Home Assistant разорвётся, а сущности ESPHome станут недоступны.",
   "deviceCameraMissing": "Камера включена, но не открывается.",
   "deviceCameraIdle": "Нужно для определения движения, снимков камеры и страниц, запрашивающих камеру.",
   "deviceBluetoothMissing": "Bluetooth-прокси включён, но не может сканировать.",
@@ -57,7 +57,7 @@
   "deviceBatteryAdb": "У этого устройства нет экрана настроек для этого. Выдайте через adb: adb shell dumpsys deviceidle whitelist +me.jxl.kiosk_satellite",
   "deviceOverlayAdb": "У этого устройства нет экрана настроек для этого. Выдайте через adb: adb shell appops set me.jxl.kiosk_satellite SYSTEM_ALERT_WINDOW allow",
   "deviceNotificationAccess": "Доступ к уведомлениям",
-  "deviceNotificationAccessHeld": "«Сейчас играет» может отслеживать приложения, воспроизводящие на этом устройстве.",
+  "deviceNotificationAccessHeld": "«Сейчас играет» может отслеживать приложения, которые воспроизводят медиа на этом устройстве.",
   "deviceNotificationAccessMissing": "Без этого Android не показывает медиасеансы, поэтому «Сейчас играет» не может отслеживать приложения на этом устройстве.",
-  "deviceNotificationAccessIdle": "Позволяет «Сейчас играет» отслеживать приложения, воспроизводящие на этом устройстве."
+  "deviceNotificationAccessIdle": "Позволяет «Сейчас играет» отслеживать приложения, которые воспроизводят медиа на этом устройстве."
 }

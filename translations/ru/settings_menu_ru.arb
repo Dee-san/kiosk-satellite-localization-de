@@ -33,7 +33,7 @@
   "settingsMenuDevice": "Устройство",
   "settingsMenuDeviceSummary": "Имя, тема приложения, удалённый доступ",
   "settingsMenuFleet": "Управление группой киосков",
-  "settingsMenuFleetSummary": "Вести или следовать за другими киосками",
+  "settingsMenuFleetSummary": "Вести за собой другие киоски или следовать за ними",
   "settingsMenuPlugins": "Менеджер плагинов",
   "settingsMenuPluginsSummary": "Установка и управление плагинами",
   "settingsMenuLogs": "Журналы",

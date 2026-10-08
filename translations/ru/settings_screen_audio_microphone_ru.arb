@@ -9,19 +9,19 @@
   "settingMicChannelTitle": "Канал микрофона",
   "settingMicChannelDescription": "Многоканальные микрофоны часто резервируют канал под распознавание речи; его выбор может улучшить определение.",
   "settingMicGainDbTitle": "Усиление микрофона",
-  "settingMicGainDbDescription": "Повысить или ослабить микрофон до всего остального. Цель: уровень около 0.05 в тестере слова пробуждения; излишнее усиление искажает речь и мешает определению.",
+  "settingMicGainDbDescription": "Усиливает или ослабляет сигнал микрофона до любой обработки. Цель: уровень около 0.05 в тестере слова пробуждения; излишнее усиление искажает речь и мешает определению.",
   "settingMicCaptureFormatTitle": "Формат захвата",
   "settingMicCaptureFormatDescription": "Выберите «48 кГц стерео», если микрофон работает в других приложениях, но не здесь: некоторые звуковые карты пишут только в этом формате, и приложение конвертирует само.",
   "screenAudioMicrophoneSettings": "Настройки микрофона",
-  "screenAudioMicrophoneHint": "Эхо, шум, усиление, формат, живой уровень",
+  "screenAudioMicrophoneHint": "Эхо, шум, усиление, формат, текущий уровень",
   "screenAudioMicrophoneNote": "Подстройте захват под ваш микрофон и комнату. После изменения проверьте слова пробуждения и голосовое взаимодействие.",
   "screenAudioAutomaticDefault": "Автоматически (по умолчанию)",
   "screenAudioStereo": "48 кГц стерео",
-  "screenAudioCaptureRawMicrophone": "Сырой микрофон (по умолчанию)",
+  "screenAudioCaptureRawMicrophone": "Необработанный сигнал (по умолчанию)",
   "screenAudioCaptureVoiceCommunication": "Голосовая связь",
   "screenAudioDownmix": "Сведение (по умолчанию)",
   "screenAudioChannel": "Канал {channel}",
   "screenAudioChannelMissing": "Канал {channel} (нет на этом микрофоне)",
   "screenAudioMicrophoneLevel": "Уровень микрофона",
-  "screenAudioMicrophoneLevelHelp": "Говорите оттуда, где пользуетесь устройством; подстройте усиление, пока обычная речь доходит примерно до конца зелёной зоны."
+  "screenAudioMicrophoneLevelHelp": "Говорите оттуда, где пользуетесь устройством; подстройте усиление так, чтобы обычная речь доходила примерно до конца зелёной зоны."
 }

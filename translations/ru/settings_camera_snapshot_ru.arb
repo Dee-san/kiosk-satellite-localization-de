@@ -20,5 +20,5 @@
   "cameraHourAgo": "Час назад",
   "cameraHoursAgo": "{count} ч назад",
   "cameraDayAgo": "День назад",
-  "cameraDaysAgo": "{count} дн назад"
+  "cameraDaysAgo": "{count} дн. назад"
 }

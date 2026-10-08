@@ -4,7 +4,7 @@
   "kioskBackAgain": "Нажмите «Назад» ещё раз, чтобы вернуться",
   "kioskHoldOn": "Режим удержания включён",
   "kioskHoldOff": "Режим удержания выключен",
-  "kioskHoldNotice": "Текущий вид останется, пока вы его не выключите.",
+  "kioskHoldNotice": "Текущий экран останется, пока вы не выключите режим удержания.",
   "kioskDownloadComplete": "Загрузка завершена",
   "kioskDownloadFailed": "Не удалось загрузить",
   "kioskDownload": "Скачать",

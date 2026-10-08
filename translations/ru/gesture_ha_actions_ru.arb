@@ -1,6 +1,6 @@
 {
   "@@locale": "ru",
-  "gestureValid": "Выглядит корректно.",
+  "gestureValid": "Всё в порядке.",
   "gestureValidationFailed": "Не удалось проверить.",
   "gestureDomainMissing": "Домен {value} не найден.",
   "gestureServiceMissing": "Служба {value} не найдена.",

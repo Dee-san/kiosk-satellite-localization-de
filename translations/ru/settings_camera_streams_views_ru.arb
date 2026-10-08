@@ -13,7 +13,7 @@
   "cameraStreamsShowFailedRemote": "Не удалось показать вид",
   "cameraStreamsEditView": "Изменение вида",
   "cameraStreamsShowNames": "Показывать названия камер",
-  "cameraStreamsShowNamesHelp": "Показывать метку над каждой камерой.",
+  "cameraStreamsShowNamesHelp": "Показывать подпись поверх каждой камеры.",
   "cameraStreamsGrid": "Сетка",
   "cameraStreamsOneCamera": "{count} камера",
   "cameraStreamsManyCameras": "Камер: {count}",

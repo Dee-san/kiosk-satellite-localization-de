@@ -7,7 +7,7 @@
   "setupBatteryService": "Позволяет службе Kiosk Satellite работать в фоне без приостановки или завершения.",
   "setupOverlayBoot": "Позволяет Kiosk Satellite возвращаться после сбоя и стартовать при загрузке устройства.",
   "setupOverlayCrash": "Позволяет Kiosk Satellite возвращаться на экран после сбоя.",
-  "setupBrightnessHelp": "Позволяет Kiosk Satellite задавать реальную яркость панели (изменение системных настроек).",
+  "setupBrightnessHelp": "Позволяет Kiosk Satellite задавать реальную яркость экрана (изменение системных настроек).",
   "setupScreenControl": "Управление экраном",
   "setupScreenControlHelp": "Позволяет Kiosk Satellite выключать экран по запросу (администратор устройства).",
   "setupGrantPermissions": "Выдать разрешения на устройстве",

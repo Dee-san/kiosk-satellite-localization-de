@@ -1,10 +1,10 @@
 {
   "@@locale": "ru",
-  "settingScreensaverDismissOnFaceTitle": "Прятать при лице",
+  "settingScreensaverDismissOnFaceTitle": "Прятать при обнаружении лица",
   "settingScreensaverDismissOnFaceDescription": "Пробуждать экран, когда кто-то смотрит на киоск, а не только при движении. Камера работает только во время заставки. ВНИМАНИЕ: нужно освещённое лицо; в темноте настройте определение движения по расписанию.",
   "settingScreensaverDismissOnFaceScreenOffOnlyTitle": "Только при выключенном экране",
   "settingScreensaverDismissOnFaceScreenOffOnlyDescription": "Держать заставку видимой, когда лицо обнаружено при включённом экране. После выключения экрана определение будит панель. Касание всё равно прячет заставку.",
-  "settingScreensaverPostponeOnFaceTitle": "Откладывать заставку при лице",
+  "settingScreensaverPostponeOnFaceTitle": "Откладывать заставку при обнаружении лица",
   "settingScreensaverPostponeOnFaceDescription": "Откладывать включение заставки, пока кто-то смотрит на киоск. ВНИМАНИЕ: камера работает постоянно, плюс определение лиц и его нагрузка на ЦП.",
   "settingFaceSensitivityTitle": "Чувствительность к лицу",
   "settingFaceSensitivityDescription": "Выше: пробуждает от меньших и более дальних лиц. 1 требует лицо близко к экрану; 100 реагирует на любое лицо, различимое камерой.",
