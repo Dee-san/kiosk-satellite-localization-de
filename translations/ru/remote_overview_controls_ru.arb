@@ -27,6 +27,6 @@
   "overviewLatest": "У вас последняя версия.",
   "overviewVersionAvailable": "Доступна версия {version}",
   "overviewInstallAttention": "Установите её из блока «Требует внимания».",
-  "overviewNoViewsWithCameras": "Ни в одном виде камер пока нет камер. Сначала добавьте камеры в вид в разделе «Камеры».",
+  "overviewNoViewsWithCameras": "Ни в одном виде камер пока нет камер. Сначала добавьте камеры в вид в разделе «Потоки камер».",
   "overviewShowViewFailed": "Не удалось показать вид"
 }
