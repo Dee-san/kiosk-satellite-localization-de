@@ -4,7 +4,7 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
-- Add the dashboard picker in Spanish, German, French, Ukrainian, Dutch, Simplified Chinese and Russian: its search hints, the Current, Dashboards and Subviews headings, view counts, the Whole dashboard choice, the unreachable, empty and no match states, the Done button and selected count, the Showing tag, the missing view warning, Add views and the Default dashboard row. The German, French, Ukrainian, Dutch, Simplified Chinese and Russian messages are maintainer additions. Remove 18 messages the old dashboard pickers used from every language. The app no longer shows them.
+- Add the dashboard picker in Spanish, German, French, Ukrainian, Dutch, Simplified Chinese and Russian: its search hints, the Current, Dashboards and Subviews headings, view counts, the Whole dashboard choice, the unreachable, empty and no match states, the Done button and selected count, the Showing tag, the missing view warning, Add views and the Default dashboard row with its hint. The German, French, Ukrainian, Dutch, Simplified Chinese and Russian messages are maintainer additions. Remove 18 messages the old dashboard pickers used from every language. The app no longer shows them.
 
 - Add the Now Playing page's After dismissing setting in Spanish, German, French, Ukrainian, Dutch, Simplified Chinese and Russian: its title, hint, Last view and Chosen view options, and the Dashboard view row with its hint. The German, French, Ukrainian, Dutch, Simplified Chinese and Russian messages are maintainer additions.
 
