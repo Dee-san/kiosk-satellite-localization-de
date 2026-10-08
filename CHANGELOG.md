@@ -4,6 +4,8 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Add the Adaptive brightness page's Use Home Assistant entity switch and Light sensor entity row with their hints in Spanish, German, French, Ukrainian, Dutch, Simplified Chinese and Russian. The German, French, Ukrainian, Dutch, Simplified Chinese and Russian messages are maintainer additions.
+
 - Add the Music Assistant page's Zoom level hint in Spanish, German, French, Ukrainian, Dutch, Simplified Chinese and Russian. The setting reuses the Web Browsing page's Zoom level title. The German, French, Ukrainian, Dutch, Simplified Chinese and Russian messages are maintainer additions.
 
 - Add the dashboard picker in Spanish, German, French, Ukrainian, Dutch, Simplified Chinese and Russian: its search hints, the Current, Dashboards and Subviews headings, view counts, the Whole dashboard choice, the unreachable, empty and no match states, the Done button and selected count, the Showing tag, the missing view warning, Add views and the Default dashboard row with its hint. The German, French, Ukrainian, Dutch, Simplified Chinese and Russian messages are maintainer additions. Remove 18 messages the old dashboard pickers used from every language. The app no longer shows them.
