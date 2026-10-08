@@ -1,6 +1,6 @@
 {
   "@@locale": "ru",
-  "cameraViewerTitle": "Просмотр камеры",
+  "cameraViewerTitle": "Вид камер",
   "cameraViewerConnecting": "Подключение…",
   "cameraViewerReconnecting": "Переподключение…",
   "cameraViewerTrying": "Пробую {transport}…",

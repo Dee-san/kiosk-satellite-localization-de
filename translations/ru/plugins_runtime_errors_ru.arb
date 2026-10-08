@@ -1,7 +1,7 @@
 {
   "@@locale": "ru",
   "pluginErrorNativeLibrary": "У плагина нет нативной библиотеки для ABI этого устройства",
-  "pluginErrorCallbackTimeout": "Тайм-аут обратного вызова плагина. Перезапустите Kiosk, если плагин оставил работу.",
+  "pluginErrorCallbackTimeout": "Тайм-аут обратного вызова плагина. Перезапустите Kiosk, если у плагина остались незавершённые задачи.",
   "pluginErrorEnableFirst": "Сначала включите плагин",
   "pluginErrorSaveState": "Не удалось сохранить состояние плагина",
   "pluginErrorPackageHash": "Недопустимый хеш установленного пакета",

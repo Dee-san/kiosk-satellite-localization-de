@@ -7,7 +7,7 @@
   "searchServicePermissions": "Разрешения, нужные службе Kiosk Satellite.",
   "searchIntercomKiosks": "Известные киоски и возможность каждого принять звонок.",
   "searchHaValidate": "Проверить URL и токен вашего Home Assistant.",
-  "searchHaProxy": "Обслуживать plain-http Home Assistant через безопасный прокси внутри приложения.",
+  "searchHaProxy": "Обслуживать Home Assistant с обычным http через безопасный прокси внутри приложения.",
   "searchHaDashboard": "Выбрать панель и вид, которые показывает киоск.",
   "searchKioskPermissions": "Разрешения, на которые опираются защиты киоска и блокировки.",
   "searchHomeStatus": "Статус домашнего экрана",

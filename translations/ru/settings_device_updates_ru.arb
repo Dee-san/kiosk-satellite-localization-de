@@ -47,9 +47,9 @@
   "updateUploadInterrupted": "Загрузка прервана после {size} МБ: {error}",
   "updateUploadEarly": "Загрузка завершилась рано: пришло {received} из {expected} МБ.",
   "updateWrongPackage": "APK: {package}, а не Kiosk Satellite ({expected}).",
-  "updateOlderBuild": "Версия APK {version} (сборка {build}) старше работающей {currentVersion} (сборка {currentBuild}). Даунгрейды отклоняются: Android такой всё равно не установил бы.",
+  "updateOlderBuild": "Версия APK {version} (сборка {build}) ниже установленной {currentVersion} (сборка {currentBuild}). Откат на старую версию запрещён: Android тоже не установил бы такой APK.",
   "updateDownloadHttpFailed": "Не удалось скачать (HTTP {status}).",
-  "updateDownloadStalled": "Загрузка застыла: данных не было {seconds} секунд.",
+  "updateDownloadStalled": "Загрузка застыла: данных не было {seconds} с.",
   "deviceUpdateFailedDetail": "Обновление не удалось: {error}",
   "deviceInstallFailedDetail": "Установка не удалась: {error}",
   "updateAnotherPackage": "другой пакет"

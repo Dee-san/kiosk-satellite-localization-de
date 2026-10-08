@@ -11,7 +11,7 @@
   "settingCameraPinchZoomTitle": "Щипок для масштаба одиночной камеры",
   "settingCameraPinchZoomDescription": "Приближать картинку двумя пальцами, когда на экране одна камера. Перетаскивайте для перемещения, двойное касание для сброса.",
   "settingCameraAutoDismissSecondsTitle": "Автозакрытие через",
-  "settingCameraAutoDismissSecondsDescription": "Закрывать открытый просмотр камеры само; 0 держит его открытым. Заставка с камерами не затрагивается.",
+  "settingCameraAutoDismissSecondsDescription": "Закрывать открытый вид камер само; 0 держит его открытым. Заставка с камерами не затрагивается.",
   "cameraStreamsPlayback": "Воспроизведение",
   "cameraStreamsOff": "Выкл",
   "cameraStreamsSeconds": "{seconds} с",

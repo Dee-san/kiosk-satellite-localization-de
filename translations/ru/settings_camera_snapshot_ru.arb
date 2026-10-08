@@ -14,11 +14,11 @@
   "cameraTimedOut": "Камера не ответила вовремя.",
   "cameraBackground": "Камера недоступна, пока приложение в фоне.",
   "cameraJustNow": "только что",
-  "cameraSecondsAgo": "{count} секунд назад",
+  "cameraSecondsAgo": "{count} с назад",
   "cameraMinuteAgo": "Минуту назад",
-  "cameraMinutesAgo": "{count} минут назад",
+  "cameraMinutesAgo": "{count} мин назад",
   "cameraHourAgo": "Час назад",
-  "cameraHoursAgo": "{count} часов назад",
+  "cameraHoursAgo": "{count} ч назад",
   "cameraDayAgo": "День назад",
-  "cameraDaysAgo": "{count} дней назад"
+  "cameraDaysAgo": "{count} дн назад"
 }

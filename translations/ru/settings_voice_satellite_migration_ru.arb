@@ -1,7 +1,7 @@
 {
   "@@locale": "ru",
   "voiceMigrationTitle": "Миграция Voice Satellite",
-  "voiceMigrationPick": "Выберите спутник интеграции Voice Satellite, который примет этот киоск. Его настройки переедут на этот киоск.",
+  "voiceMigrationPick": "Выберите спутник интеграции Voice Satellite, роль которого возьмёт на себя этот киоск. Его настройки перейдут на этот киоск.",
   "voiceMigrationNoSatellites": "У интеграции Voice Satellite нет спутников.",
   "voiceMigrationIntro": "Этот киоск сам становится голосовым спутником. Интеграция Voice Satellite после этого не нужна.",
   "voiceMigrationCheckAgain": "Проверить снова",

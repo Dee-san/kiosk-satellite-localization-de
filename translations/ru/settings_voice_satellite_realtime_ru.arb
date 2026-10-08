@@ -39,7 +39,7 @@
   "settingVoiceRealtimeTalkOverTitle": "Перебивать ответы",
   "settingVoiceRealtimeTalkOverDescription": "Прерывать ответ, начав говорить. Выключите, если ассистент перебивает сам себя.",
   "settingVoiceRealtimeToolsTitle": "Инструменты",
-  "settingVoiceRealtimeToolsDescription": "Чем ассистент может управлять. Home Assistant использует свою интеграцию MCP Server и сущности, открытые для Assist.",
+  "settingVoiceRealtimeToolsDescription": "Чем ассистент может управлять. Home Assistant использует свою интеграцию MCP Server и сущности, предоставленные Assist.",
   "settingVoiceRealtimeMcpUrlTitle": "URL сервера MCP",
   "settingVoiceRealtimeMcpUrlDescription": "Адрес сервера Streamable HTTP.",
   "settingVoiceRealtimeMcpTokenTitle": "Токен MCP",

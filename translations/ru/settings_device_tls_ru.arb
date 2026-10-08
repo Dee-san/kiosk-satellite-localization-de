@@ -40,6 +40,6 @@
   "tlsUnencryptedKeyRequired": "Используйте незашифрованный приватный ключ PEM.",
   "tlsHostnameRequired": "Требуется имя хоста или IP-адрес.",
   "tlsIssuerRenewalRequired": "Импортируйте обновлённый сертификат от его издателя.",
-  "tlsStoredIdentityDamaged": "Сохранённая идентичность TLS повреждена.",
+  "tlsStoredIdentityDamaged": "Сохранённые идентификационные данные TLS повреждены.",
   "tlsExpiredCertificate": "Сертификат TLS истёк. Обновите его или импортируйте замену."
 }

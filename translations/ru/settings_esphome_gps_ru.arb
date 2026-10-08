@@ -5,7 +5,7 @@
   "settingLocationIntervalTitle": "Интервал обновления",
   "settingLocationIntervalDescription": "Секунды между чтениями позиции.",
   "esphomeGps": "Датчик GPS",
-  "esphomeGpsHelp": "Открывать данные датчика GPS в Home Assistant",
+  "esphomeGpsHelp": "Предоставлять данные датчика GPS в Home Assistant",
   "esphomeLocationOff": "Выключено.",
   "esphomeLocationWaiting": "Ожидание первого фикса. Холодный старт под открытым небом может занять несколько минут.",
   "esphomeCoordinates": "Последние координаты",

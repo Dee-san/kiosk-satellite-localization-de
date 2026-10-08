@@ -2,7 +2,7 @@
   "@@locale": "ru",
   "setupPermissionLead": "Android запросит эти разрешения. Всё запрашивается сразу, чтобы киоск потом вас не прерывал.",
   "setupRemotePermissionLead": "Android запросит их на самом планшете. Подойдите и примите запросы, затем завершите здесь.",
-  "setupMicrophoneHelp": "Voice Satellite и домофону нужен доступ к микрофону",
+  "setupMicrophoneHelp": "Voice Satellite и интеркому нужен доступ к микрофону",
   "setupNotificationListening": "Разрешает постоянное уведомление службы Kiosk Satellite, показывающее, что она удерживает и когда киоск слушает.",
   "setupBatteryService": "Позволяет службе Kiosk Satellite работать в фоне без приостановки или завершения.",
   "setupOverlayBoot": "Позволяет Kiosk Satellite возвращаться после сбоя и стартовать при загрузке устройства.",

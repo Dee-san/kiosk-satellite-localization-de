@@ -2,5 +2,5 @@
   "@@locale": "ru",
   "remoteLogin": "Войти",
   "remoteInvalidPassword": "Неверный пароль",
-  "remoteLoginThrottled": "Слишком много попыток. Подождите 5 минут и попробуйте снова."
+  "remoteLoginThrottled": "Слишком много попыток. Подождите 5 мин и попробуйте снова."
 }

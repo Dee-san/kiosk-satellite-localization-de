@@ -13,7 +13,7 @@
   "overviewHaSetupHelp": "Подключите киоск к Home Assistant, чтобы загрузить панель.",
   "overviewSetUp": "Настроить",
   "overviewHaNotValidated": "Home Assistant не проверен",
-  "overviewHaNotValidatedHelp": "URL и токен не прошли проверку соединения в этом запуске. Киоск повторяет попытку каждые 30 секунд.",
+  "overviewHaNotValidatedHelp": "URL и токен не прошли проверку соединения в этом запуске. Киоск повторяет попытку каждые 30 с.",
   "overviewOpenSetup": "Открыть настройку",
   "overviewWakeStopped": "Определение слова пробуждения остановлено",
   "overviewWakeReleased": "Движок был освобождён.",

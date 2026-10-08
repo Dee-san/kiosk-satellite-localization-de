@@ -9,7 +9,7 @@
   "settingScreensaverMediaRecursiveTitle": "Включая подпапки",
   "settingScreensaverMediaRecursiveDescription": "Спускаться в подпапки при выборе папки.",
   "settingScreensaverMediaTransitionTitle": "Переход",
-  "settingScreensaverMediaTransitionDescription": "Как один элемент сменяет следующий.",
+  "settingScreensaverMediaTransitionDescription": "Как один элемент сменяется следующим.",
   "settingScreensaverMediaFillTitle": "Заполнить экран",
   "settingScreensaverMediaFillDescription": "«Выкл» держит всё фото между чёрными полосами. «Умно» увеличивает фото, близкие по форме к экрану, оформляя остальные поверх размытого фона. «Всегда» увеличивает каждое фото, обрезая не влезающее.",
   "settingScreensaverMediaEdgeTapsTitle": "Касание краёв для смены слайдов",

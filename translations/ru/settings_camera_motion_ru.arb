@@ -1,7 +1,7 @@
 {
   "@@locale": "ru",
   "settingMotionSensorTitle": "Датчик движения",
-  "settingMotionSensorDescription": "Открывать движение как датчик Home Assistant. ВНИМАНИЕ: камера работает постоянно, даже при выключенном экране.",
+  "settingMotionSensorDescription": "Предоставлять движение как датчик Home Assistant. ВНИМАНИЕ: камера работает постоянно, даже при выключенном экране.",
   "settingMotionSensorOffDelayTitle": "Сбрасывать через",
   "settingMotionSensorOffDelayDescription": "Секунды без движения до показания «чисто».",
   "settingMotionFpsTitle": "Частота кадров движения",

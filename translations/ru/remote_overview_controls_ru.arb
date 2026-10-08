@@ -6,8 +6,8 @@
   "overviewScreenOff": "Выключить экран",
   "overviewSaverStart": "Запустить заставку",
   "overviewSaverStop": "Убрать заставку",
-  "overviewCameraShow": "Показать просмотр камеры",
-  "overviewCameraHide": "Убрать просмотр камеры",
+  "overviewCameraShow": "Показать вид камер",
+  "overviewCameraHide": "Убрать вид камер",
   "overviewSaverPostpone": "Отложить заставку",
   "overviewDnd": "Не беспокоить",
   "overviewDndOn": "«Не беспокоить» включён",
@@ -27,6 +27,6 @@
   "overviewLatest": "У вас последняя версия.",
   "overviewVersionAvailable": "Доступна версия {version}",
   "overviewInstallAttention": "Установите её из блока «Требует внимания».",
-  "overviewNoViewsWithCameras": "Ни в одном просмотре камер пока нет камер. Сначала добавьте камеры в просмотр в разделе «Камеры».",
+  "overviewNoViewsWithCameras": "Ни в одном виде камер пока нет камер. Сначала добавьте камеры в вид в разделе «Камеры».",
   "overviewShowViewFailed": "Не удалось показать вид"
 }

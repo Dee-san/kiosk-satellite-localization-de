@@ -10,7 +10,7 @@
   "setupVoiceRequired": "Требуется для Voice Satellite",
   "setupMicrophoneAccess": "Доступ к микрофону",
   "setupNativeWakeWord": "Нативное определение слова пробуждения",
-  "setupPullRefresh": "Потянуть для обновления",
+  "setupPullRefresh": "Потяните для обновления",
   "setupAutoplay": "Автовоспроизведение звука и видео",
   "setupVoiceSkipped": "Не установлено, пропущено",
   "setupVoiceLead": "Превратить этот киоск в голосового ассистента Home Assistant. Всё можно изменить позже.",

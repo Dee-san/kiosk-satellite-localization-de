@@ -1,6 +1,6 @@
 {
   "@@locale": "ru",
-  "esphomeAllExposed": "Открыты все доступные сущности",
+  "esphomeAllExposed": "Предоставлены все доступные сущности",
   "esphomeExcludedCount": "Исключено: {count}",
   "esphomeEntitySearch": "Поиск сущностей",
   "esphomeEntityLoading": "Загрузка сущностей…",

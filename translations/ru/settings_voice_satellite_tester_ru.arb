@@ -20,5 +20,5 @@
   "voiceLogDecoded": "распознано",
   "voiceLogDistance": "ред",
   "voiceLogConfidence": "доверие",
-  "voiceTesterPlayRecent": "Проиграть последние 10 секунд"
+  "voiceTesterPlayRecent": "Проиграть последние 10 с"
 }

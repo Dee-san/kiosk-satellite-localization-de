@@ -1,6 +1,6 @@
 {
   "@@locale": "ru",
-  "settingScreensaverGlanceEnabledTitle": "С первого взгляда",
+  "settingScreensaverGlanceEnabledTitle": "Сводка",
   "settingScreensaverGlanceEnabledDescription": "Показывать ряд состояний сущностей Home Assistant на заставке.",
   "settingScreensaverGlanceEntitiesTitle": "Сущности",
   "settingScreensaverGlanceEntitiesDescription": "До четырёх сущностей, каждая с необязательным собственным названием.",
@@ -9,11 +9,11 @@
   "screensaverOverlayShowing": "Показываются",
   "screensaverOverlayReorder": "Показываются (перетащите для порядка)",
   "screensaverOverlayFull": "Это максимум ряда. Уберите одну сущность, чтобы добавить другую.",
-  "screensaverOverlayPickerTitle": "Сущности «С первого взгляда»",
+  "screensaverOverlayPickerTitle": "Сущности «Сводки»",
   "screensaverOverlayGlanceEmpty": "Пока пусто. До {count} сущностей.",
   "screensaverOverlayNone": "Пока пусто",
   "screensaverOverlayLimit": "До {count} сущностей.",
-  "screensaverOverlayGlancePage": "С первого взгляда",
+  "screensaverOverlayGlancePage": "Сводка",
   "screensaverOverlayGlanceHint": "Сущности поверх заставки",
   "glanceUnavailable": "Недоступно",
   "glanceUnknown": "Неизвестно"

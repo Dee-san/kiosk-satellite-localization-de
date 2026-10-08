@@ -25,7 +25,7 @@
   "voiceVerySensitive": "Очень чувствительно",
   "voiceWakeWordPreferFp32Title": "Предпочитать модели vsWakeWord fp32",
   "voiceWakeWordPreferFp32Description": "Использовать модели fp32 вместо меньших версий int8. Добавляет 10-30% нагрузки на ЦП при слушании, избегая около 2% дрейфа уверенности.",
-  "voiceWakeWordResumeTimeoutSecondsTitle": "Тайм-аут возобновления (секунды)",
+  "voiceWakeWordResumeTimeoutSecondsTitle": "Тайм-аут возобновления (с)",
   "voiceWakeWordResumeTimeoutSecondsDescription": "Самовосстановление: возобновить слушание, если страница не вызвала setWakeWordActive(true) после передачи. Ждёт, пока голосовая реплика ещё стримит звук, так что долгая реплика не обрезается.",
   "voiceSlightlySensitive": "Слегка чувствительно",
   "voiceModeratelySensitive": "Умеренно чувствительно",

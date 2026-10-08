@@ -2,7 +2,7 @@
   "@@locale": "ru",
   "settingAutoReloadOnErrorTitle": "Автоперезагрузка при ошибке",
   "settingAutoReloadOnErrorDescription": "Восстанавливаться автоматически после сбоев страницы и падений приложения.",
-  "settingPullToRefreshTitle": "Включить потянуть-для-обновления",
+  "settingPullToRefreshTitle": "Включить «Потяните для обновления»",
   "settingPullToRefreshDescription": "Потяните вниз от верха страницы, чтобы перезагрузить её. По умолчанию выключено: на прокручиваемой панели легко потянуть случайно.",
   "settingPullToRefreshClearCacheTitle": "Очищать кэш при обновлении",
   "settingPullToRefreshClearCacheDescription": "Потягивание также очищает веб-кэш и модели слова пробуждения перед перезагрузкой, чтобы всё вернулось свежим. Вход и сохранённые данные страницы остаются.",

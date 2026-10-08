@@ -12,7 +12,7 @@
   "deviceShizukuUnsupported": "Требуется Shizuku 13 или новее.",
   "deviceShizukuStart": "Запустите Shizuku на этом устройстве.",
   "deviceShizukuTest": "Проверить соединение",
-  "deviceShizukuTestHelp": "Читает идентичность процесса, не меняя устройство.",
+  "deviceShizukuTestHelp": "Читает идентификатор процесса, не меняя устройство.",
   "deviceShizukuTestTitle": "Проверка соединения",
   "deviceShizukuTestFailed": "Shizuku не смог завершить проверку соединения.",
   "deviceShizukuAlreadyGranted": "Все разрешения уже предоставлены.",

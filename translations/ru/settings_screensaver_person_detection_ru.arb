@@ -12,7 +12,7 @@
   "screensaverDetectionStatusUnavailable": "Статус недоступен.",
   "screensaverDetectionOff": "Выключено.",
   "screensaverDetectionStarting": "Запуск…",
-  "screensaverDetectionWaiting": "Ожидание первого сигнала. Датчик сообщает каждые 30 секунд, пока кто-то в поле зрения.",
+  "screensaverDetectionWaiting": "Ожидание первого сигнала. Датчик сообщает каждые 30 с, пока кто-то в поле зрения.",
   "screensaverDetectionLastHeartbeat": "Последний сигнал {ago}.",
   "screensaverDetectionSecondsAgo": "{count} с назад",
   "screensaverDetectionMinutesAgo": "{count} мин назад",

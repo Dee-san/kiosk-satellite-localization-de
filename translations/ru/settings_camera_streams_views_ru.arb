@@ -6,7 +6,7 @@
   "cameraStreamsNamesHidden": "Названия скрыты",
   "cameraStreamsShowView": "Показать вид",
   "cameraStreamsDeleteView": "Удалить вид",
-  "cameraStreamsCreateView": "Создать просмотр камер",
+  "cameraStreamsCreateView": "Создать вид камер",
   "cameraStreamsAddFirst": "Сначала добавьте камеру.",
   "cameraStreamsChooseCameras": "Выберите и упорядочьте до 12 камер.",
   "cameraStreamsShowFailed": "Не удалось показать вид",

@@ -7,7 +7,7 @@
   "settingScreensaverGalleryShuffleTitle": "Перемешивание",
   "settingScreensaverGalleryShuffleDescription": "Циклически показывать подборку в случайном порядке.",
   "settingScreensaverGalleryTransitionTitle": "Переход",
-  "settingScreensaverGalleryTransitionDescription": "Как одно фото сменяет следующее.",
+  "settingScreensaverGalleryTransitionDescription": "Как одно фото сменяется следующим.",
   "settingScreensaverGalleryFillTitle": "Заполнить экран",
   "settingScreensaverGalleryFillDescription": "«Выкл» держит всё фото между чёрными полосами. «Умно» увеличивает фото, близкие по форме к экрану, оформляя остальные поверх размытого фона. «Всегда» увеличивает каждое фото, обрезая не влезающее.",
   "settingScreensaverGalleryEdgeTapsTitle": "Касание краёв для смены слайдов",

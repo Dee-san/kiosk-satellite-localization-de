@@ -5,7 +5,7 @@
   "pluginToAssignAGestureOpenGesturesAndChooseRun": "Чтобы назначить жест, откройте «Жесты» и выберите «Запустить действие плагина».",
   "pluginShowInKioskDrawer": "Показывать в меню киоска",
   "pluginAlsoAvailableWhileLockedIfTheKioskDrawerIs": "Также доступно при блокировке, если меню киоска разрешено.",
-  "pluginExposeToHomeAssistant": "Открыть в Home Assistant",
+  "pluginExposeToHomeAssistant": "Предоставить доступ Home Assistant",
   "pluginAddsAButtonToTheKioskEsphomeDeviceRequires": "Добавляет кнопку на ESPHome-устройство киоска. Требуются ESPHome и нативные сущности.",
   "pluginSelectAnEntity": "Выберите сущность",
   "pluginChooseName": "Выбор: {name}",

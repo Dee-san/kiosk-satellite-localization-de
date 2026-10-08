@@ -5,6 +5,6 @@
   "settingLauncherAppsDescription": "Приложения, которые предлагает лаунчер.",
   "settingLauncherAutoReturnTitle": "Возвращаться автоматически",
   "settingLauncherAutoReturnDescription": "Вернуться в киоск, когда другое приложение какое-то время остаётся без касаний.",
-  "settingLauncherAutoReturnSecondsTitle": "Возврат через (секунды)",
+  "settingLauncherAutoReturnSecondsTitle": "Возврат через (с)",
   "settingLauncherAutoReturnSecondsDescription": "Время без касаний в другом приложении до возврата в киоск."
 }

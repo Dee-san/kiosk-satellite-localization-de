@@ -14,7 +14,7 @@
   "gestureAdd": "Добавить жест",
   "gestureAddHelp": "Выберите жест и действие, которое он запускает.",
   "gestureTouchHelp": "Жесты наблюдаются, а не блокируются: касания также доходят до панели, поэтому углы и формы несколькими пальцами не дают на ней ничего срабатывать.",
-  "gestureClapper": "Хлопушка",
+  "gestureClapper": "Хлопки",
   "gestureReadFailed": "Не удалось прочитать настройки.",
   "gestureHandGestures": "Жесты рукой",
   "settingHandGestureHoldSecondsTitle": "Длительность удержания",

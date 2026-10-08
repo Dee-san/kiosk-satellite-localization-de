@@ -2,7 +2,7 @@
   "@@locale": "ru",
   "settingScreensaverEnabledTitle": "Заставка",
   "settingScreensaverEnabledDescription": "Затемнять или гасить экран после периода бездействия.",
-  "settingScreensaverTimeoutSecondsTitle": "Тайм-аут простоя (секунды)",
+  "settingScreensaverTimeoutSecondsTitle": "Тайм-аут простоя (с)",
   "settingScreensaverTimeoutSecondsDescription": "Период бездействия до старта заставки.",
   "settingScreensaverModeTitle": "Режим заставки",
   "settingScreensaverModeDescription": "Что показывает заставка после тайм-аута. «Затемнение» лишь снижает подсветку, оставляя панель на экране.",
