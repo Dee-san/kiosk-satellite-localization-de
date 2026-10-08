@@ -4,6 +4,8 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Add the Entity widget's Show icon switch and its hint in Spanish, German, French, Ukrainian, Dutch, Simplified Chinese and Russian. The German, French, Ukrainian, Dutch, Simplified Chinese and Russian messages are maintainer additions.
+
 - Add the Adaptive brightness page's Use Home Assistant entity switch and Light sensor entity row with their hints in Spanish, German, French, Ukrainian, Dutch, Simplified Chinese and Russian. The German, French, Ukrainian, Dutch, Simplified Chinese and Russian messages are maintainer additions.
 
 - Add the Music Assistant page's Zoom level hint in Spanish, German, French, Ukrainian, Dutch, Simplified Chinese and Russian. The setting reuses the Web Browsing page's Zoom level title. The German, French, Ukrainian, Dutch, Simplified Chinese and Russian messages are maintainer additions.
