@@ -10,7 +10,7 @@
   "deviceRunning": "Работает",
   "deviceRunningSentence": "Работает.",
   "deviceRunningBackground": "Работает без исключения для переднего плана.",
-  "deviceServiceTypes": "Типы фоновой службы",
+  "deviceServiceTypes": "Типы службы переднего плана",
   "deviceServiceTypesHelp": "Что служба объявляет Android ради функций, которые удерживает.",
   "deviceNoneDeclared": "Не объявлено.",
   "deviceNone": "нет",
