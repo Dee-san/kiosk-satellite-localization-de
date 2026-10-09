@@ -4,6 +4,8 @@ Notable changes to Kiosk Satellite Localization are listed below, newest first. 
 
 ## History
 
+- Add the service picker of the Call a Home Assistant service gesture in Spanish, German, French, Ukrainian, Dutch, Simplified Chinese and Russian: its search hint, the Choose a service placeholder and the note for a service that takes no entity. The German, French, Ukrainian, Dutch, Simplified Chinese and Russian messages are maintainer additions. Remove the gesture's Domain field and its required message, and the At a Glance entities row's empty and limit notes, from every language. The app no longer shows them.
+
 - Add the shared entity and player picker in Spanish, German, French, Ukrainian, Dutch, Simplified Chinese and Russian: the No area heading, the All filter, the Choose an entity placeholder, the no match and offline states, the missing entity warning, the order hint, the full notice, Add entities and the Showing count. The German, French, Ukrainian, Dutch, Simplified Chinese and Russian messages are maintainer additions. Remove 13 messages the old entity pickers used from every language. The app no longer shows them.
 
 - Add the Entity widget's Show icon switch and its hint in Spanish, German, French, Ukrainian, Dutch, Simplified Chinese and Russian. The German, French, Ukrainian, Dutch, Simplified Chinese and Russian messages are maintainer additions.

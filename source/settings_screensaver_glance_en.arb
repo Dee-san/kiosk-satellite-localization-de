@@ -91,25 +91,6 @@
       ]
     }
   },
-  "screensaverOverlayGlanceEmpty": "None yet. Up to {count} entities.",
-  "@screensaverOverlayGlanceEmpty": {
-    "context": "Settings > Screensaver > At a Glance",
-    "description": "Label or guidance in this editor.",
-    "x-locations": {
-      "device": [
-        "Settings > Screensaver > At a Glance"
-      ],
-      "remoteAdmin": [
-        "Screensaver > At a Glance"
-      ]
-    },
-    "placeholders": {
-      "count": {
-        "type": "String",
-        "description": "Maximum number of entities."
-      }
-    }
-  },
   "screensaverOverlayNone": "None yet",
   "@screensaverOverlayNone": {
     "context": "Settings > Screensaver > At a Glance",
@@ -121,25 +102,6 @@
       "remoteAdmin": [
         "Screensaver > At a Glance"
       ]
-    }
-  },
-  "screensaverOverlayLimit": "Up to {count} entities.",
-  "@screensaverOverlayLimit": {
-    "context": "Settings > Screensaver > At a Glance",
-    "description": "Label or guidance in this editor.",
-    "x-locations": {
-      "device": [
-        "Settings > Screensaver > At a Glance"
-      ],
-      "remoteAdmin": [
-        "Screensaver > At a Glance"
-      ]
-    },
-    "placeholders": {
-      "count": {
-        "type": "String",
-        "description": "Maximum number of entities."
-      }
     }
   },
   "screensaverOverlayGlancePage": "At a Glance",
